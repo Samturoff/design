@@ -77,12 +77,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 300;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 700;
 }
 p {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 20px;
@@ -115,16 +114,14 @@ aside {
 .navbar-default {
   background-color: rgba(0, 0, 0, 0.8);
   border-color: rgba(34, 34, 34, 0.05);
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
   color: #F05F40;
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
@@ -167,28 +164,28 @@ aside {
 .icon-print {
   width: 100px;
   height: 100px;
-  background-image: url('../img/svg/icon-print.svg');
+  background-image: url('../img/svg/icon-print.png');
   margin: 0 auto;
 }
 
 .icon-web {
   width: 100px;
   height: 100px;
-  background-image: url('../img/svg/icon-web.svg');
+  background-image: url('../img/svg/icon-web.png');
   margin: 0 auto;
 }
 
 .icon-video {
   width: 100px;
   height: 100px;
-  background-image: url('../img/svg/icon-video.svg');
+  background-image: url('../img/svg/icon-video.png');
   margin: 0 auto;
 }
 
 .icon-3d {
   width: 100px;
   height: 100px;
-  background-image: url('../img/svg/icon-3d.svg');
+  background-image: url('../img/svg/icon-3d.png');
   margin: 0 auto;
 }
 
@@ -367,6 +364,14 @@ header .header-content .header-content-inner p {
     max-width: 60%;
   }
 }
+
+.row1{
+  max-width: 650px;
+  margin: 0 auto;
+  padding-left: 10px;
+}
+
+
 .section-heading {
   margin-top: 0;
 }
@@ -407,6 +412,7 @@ header .header-content .header-content-inner p {
 @media (min-width: 992px) {
   .service-box {
     margin: 20px auto 0;
+
   }
 }
 .service-box p {
@@ -570,10 +576,9 @@ fieldset[disabled] .btn-primary.active {
   background-color: white;
 }
 .btn {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   border: none;
   border-radius: 10px;
-  font-weight: 300;
   font-size: medium;
   color: #1a1a1a;
 }
