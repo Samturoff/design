@@ -65,7 +65,7 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #2fdbfa;
+  color: #1eacc5;
 }
 a:hover,
 a:focus {
@@ -142,11 +142,11 @@ aside {
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #2fdbfa;
+  color: #1eacc5;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #2fdbfa !important;
+  color: #1eacc5 !important;
   font-weight: 600;
   background-color: transparent;
 }
@@ -237,7 +237,7 @@ aside {
 }
 
 .description b {
-  color: #2fdbfa;
+  color: #1eacc5;
 }
 
 #copyright {
@@ -284,7 +284,7 @@ aside {
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #2fdbfa;
+    color: #1eacc5;
   }
   .container-fluid .navbar-collapse {
     background-color: transparent;
@@ -300,7 +300,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/header_03.jpg');
+  background-image: url('../img/portfolio_pattern_1.jpg');
   text-align: center;
   color: white;
 }
@@ -323,7 +323,7 @@ header .header-content .header-content-inner h1 {
 
 #graphicDesignerTitle {
   font-weight: 200;
-  color: #2fdbfa;
+  color: #68c9db;
   font-size: smaller;
 }
 
@@ -428,7 +428,7 @@ header .header-content .header-content-inner p {
   color: white;
   opacity: 0;
   display: block;
-  background: rgba(47, 219, 250, 0.9);
+  background: rgba(30, 172, 197, 0.9);
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -530,7 +530,7 @@ fieldset[disabled] .btn-default.active {
   background-color: #222222;
 }
 .btn-primary {
-  background-color: #2fdbfa;
+  background-color: #1eacc5;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
