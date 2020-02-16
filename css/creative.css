@@ -36,12 +36,13 @@ background-color: yellow;
   display: none !important; 
 }
 
+/*open menu size */
 .navbar-collapse {
   padding-bottom: 10px;
 }
 
 .nav li {
-  text-align: center;3
+  text-align: center;
 }
 
 .nav li a{
@@ -137,7 +138,8 @@ aside {
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
   font-weight: 300;
-  font-size: 13px;
+  font-size: 20px;
+  line-height: 40px;
   color: #222222;
 }
 .navbar-default .nav > li > a:hover,
@@ -159,6 +161,13 @@ aside {
   text-align: right;
   padding-right: 25px;
   background-color: white;
+}
+/* Removes the scrolling sort of...*/
+.navbar-fixed-top .navbar-collapse,
+.navbar-fixed-bottom .navbar-collapse {
+  max-height: 100vh;
+  overflow: hidden;
+
 }
 
 .icon-print {
@@ -288,11 +297,13 @@ aside {
   }
   .container-fluid .navbar-collapse {
     background-color: transparent;
+
   }
 
 }
 header {
   position: relative;
+  height: 100vh;
   width: 100%;
   min-height: auto;
   -webkit-background-size: cover;
@@ -303,32 +314,53 @@ header {
   background-image: url('../img/portfolio_pattern_1.jpg');
   text-align: center;
   color: white;
+
 }
+
 header .header-content {
   position: relative;
-  text-align: center;
-  padding: 100px 15px 100px;
+  text-align: left;
+  padding: 100px 35px 100px;
   width: 100%;
 }
+
 header .header-content .header-content-inner h1 {
   font-weight: 600;
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 30px;
+  font-size: 40px;
 }
 
+header .header-content {
+  position: absolute;
+  top: 45%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding: 0 50px;
+}
+#homeHeading{
+    line-height: 70px;
+}
 #luceroTitle {
   font-weight: 200;
 }
 
 #graphicDesignerTitle {
-  font-weight: 200;
+  font-size: 20px;  
+  font-weight: 600;
   color: #95dbcd;
-  font-size: smaller;
+}
+
+#lineBreak{
+  border-radius: 25px;
+  width: 370px;
+  height: 4px;
+  background-color: white;
+
 }
 
 header .header-content .header-content-inner hr {
-  margin: 30px auto;
 }
 header .header-content .header-content-inner p {
 
@@ -337,19 +369,12 @@ header .header-content .header-content-inner p {
   header {
     min-height: 100%;
   }
-  header .header-content {
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    padding: 0 50px;
-  }
   header .header-content .header-content-inner {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
   }
+ 
   header .header-content .header-content-inner h1 {
     font-size: 55px;
   }
@@ -382,8 +407,14 @@ header .header-content .header-content-inner p {
 
 @media (max-width: 767px) {
   .nav li a {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: left;
+    /*
     border: 1px #999 solid;
     background-color: #ffffff;
+    */
   }
   #html5box-html5-lightbox #html5-text {
     font-size: 14px !important;
