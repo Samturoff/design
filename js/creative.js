@@ -1,3 +1,10 @@
+$(document).ready(function() {
+  $("#menu_button_idd").click(function () {
+    alert("Hello!");
+  });
+});
+
+
 (function($) {
     "use strict"; // Start of use strict
 
