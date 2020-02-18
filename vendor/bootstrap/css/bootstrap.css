@@ -3478,8 +3478,8 @@ input[type="button"].btn-block {
 }
 
 .menu_button{
-  height: 200px;
-  width: 400px;
+  height: 20px;
+  width: 40px;
   background-color: yellow;
   z-index: 100;
 }
@@ -3487,6 +3487,7 @@ input[type="button"].btn-block {
 .collapse {
   display: none;
 }
+
 .collapse.in {
   display: block;
 }
