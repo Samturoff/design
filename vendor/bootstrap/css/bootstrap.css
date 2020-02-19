@@ -4493,6 +4493,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     margin-left: 15px;
   }
 }
+
+.navbar-right{
+    left: 50%;
+  right: auto;
+  text-align: center;
+  transform: translate(-50%, 0);
+}
 @media (min-width: 768px) {
   .navbar-left {
     float: left !important;
