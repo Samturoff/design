@@ -3486,8 +3486,8 @@ input[type="button"].btn-block {
 
 .collapse {
   display: none;
+  background-color:red;
 }
-
 .collapse.in {
   display: block;
 }
@@ -4219,6 +4219,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-collapse.in {
     overflow-y: visible;
   }
+
   .navbar-fixed-top .navbar-collapse,
   .navbar-static-top .navbar-collapse,
   .navbar-fixed-bottom .navbar-collapse {

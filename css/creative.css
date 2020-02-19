@@ -160,15 +160,14 @@ aside {
 
 .container-fluid .navbar-collapse {
   text-align: right;
-  padding-right: 25px;
+  padding-right: 2px;
   background-color: white;
 }
-/* Removes the scrolling sort of...*/
+/* Removes the scrolling and adds height*/
 .navbar-fixed-top .navbar-collapse,
 .navbar-fixed-bottom .navbar-collapse {
-  max-height: 100vh;
+  height: 100vh;
   overflow: hidden;
-  
 }
 .drop_menu{
   height: 100vh;
@@ -302,7 +301,6 @@ aside {
   }
   .container-fluid .navbar-collapse {
     background-color: transparent;
-
   }
 
 }

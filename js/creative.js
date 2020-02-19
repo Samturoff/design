@@ -1,7 +1,7 @@
 $(document).ready(function() {
-  $("#menu_button_idd").click(function () {
-    alert("Hello!");
-  });
+    $("#menu_button_idd").click(function () {
+        $("#bs-example-navbar-collapse-1").toggle("collapse");
+    });
 });
 
 
