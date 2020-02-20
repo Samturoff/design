@@ -381,7 +381,7 @@ aside {
 }
 
 .menu-mobile {
-    background-color: #efefef;
+    background-color: #171717;
     height: 100vh;
     position: fixed;
     width: 100%;
@@ -399,7 +399,7 @@ aside {
 .menu-mobile a {
     clear: right;
     text-decoration: none;
-    color: #333;
+    color: #DEDEDE;
     height: 70px;
     line-height: 70px;
     font-family: brandon-grotesque, sans-serif;
@@ -409,12 +409,12 @@ aside {
     padding-left: 120px;  
 }
 .menu-mobile a:hover {
-    color: red;
+    color: #FFFB63;
 }
 
 .desktop, .menu-desktop, .menu-mobile {
         display: none;
-    }
+}
 /* END OF Mobile Menu */
 
 
@@ -441,7 +441,7 @@ aside {
         height: 0;
         line-height: 50px;
         text-decoration: none;
-        color: #333;
+        color: #DEDEDE;
         justify-content: space-evenly;
     }
     .menu-desktop a:hover {

@@ -2,8 +2,8 @@
 'use strict'
 $(document).ready(function(){
     $(window).scroll(function(){
-    var light_pos = $('#about').offset().top;
-    var light_height = $('#about').height();
+    var light_pos = $('#container_color_changer').offset().top;
+    var light_height = $('#container_color_changer').height();
     var menu_pos = $('.hamburger').offset().top;
     var menu_height = $('.hamburger').height();
     var scroll = $(window).scrollTop();
