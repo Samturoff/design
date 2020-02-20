@@ -306,6 +306,9 @@ aside {
 }
 
 
+
+
+/* ---------------------------------------------------- MY CODE ----------------------------------------------------*/
 /* START of Mobile Menu */
 .nav, .desktop {
     display: block;
@@ -468,6 +471,36 @@ aside {
 .menu_white{
   background: white;
 }
+
+
+/* ABOUT ME */
+.about_me{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr 2fr);
+  grid-template-rows: repeat(2, 100px auto 20%);
+  background-color: cyan;
+}
+.about_me_header_placement{
+
+}
+.about_me_image_placement{
+
+}
+.about_me_bt_placement{
+
+}
+
+/* END OF ABOUT ME *?
+/* ---------------------------------------------------- MY CODE ----------------------------------------------------*/
+
+
+
+
+
+
+
+
+
 
 header {
   position: relative;
