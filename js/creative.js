@@ -1,8 +1,78 @@
-$(document).ready(function() {
-    $("#menu_button_idd").click(function () {
-        $("#bs-example-navbar-collapse-1").toggle("collapse");
-    });
-});
+//Change nav color from scrolling
+'use strict'
+$(document).ready(function(){
+    $(window).scroll(function(){
+    var light_pos = $('#about').offset().top;
+    var light_height = $('#about').height();
+    var menu_pos = $('.hamburger').offset().top;
+    var menu_height = $('.hamburger').height();
+    var scroll = $(window).scrollTop();
+    console.log('light',light_pos);
+    console.log('menu',menu_pos);
+    console.log('scroll',scroll);
+    
+    if(menu_pos > light_pos && menu_pos < (light_pos + light_height)) {
+        $('.hamburger').addClass('menu_black');
+      $('.hamburger').removeClass('menu_white');
+
+        $('.hamburger2').addClass('menu_black');
+      $('.hamburger2').removeClass('menu_white');
+
+        $('.hamburger3').addClass('menu_black');
+      $('.hamburger3').removeClass('menu_white');            
+    }
+    else {
+        $('.hamburger').removeClass('menu_black');
+      $('.hamburger').addClass('menu_white');
+
+        $('.hamburger2').removeClass('menu_black');
+      $('.hamburger2').addClass('menu_white');
+
+        $('.hamburger3').removeClass('menu_black');
+      $('.hamburger3').addClass('menu_white');            
+    }
+    
+  })
+})
+
+//Hamburger menu + scroll button
+function toggleIcon() {
+    $('.icon').on('click', function(){
+        $('.icon').toggleClass('active');
+        $('.menu-mobile').slideToggle(300);
+    })
+}
+
+function closeMobileMenu(){
+    $('.menu-mobile').on('click', 'a', function(){
+        $('.icon').trigger('click');
+    })
+}
+
+
+
+function desktopMenu() {
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 50 && $(window).width() > 768) {
+            $('header.desktop').fadeIn(500);
+        } else {
+            $('header.desktop').fadeOut(500);
+        }
+    })
+}
+
+//when the page loads call toggleIcon;
+$(toggleIcon);
+$(closeMobileMenu);
+$(desktopMenu);
+
+
+
+
+
+
+
+
 
 
 (function($) {
