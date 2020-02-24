@@ -83,7 +83,7 @@ h6 {
 }
 p {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.8;
   font-weight: 400;
   margin-bottom: 24px;
@@ -480,7 +480,7 @@ aside {
   position: relative;
   grid-template-columns: repeat(6, 1fr);
   background-color: #171717;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 .about_me_header_placement{
   position: relative;
@@ -488,7 +488,6 @@ aside {
   width: 100%;
   height: 75px;
   opacity: .8 !important;
-
 }
 .about_me_header{
   font-family: brandon-grotesque, sans-serif;
@@ -576,9 +575,14 @@ aside {
   padding-left: 40px;
   padding-right: 40px;
   color: #CFCFCF;
+  max-width: 600px;
 }
 .section_header_size{
   font-size: 20px;
+}
+
+.section_header_padding{
+  padding-top: 20px;
 }
 
 /* MOVE THE HEADER TO THE LEFT*/
@@ -986,6 +990,148 @@ transform: translateX(-100%);
 }
 /* MOVE HEADER TO THE LEFT END */
 
+.skills{
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(6, 1fr);
+  background-color: #1E1E1E;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+.skills_cube_placement{
+  grid-column: 1 / 7;
+}
+.container_cube {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 20vh;
+}
+.container_cube .cube-container {
+  perspective: 800px;
+  display: absolute;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 300px;
+}
+.container_cube .cube-container .cube {
+  transition: transform 2s ease-in;
+  transform-style: preserve-3d;
+  width: 150px;
+  height: 150px;
+  margin: 50px 0;
+}
+.container_cube .cube-container .cube.cube1 {
+  animation: horizontal-spin 5s infinite linear;
+}
+.container_cube .cube-container .cube.cube2 {
+  animation: vertical-spin 5s infinite linear;
+}
+.container_cube .cube-container .cube .box {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container_cube .cube-container .cube .box.front {
+  background: #40b9dc;
+  transform: translateZ(75px);
+}
+.container_cube .cube-container .cube .box.box2.front {
+  background: #8c31a5;
+}
+.container_cube .cube-container .cube .box.back {
+  background: #3dbadf;
+  transform: translateZ(-75px) rotateY(180deg);
+}
+.container_cube .cube-container .cube .box.box2.back {
+  background: #8e43a3;
+  transform: translateZ(-75px) rotateX(-180deg);
+}
+.container_cube .cube-container .cube .box.top {
+  background: #5acaec;
+  transform: rotateX(-90deg) translateY(-75px);
+  transform-origin: top center;
+}
+.container_cube .cube-container .cube .box.box2.top {
+  background: #ab69bd;
+  transform: rotateX(90deg) translateY(-75px);
+}
+.container_cube .cube-container .cube .box.bottom {
+  background: #82daf4;
+  transform: rotateX(90deg) translateY(75px);
+  transform-origin: bottom center;
+}
+.container_cube .cube-container .cube .box.box2.bottom {
+  background: #d69de5;
+  transform: rotateX(-90deg) translateY(75px);
+}
+.container_cube .cube-container .cube .box.left {
+  background: #a3e5f9;
+  transform: rotateY(270deg) translateX(-75px);
+  transform-origin: center left;
+}
+.container_cube .cube-container .cube .box.box2.left {
+  background: #c060da;
+}
+.container_cube .cube-container .cube .box.right {
+  background: #67d6f7;
+  transform: rotateY(-270deg) translateX(75px);
+  transform-origin: top right;
+}
+.container_cube .cube-container .cube .box.box2.right {
+  background: #c976e0;
+}
+
+@keyframes horizontal-spin {
+  from {
+    transform: rotateY(0);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+@keyframes vertical-spin {
+  from {
+    transform: rotateX(0);
+  }
+  to {
+    transform: rotateX(360deg);
+  }
+}
+.skills_bt_placement{
+  grid-column: 1 / 7;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: -330px;
+  background-color: #171717;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: #CFCFCF;
+  background-color: #1E1E1E;  
+  max-width: 600px;
+}
+.skills_header{
+  font-family: brandon-grotesque, sans-serif;
+  font-size: 60px !important;
+  font-weight: 700;
+  color: #D5D021;
+  text-align:center;
+  padding-bottom: 40px;
+}
+.skills_box {
+  max-width: 400px;
+  margin: 50px auto 0;
+}
 /* END OF ABOUT ME *?
 /* ---------------------------------------------------- MY CODE ----------------------------------------------------*/
 
