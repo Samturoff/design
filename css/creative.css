@@ -989,7 +989,9 @@ transform: translateX(-100%);
 }
 }
 /* MOVE HEADER TO THE LEFT END */
+/* END OF ABOUT ME */
 
+/* SKILLS */
 .skills{
   display: grid;
   position: relative;
@@ -1132,7 +1134,36 @@ transform: translateX(-100%);
   max-width: 400px;
   margin: 50px auto 0;
 }
-/* END OF ABOUT ME *?
+/* END OF SKILLS */
+
+/* PORTFOLIO */
+.portfolio{
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(6, 1fr);
+  width: 100%;
+  background-color: #171717;
+  padding-bottom: 60px;
+}
+.portfolio_tab_placement{
+  grid-column: 1 / 7;
+  height: 100px;
+  background-color: #1E1E1E;  
+}
+.portfolio_tab_header{
+  color: #CFCFCF;
+  padding-top: 40px;
+  text-align: center;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.portfolio_project_one{
+  grid-column: 1 / 7;
+  height: 1200px;  
+  background-color: purple;
+}
+/* END OF PORTFOLIO */
+
 /* ---------------------------------------------------- MY CODE ----------------------------------------------------*/
 
 

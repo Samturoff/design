@@ -1,6 +1,7 @@
 //Change nav color from scrolling
 'use strict'
 $(document).ready(function(){
+    $( ".portfolio_project_one" ).hide();    
     $(window).scroll(function(){
     var light_pos = $('#container_color_changer').offset().top;
     var light_height = $('#container_color_changer').height();
@@ -68,6 +69,22 @@ $(desktopMenu);
 
 
 
+$(function() {
+    $( ".portfolio_tab_placement" ).click(function () {
+      if ( $( ".portfolio_project_one" ).is( ":hidden" ) ) {
+        $( ".portfolio_project_one" ).slideDown( 2000 );
+      } else {
+        $( ".portfolio_project_one" ).slideUp( 1000 );
+      }
+    });
+    
+    $(".rightbtn").click(function(){
+        $(".moveme").animate({left: '250px'});
+    });
+    $(".leftbtn").click(function(){
+        $(".moveme").animate({left: '0px'});
+    }); 
+});
 
 
 
