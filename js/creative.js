@@ -1,7 +1,23 @@
 //Change nav color from scrolling
 'use strict'
 $(document).ready(function(){
-    $( ".portfolio_project_one" ).hide();    
+    $('.mobile_navbar').hide();
+
+    $( ".portfolio_project_one" ).hide();
+    $( ".portfolio_project_two" ).hide();
+    $( ".portfolio_project_three" ).hide();
+    $( ".portfolio_project_four" ).hide();
+    $( ".portfolio_project_five" ).hide();
+    $( ".portfolio_project_six" ).hide();
+    $( ".portfolio_project_seven" ).hide();
+    $( ".portfolio_project_eight" ).hide();
+    $( ".portfolio_project_nine" ).hide();
+    $( ".portfolio_project_ten" ).hide();
+    $( ".portfolio_project_eleven" ).hide();
+    $( ".portfolio_project_twelve" ).hide();
+    $( ".portfolio_project_thirteen" ).hide();
+    $( ".portfolio_project_fourteen" ).hide();
+
     $(window).scroll(function(){
     var light_pos = $('#container_color_changer').offset().top;
     var light_height = $('#container_color_changer').height();
@@ -13,24 +29,28 @@ $(document).ready(function(){
     console.log('scroll',scroll);
     
     if(menu_pos > light_pos && menu_pos < (light_pos + light_height)) {
-        $('.hamburger').addClass('menu_black');
-      $('.hamburger').removeClass('menu_white');
+//        $('.hamburger').addClass('menu_white');
+//        $('.hamburger').removeClass('menu_black');
 
-        $('.hamburger2').addClass('menu_black');
-      $('.hamburger2').removeClass('menu_white');
+//        $('.hamburger2').addClass('menu_white');
+//        $('.hamburger2').removeClass('menu_black');
 
-        $('.hamburger3').addClass('menu_black');
-      $('.hamburger3').removeClass('menu_white');            
+//        $('.hamburger3').addClass('menu_white');
+//        $('.hamburger3').removeClass('menu_black');
+
+        $('.mobile_navbar').fadeIn();
     }
     else {
-        $('.hamburger').removeClass('menu_black');
-      $('.hamburger').addClass('menu_white');
+//        $('.hamburger').removeClass('menu_white');
+//        $('.hamburger').addClass('menu_black');
 
-        $('.hamburger2').removeClass('menu_black');
-      $('.hamburger2').addClass('menu_white');
+//        $('.hamburger2').removeClass('menu_white');
+//        $('.hamburger2').addClass('menu_black');
 
-        $('.hamburger3').removeClass('menu_black');
-      $('.hamburger3').addClass('menu_white');            
+//        $('.hamburger3').removeClass('menu_white');
+//        $('.hamburger3').addClass('menu_black');
+        $('.mobile_navbar').fadeOut();
+
     }
     
   })
@@ -70,20 +90,313 @@ $(desktopMenu);
 
 
 $(function() {
-    $( ".portfolio_tab_placement" ).click(function () {
+    $( ".portfolio_tab_one" ).click(function () {
       if ( $( ".portfolio_project_one" ).is( ":hidden" ) ) {
-        $( ".portfolio_project_one" ).slideDown( 2000 );
+        $( ".portfolio_project_one" ).slideDown( 1000 );
+        $( ".portfolio_project_two" ).slideUp( 1000 );
+        $( ".portfolio_project_three" ).slideUp( 1000 );                
+        $( ".portfolio_project_four" ).slideUp( 1000 );                
+        $( ".portfolio_project_five" ).slideUp( 1000 );                
+        $( ".portfolio_project_six" ).slideUp( 1000 );                
+        $( ".portfolio_project_seven" ).slideUp( 1000 );                
+        $( ".portfolio_project_eight" ).slideUp( 1000 );                
+        $( ".portfolio_project_nine" ).slideUp( 1000 );                
+        $( ".portfolio_project_ten" ).slideUp( 1000 );                
+        $( ".portfolio_project_eleven" ).slideUp( 1000 );                
+        $( ".portfolio_project_twelve" ).slideUp( 1000 );                
+        $( ".portfolio_project_thirteen" ).slideUp( 1000 );                
+        $( ".portfolio_project_fourteen" ).slideUp( 1000 );                
+
       } else {
         $( ".portfolio_project_one" ).slideUp( 1000 );
       }
     });
     
-    $(".rightbtn").click(function(){
-        $(".moveme").animate({left: '250px'});
-    });
-    $(".leftbtn").click(function(){
-        $(".moveme").animate({left: '0px'});
+    $( ".portfolio_tab_two" ).click(function () {
+      if ( $( ".portfolio_project_two" ).is( ":hidden" ) ) {
+        $( ".portfolio_project_two" ).slideDown( 1000 );
+        $( ".portfolio_project_one" ).slideUp( 1000 );        
+        $( ".portfolio_project_three" ).slideUp( 1000 );                
+        $( ".portfolio_project_four" ).slideUp( 1000 );                
+        $( ".portfolio_project_five" ).slideUp( 1000 );                
+        $( ".portfolio_project_six" ).slideUp( 1000 );                
+        $( ".portfolio_project_seven" ).slideUp( 1000 );                
+        $( ".portfolio_project_eight" ).slideUp( 1000 );                
+        $( ".portfolio_project_nine" ).slideUp( 1000 );                
+        $( ".portfolio_project_ten" ).slideUp( 1000 );                
+        $( ".portfolio_project_eleven" ).slideUp( 1000 );                
+        $( ".portfolio_project_twelve" ).slideUp( 1000 );                
+        $( ".portfolio_project_thirteen" ).slideUp( 1000 );                
+        $( ".portfolio_project_fourteen" ).slideUp( 1000 );
+        } 
+        else {
+        $( ".portfolio_project_two" ).slideUp( 1000 );        
+      }
     }); 
+    
+    $( ".portfolio_tab_three" ).click(function () {
+      if ( $( ".portfolio_project_three" ).is( ":hidden" ) ) {
+        $( ".portfolio_project_three" ).slideDown( 1000 );
+        $( ".portfolio_project_one" ).slideUp( 1000 );        
+        $( ".portfolio_project_two" ).slideUp( 1000 );
+        $( ".portfolio_project_four" ).slideUp( 1000 );                
+        $( ".portfolio_project_five" ).slideUp( 1000 );                
+        $( ".portfolio_project_six" ).slideUp( 1000 );                
+        $( ".portfolio_project_seven" ).slideUp( 1000 );                
+        $( ".portfolio_project_eight" ).slideUp( 1000 );                
+        $( ".portfolio_project_nine" ).slideUp( 1000 );                
+        $( ".portfolio_project_ten" ).slideUp( 1000 );                
+        $( ".portfolio_project_eleven" ).slideUp( 1000 );                
+        $( ".portfolio_project_twelve" ).slideUp( 1000 );                
+        $( ".portfolio_project_thirteen" ).slideUp( 1000 );                
+        $( ".portfolio_project_fourteen" ).slideUp( 1000 );      
+        } 
+        else {
+        $( ".portfolio_project_three" ).slideUp( 1000 );        
+      }
+    });
+    
+    $( ".portfolio_tab_four" ).click(function () {
+      if ( $( ".portfolio_project_four" ).is( ":hidden" ) ) {
+        $( ".portfolio_project_four" ).slideDown( 1000 );
+        $( ".portfolio_project_one" ).slideUp( 1000 );        
+        $( ".portfolio_project_two" ).slideUp( 1000 );
+        $( ".portfolio_project_three" ).slideUp( 1000 );                
+        $( ".portfolio_project_five" ).slideUp( 1000 );                
+        $( ".portfolio_project_six" ).slideUp( 1000 );                
+        $( ".portfolio_project_seven" ).slideUp( 1000 );                
+        $( ".portfolio_project_eight" ).slideUp( 1000 );                
+        $( ".portfolio_project_nine" ).slideUp( 1000 );                
+        $( ".portfolio_project_ten" ).slideUp( 1000 );                
+        $( ".portfolio_project_eleven" ).slideUp( 1000 );                
+        $( ".portfolio_project_twelve" ).slideUp( 1000 );                
+        $( ".portfolio_project_thirteen" ).slideUp( 1000 );                
+        $( ".portfolio_project_fourteen" ).slideUp( 1000 );      
+        } 
+        else {
+        $( ".portfolio_project_four" ).slideUp( 1000 );        
+      }
+    });
+    
+    $( ".portfolio_tab_five" ).click(function () {
+      if ( $( ".portfolio_project_five" ).is( ":hidden" ) ) {
+        $( ".portfolio_project_five" ).slideDown( 1000 );
+        $( ".portfolio_project_one" ).slideUp( 1000 );        
+        $( ".portfolio_project_two" ).slideUp( 1000 );
+        $( ".portfolio_project_three" ).slideUp( 1000 );                
+        $( ".portfolio_project_four" ).slideUp( 1000 );                
+        $( ".portfolio_project_six" ).slideUp( 1000 );                
+        $( ".portfolio_project_seven" ).slideUp( 1000 );                
+        $( ".portfolio_project_eight" ).slideUp( 1000 );                
+        $( ".portfolio_project_nine" ).slideUp( 1000 );                
+        $( ".portfolio_project_ten" ).slideUp( 1000 );                
+        $( ".portfolio_project_eleven" ).slideUp( 1000 );                
+        $( ".portfolio_project_twelve" ).slideUp( 1000 );                
+        $( ".portfolio_project_thirteen" ).slideUp( 1000 );                
+        $( ".portfolio_project_fourteen" ).slideUp( 1000 );      
+        } 
+        else {
+        $( ".portfolio_project_five" ).slideUp( 1000 );        
+      }
+    });
+    
+    $( ".portfolio_tab_six" ).click(function () {
+      if ( $( ".portfolio_project_six" ).is( ":hidden" ) ) {
+        $( ".portfolio_project_six" ).slideDown( 1000 );
+        $( ".portfolio_project_one" ).slideUp( 1000 );        
+        $( ".portfolio_project_two" ).slideUp( 1000 );
+        $( ".portfolio_project_three" ).slideUp( 1000 );                
+        $( ".portfolio_project_four" ).slideUp( 1000 );                
+        $( ".portfolio_project_five" ).slideUp( 1000 );                
+        $( ".portfolio_project_seven" ).slideUp( 1000 );                
+        $( ".portfolio_project_eight" ).slideUp( 1000 );                
+        $( ".portfolio_project_nine" ).slideUp( 1000 );                
+        $( ".portfolio_project_ten" ).slideUp( 1000 );                
+        $( ".portfolio_project_eleven" ).slideUp( 1000 );                
+        $( ".portfolio_project_twelve" ).slideUp( 1000 );                
+        $( ".portfolio_project_thirteen" ).slideUp( 1000 );                
+        $( ".portfolio_project_fourteen" ).slideUp( 1000 );      
+        } 
+        else {
+        $( ".portfolio_project_six" ).slideUp( 1000 );        
+      }
+    });
+    
+    $( ".portfolio_tab_seven" ).click(function () {
+      if ( $( ".portfolio_project_seven" ).is( ":hidden" ) ) {
+        $( ".portfolio_project_seven" ).slideDown( 1000 );
+        $( ".portfolio_project_one" ).slideUp( 1000 );        
+        $( ".portfolio_project_two" ).slideUp( 1000 );
+        $( ".portfolio_project_three" ).slideUp( 1000 );                
+        $( ".portfolio_project_four" ).slideUp( 1000 );                
+        $( ".portfolio_project_five" ).slideUp( 1000 );                
+        $( ".portfolio_project_six" ).slideUp( 1000 );                
+        $( ".portfolio_project_eight" ).slideUp( 1000 );                
+        $( ".portfolio_project_nine" ).slideUp( 1000 );                
+        $( ".portfolio_project_ten" ).slideUp( 1000 );                
+        $( ".portfolio_project_eleven" ).slideUp( 1000 );                
+        $( ".portfolio_project_twelve" ).slideUp( 1000 );                
+        $( ".portfolio_project_thirteen" ).slideUp( 1000 );                
+        $( ".portfolio_project_fourteen" ).slideUp( 1000 );      
+        } 
+        else {
+        $( ".portfolio_project_seven" ).slideUp( 1000 );        
+      }
+    });
+    
+    $( ".portfolio_tab_eight" ).click(function () {
+      if ( $( ".portfolio_project_eight" ).is( ":hidden" ) ) {
+        $( ".portfolio_project_eight" ).slideDown( 1000 );
+        $( ".portfolio_project_one" ).slideUp( 1000 );        
+        $( ".portfolio_project_two" ).slideUp( 1000 );
+        $( ".portfolio_project_three" ).slideUp( 1000 );                
+        $( ".portfolio_project_four" ).slideUp( 1000 );                
+        $( ".portfolio_project_five" ).slideUp( 1000 );                
+        $( ".portfolio_project_six" ).slideUp( 1000 );                
+        $( ".portfolio_project_seven" ).slideUp( 1000 );                
+        $( ".portfolio_project_nine" ).slideUp( 1000 );                
+        $( ".portfolio_project_ten" ).slideUp( 1000 );                
+        $( ".portfolio_project_eleven" ).slideUp( 1000 );                
+        $( ".portfolio_project_twelve" ).slideUp( 1000 );                
+        $( ".portfolio_project_thirteen" ).slideUp( 1000 );                
+        $( ".portfolio_project_fourteen" ).slideUp( 1000 );      
+        }
+        else {
+        $( ".portfolio_project_eight" ).slideUp( 1000 );        
+      }
+    });
+    
+    $( ".portfolio_tab_nine" ).click(function () {
+      if ( $( ".portfolio_project_nine" ).is( ":hidden" ) ) {
+        $( ".portfolio_project_nine" ).slideDown( 1000 );
+        $( ".portfolio_project_one" ).slideUp( 1000 );        
+        $( ".portfolio_project_two" ).slideUp( 1000 );
+        $( ".portfolio_project_three" ).slideUp( 1000 );                
+        $( ".portfolio_project_four" ).slideUp( 1000 );                
+        $( ".portfolio_project_five" ).slideUp( 1000 );                
+        $( ".portfolio_project_six" ).slideUp( 1000 );                
+        $( ".portfolio_project_seven" ).slideUp( 1000 );                
+        $( ".portfolio_project_eight" ).slideUp( 1000 );                
+        $( ".portfolio_project_ten" ).slideUp( 1000 );                
+        $( ".portfolio_project_eleven" ).slideUp( 1000 );                
+        $( ".portfolio_project_twelve" ).slideUp( 1000 );                
+        $( ".portfolio_project_thirteen" ).slideUp( 1000 );                
+        $( ".portfolio_project_fourteen" ).slideUp( 1000 );      
+        } 
+        else {
+        $( ".portfolio_project_nine" ).slideUp( 1000 );        
+      }
+    });
+
+    $( ".portfolio_tab_ten" ).click(function () {
+      if ( $( ".portfolio_project_ten" ).is( ":hidden" ) ) {
+        $( ".portfolio_project_ten" ).slideDown( 1000 );
+        $( ".portfolio_project_one" ).slideUp( 1000 );        
+        $( ".portfolio_project_two" ).slideUp( 1000 );
+        $( ".portfolio_project_three" ).slideUp( 1000 );                
+        $( ".portfolio_project_four" ).slideUp( 1000 );                
+        $( ".portfolio_project_five" ).slideUp( 1000 );                
+        $( ".portfolio_project_six" ).slideUp( 1000 );                
+        $( ".portfolio_project_seven" ).slideUp( 1000 );                
+        $( ".portfolio_project_eight" ).slideUp( 1000 );                
+        $( ".portfolio_project_nine" ).slideUp( 1000 );                
+        $( ".portfolio_project_eleven" ).slideUp( 1000 );                
+        $( ".portfolio_project_twelve" ).slideUp( 1000 );                
+        $( ".portfolio_project_thirteen" ).slideUp( 1000 );                
+        $( ".portfolio_project_fourteen" ).slideUp( 1000 );      
+        } 
+        else {
+        $( ".portfolio_project_ten" ).slideUp( 1000 );        
+      }
+    }); 
+
+    $( ".portfolio_tab_eleven" ).click(function () {
+      if ( $( ".portfolio_project_eleven" ).is( ":hidden" ) ) {
+        $( ".portfolio_project_eleven" ).slideDown( 1000 );
+        $( ".portfolio_project_one" ).slideUp( 1000 );        
+        $( ".portfolio_project_two" ).slideUp( 1000 );
+        $( ".portfolio_project_three" ).slideUp( 1000 );                
+        $( ".portfolio_project_four" ).slideUp( 1000 );                
+        $( ".portfolio_project_five" ).slideUp( 1000 );                
+        $( ".portfolio_project_six" ).slideUp( 1000 );                
+        $( ".portfolio_project_seven" ).slideUp( 1000 );                
+        $( ".portfolio_project_eight" ).slideUp( 1000 );                
+        $( ".portfolio_project_nine" ).slideUp( 1000 );                
+        $( ".portfolio_project_ten" ).slideUp( 1000 );                
+        $( ".portfolio_project_twelve" ).slideUp( 1000 );                
+        $( ".portfolio_project_thirteen" ).slideUp( 1000 );                
+        $( ".portfolio_project_fourteen" ).slideUp( 1000 );      
+        } 
+        else {
+        $( ".portfolio_project_eleven" ).slideUp( 1000 );        
+      }
+    }); 
+
+    $( ".portfolio_tab_twelve" ).click(function () {
+      if ( $( ".portfolio_project_twelve" ).is( ":hidden" ) ) {
+        $( ".portfolio_project_twelve" ).slideDown( 1000 );
+        $( ".portfolio_project_one" ).slideUp( 1000 );        
+        $( ".portfolio_project_two" ).slideUp( 1000 );
+        $( ".portfolio_project_three" ).slideUp( 1000 );                
+        $( ".portfolio_project_four" ).slideUp( 1000 );                
+        $( ".portfolio_project_five" ).slideUp( 1000 );                
+        $( ".portfolio_project_six" ).slideUp( 1000 );                
+        $( ".portfolio_project_seven" ).slideUp( 1000 );                
+        $( ".portfolio_project_eight" ).slideUp( 1000 );                
+        $( ".portfolio_project_nine" ).slideUp( 1000 );                
+        $( ".portfolio_project_ten" ).slideUp( 1000 );                
+        $( ".portfolio_project_eleven" ).slideUp( 1000 );                
+        $( ".portfolio_project_thirteen" ).slideUp( 1000 );                
+        $( ".portfolio_project_fourteen" ).slideUp( 1000 );      
+        } 
+        else {
+        $( ".portfolio_project_twelve" ).slideUp( 1000 );        
+      }
+    });
+
+    $( ".portfolio_tab_thirteen" ).click(function () {
+      if ( $( ".portfolio_project_thirteen" ).is( ":hidden" ) ) {
+        $( ".portfolio_project_thirteen" ).slideDown( 1000 );
+        $( ".portfolio_project_one" ).slideUp( 1000 );        
+        $( ".portfolio_project_two" ).slideUp( 1000 );
+        $( ".portfolio_project_three" ).slideUp( 1000 );                
+        $( ".portfolio_project_four" ).slideUp( 1000 );                
+        $( ".portfolio_project_five" ).slideUp( 1000 );                
+        $( ".portfolio_project_six" ).slideUp( 1000 );                
+        $( ".portfolio_project_seven" ).slideUp( 1000 );                
+        $( ".portfolio_project_eight" ).slideUp( 1000 );                
+        $( ".portfolio_project_nine" ).slideUp( 1000 );                
+        $( ".portfolio_project_ten" ).slideUp( 1000 );                
+        $( ".portfolio_project_eleven" ).slideUp( 1000 );                
+        $( ".portfolio_project_twelve" ).slideUp( 1000 );                
+        $( ".portfolio_project_fourteen" ).slideUp( 1000 );      
+        } 
+        else {
+        $( ".portfolio_project_thirteen" ).slideUp( 1000 );        
+      }
+    });
+
+    $( ".portfolio_tab_fourteen" ).click(function () {
+      if ( $( ".portfolio_project_fourteen" ).is( ":hidden" ) ) {
+        $( ".portfolio_project_fourteen" ).slideDown( 1000 );
+        $( ".portfolio_project_one" ).slideUp( 1000 );        
+        $( ".portfolio_project_two" ).slideUp( 1000 );
+        $( ".portfolio_project_three" ).slideUp( 1000 );                
+        $( ".portfolio_project_four" ).slideUp( 1000 );                
+        $( ".portfolio_project_five" ).slideUp( 1000 );                
+        $( ".portfolio_project_six" ).slideUp( 1000 );                
+        $( ".portfolio_project_seven" ).slideUp( 1000 );                
+        $( ".portfolio_project_eight" ).slideUp( 1000 );                
+        $( ".portfolio_project_nine" ).slideUp( 1000 );                
+        $( ".portfolio_project_ten" ).slideUp( 1000 );                
+        $( ".portfolio_project_eleven" ).slideUp( 1000 );                
+        $( ".portfolio_project_twelve" ).slideUp( 1000 );                
+        $( ".portfolio_project_thirteen" ).slideUp( 1000 );                
+        } 
+        else {
+        $( ".portfolio_project_fourteen" ).slideUp( 1000 );        
+      }
+    });    
 });
 
 
