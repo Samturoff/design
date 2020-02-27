@@ -77,16 +77,16 @@ function desktopMenu() {
         }
     })
 }
-    var controller = new ScrollMagic.Controller();
+var controller = new ScrollMagic.Controller();
 
-    // build tween
-    var tween = TweenMax.staggerFromTo(".animate4", 2, {left: 700}, {left: 0, ease: Back.easeOut}, 0.15);
+// build tween
+var tween = TweenMax.staggerFromTo(".animate4", 2, {left: 700}, {left: 0, ease: Back.easeOut}, 0.15);
 
-    // build scene
-    var scene = new ScrollMagic.Scene({triggerElement: "#trigger4", duration: 300})
-                    .setTween(tween)
-                    .addIndicators({name: "staggering"}) // add indicators (requires plugin)
-                    .addTo(controller);
+// build scene
+var scene = new ScrollMagic.Scene({triggerElement: "#trigger4", duration: 300})
+                .setTween(tween)
+                .addIndicators({name: "staggering"}) // add indicators (requires plugin)
+                .addTo(controller);
 //when the page loads call toggleIcon;
 $(toggleIcon);
 $(closeMobileMenu);
