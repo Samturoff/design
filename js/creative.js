@@ -63,15 +63,11 @@ function toggleIcon() {
         $('.menu-mobile').slideToggle(300);
     })
 }
-
 function closeMobileMenu(){
     $('.menu-mobile').on('click', 'a', function(){
         $('.icon').trigger('click');
     })
 }
-
-
-
 function desktopMenu() {
     $(window).scroll(function() {
         if ($(this).scrollTop() > 50 && $(window).width() > 768) {
@@ -81,11 +77,21 @@ function desktopMenu() {
         }
     })
 }
+    var controller = new ScrollMagic.Controller();
 
+    // build tween
+    var tween = TweenMax.staggerFromTo(".animate4", 2, {left: 700}, {left: 0, ease: Back.easeOut}, 0.15);
+
+    // build scene
+    var scene = new ScrollMagic.Scene({triggerElement: "#trigger4", duration: 300})
+                    .setTween(tween)
+                    .addIndicators({name: "staggering"}) // add indicators (requires plugin)
+                    .addTo(controller);
 //when the page loads call toggleIcon;
 $(toggleIcon);
 $(closeMobileMenu);
 $(desktopMenu);
+$(magicalScroll);
 
 
 
@@ -106,7 +112,6 @@ $(function() {
         $( ".portfolio_project_twelve" ).slideUp( 1000 );                
         $( ".portfolio_project_thirteen" ).slideUp( 1000 );                
         $( ".portfolio_project_fourteen" ).slideUp( 1000 );                
-
       } else {
         $( ".portfolio_project_one" ).slideUp( 1000 );
       }

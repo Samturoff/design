@@ -1145,7 +1145,6 @@ transform: translateX(-100%);
   font-size: 60px !important;
   font-weight: 700;
   color: #D5D021;
-  text-align:center;
   padding-bottom: 40px;
 }
 .skills_box {
@@ -1275,6 +1274,12 @@ transform: translateX(-100%);
 .portfolio_project_fourteen{
   grid-column: 1 / 7;
   height: 400px;  
+  background-color: purple;
+}
+
+.booty{
+  width: 20px;
+  height: 20px;
   background-color: purple;
 }
 /* END OF PORTFOLIO */
