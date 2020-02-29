@@ -45,7 +45,10 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/animation.gsap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/debug.addIndicators.js"></script>
 </head>
 
 <body id="page-top">
@@ -143,11 +146,11 @@
             <div class="about_me_bt_placement">
                 <h2 class="section_header_size">OVERVIEW</h2>
                 <p>
-                    As a graphic designer I utilize my creativity, imagination and skill set to transform brands into effective designs. My philosophy is to explore different ways of successfully communicating the mission and identity of the brand, benefiting from the chance to grow from these collaborative experiences. It is from this viewpoint that I make my designs eye-catching and impactful.
+                    As a graphic designer I utilize my creativity, imagination and skill set to transform brands into effective designs. My philosophy is to explore different ways of successfully communicating the mission and identity of the brand, benefiting from the chance to grow from these collaborative experiences. It is from this viewpoint that I make my designs eye-catching and&nbsp;impactful.
                 </p>
                 <h2 class="section_header_size section_header_padding">EDUCATION</h2>
                 <p>
-                    I am a Junior at Portland State University majoring in Graphic Design. Over the years, I have absorbed many skills from professionals in the industry, spanning from a large array of tools for a designer, with an awareness of appropriate designs, and effective communication. Throughout my education, I have collaborated with my peers thus strengthening my ability to work effectively as a team, and learning from the experience and perspective of others.
+                    I am a Junior at Portland State University majoring in Graphic Design. Over the years, I have absorbed many skills from professionals in the industry, spanning from a large array of tools for a designer, with an awareness of appropriate designs, and effective communication. Throughout my education, I have collaborated with my peers thus strengthening my ability to work effectively as a team, and learning from the experience and perspective of&nbsp;others.
                 </p>                 
             </div>
         </section>
@@ -182,24 +185,35 @@
                     </p>
                 </div>
            
-                <div class="skills_box" id="trigger4">
+                <div class="skills_box">
                     <div class= "icon-video"></div>
                     <h3 class="section_header_size">TYPOGRAPHY</h3>
                     <p>Strong grasp of type treatment including picking appropriate typefaces, and adjusting them to achieve design&nbsp;goals. </p>
                 </div>
-
+                <div id="trigger1">
+                </div>                    
                 <div class="skills_box">
                     <div class= "icon-3d"></div>
-                    <h3 class="section_header_size">ARTISTRY</h3>
+                    <h3 class="section_header_size" >ARTISTRY</h3> 
+                    <div id="trigger_portfolio_color">
+                    </div>                                     
                     <p>Knowledgable on design appropriate aesthetics and how to digitally replicate them for design&nbsp;directions.</p>
                 </div>
-            </div>           
+            </div>
+                     
         </section>
 
         <section class="portfolio">
-            <div class="animate4 booty box2 black outline" style="left: 700px;"></div>
-            <h2 class="skills_header" >PORTFOLIO</h2>            
+            <div class="portfolio_header_placement">
+                <h2 class="portfolio_header portfolio_header1" id="reveal1">PORTFOLIO </h2>
+                <h2 class="portfolio_header portfolio_header2" id="reveal1">PORTFOLIO</h2>
+                <h2 class="portfolio_header portfolio_header1" id="reveal1">PORTFOLIO</h2>
+                <h2 class="portfolio_header portfolio_header2" id="reveal1">PORTFOLIO</h2>
+                <h2 class="portfolio_header portfolio_header1" id="reveal1">PORTFOLIO</h2>              
+            </div>     
             <div class="portfolio_tab_placement portfolio_tab_one">
+                <div class="portforlio_tab_cover">
+                </div>                
                 <h3 class="section_header_size portfolio_tab_header">MUSHROOM MORPHOLOGY</h3>
                 <div class="portfolio_tab_info">
                     <div class="portfolio_border">
@@ -211,6 +225,8 @@
             </div>
 
             <div class="portfolio_tab_placement portfolio_tab_two">
+                <div class="portforlio_tab_cover">
+                </div>
                 <h3 class="section_header_size portfolio_tab_header">RED STAR TAVERN</h3>
                 <div class="portfolio_tab_info">
                     <div class="portfolio_border">
@@ -222,6 +238,8 @@
             </div>
 
             <div class="portfolio_tab_placement portfolio_tab_three">
+                <div class="portforlio_tab_cover">
+                </div>                
                <h3 class="section_header_size portfolio_tab_header">GROWING GARDENS</h3>
                 <div class="portfolio_tab_info">
                     <div class="portfolio_border">
@@ -233,6 +251,8 @@
             </div>
 
             <div class="portfolio_tab_placement portfolio_tab_four">
+            <div class="portforlio_tab_cover">
+            </div>                
              <h3 class="section_header_size portfolio_tab_header">LAVISH & POP</h3>
                 <div class="portfolio_tab_info">
                     <div class="portfolio_border">
@@ -244,6 +264,8 @@
             </div>
 
             <div class="portfolio_tab_placement portfolio_tab_five">
+            <div class="portforlio_tab_cover">
+            </div>                
              <h3 class="section_header_size portfolio_tab_header">IGORRR</h3>
                 <div class="portfolio_tab_info">
                     <div class="portfolio_border">
@@ -255,6 +277,8 @@
             </div>  
 
             <div class="portfolio_tab_placement portfolio_tab_six">
+            <div class="portforlio_tab_cover">
+            </div>                 
              <h3 class="section_header_size portfolio_tab_header">THE SPLASH</h3>
                 <div class="portfolio_tab_info">
                     <div class="portfolio_border">
@@ -265,6 +289,8 @@
             </div> 
 
             <div class="portfolio_tab_placement portfolio_tab_seven">
+            <div class="portforlio_tab_cover">
+            </div>                 
              <h3 class="section_header_size portfolio_tab_header">DOGGY NOUVEAU</h3>
                 <div class="portfolio_tab_info">
                     <div class="portfolio_border">
@@ -276,6 +302,8 @@
             </div>
 
             <div class="portfolio_tab_placement portfolio_tab_eight">
+            <div class="portforlio_tab_cover">
+            </div>                 
              <h3 class="section_header_size portfolio_tab_header">OREGON STATE PARKS GUIDE</h3>
                 <div class="portfolio_tab_info">
                     <div class="portfolio_border">
@@ -285,8 +313,13 @@
             </div>
             <div class="portfolio_project_eight">
             </div> 
-
+                        <div id="trigger_lets">
+            </div>
+            <div id="trigger_collab">
+            </div>  
             <div class="portfolio_tab_placement portfolio_tab_nine">
+            <div class="portforlio_tab_cover">
+            </div>                 
              <h3 class="section_header_size portfolio_tab_header">BLIND EYE BREWERY</h3>
                 <div class="portfolio_tab_info">
                     <div class="portfolio_border">
@@ -296,8 +329,9 @@
             </div>
             <div class="portfolio_project_nine">
             </div>
-
             <div class="portfolio_tab_placement portfolio_tab_ten">
+            <div class="portforlio_tab_cover">
+            </div>                 
              <h3 class="section_header_size portfolio_tab_header">NORDIC FOLKLORE</h3>
                 <div class="portfolio_tab_info">
                     <div class="portfolio_border">
@@ -350,74 +384,154 @@
             </div>
             <div class="portfolio_project_fourteen">
             </div>
-            -->                                                            
-        </section>        
-
-        <section class="bg-primary" id="about">
-            <div class="container">
-                <div class="row1">
-                    <div class="col-lg-20 ">
-                        <h2 class="section-heading text-center">About me</h2>
-                        <p>
-                            My name is Samuel Turoff-Ortmeyer. I am a passionate graphic designer that utilizes my creativity, imagination, and artistry to transform brands into effective designs. My mission is to add value and make a difference, by creating impactful products and brands for customers and businesses.
-                        </p>
-                    </div>
-                </div>
-            </div>
+            -->                                                     
         </section>
-
-        <section id="services">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-    <!--                     <h2 class="section-heading">At Your Service</h2>
-                        <hr class="primary"> -->
-                    </div>
+        <section class="contact">
+            <div id="trigger_collab">
+                </div>              
+            <div class="contact_placement_header">
+                <div class="contact_placement_header1">
+                    <h2 class="contact_header1" id="contact_header_l">L</h2>
+                    <h2 class="contact_header1" id="contact_header_e">E</h2>
+                    <h2 class="contact_header1" id="contact_header_t">T</h2>
+                    <h2 class="contact_header1" id="contact_header_s">S</h2>
                 </div>
+                <div class="contact_placement_header2">
+                    <h2 class="contact_header2" id="contact_header_collab">COLLAB </h2>                    
+                </div>                
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="service-box">
-                            <div class= "icon-print"></div>
-                            <h3>Design</h3>
-                            <p class="text-muted">Deep understanding of the design process for word webs, mind maps, moodboards, concept sketches, art styles, color palettes, type studies, hand lettering, and&nbsp;more.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="service-box">
-                            <div class= "icon-web"></div>
-                            <h3>Web</h3>
-                            <p class="text-muted">Utilizing HTML, CSS, Jquery, Sublime Text, along with constructing wireframes in Adobe&nbsp;XD to create&nbsp;websites.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="service-box">
-                            <div class= "icon-video"></div>
-                            <h3>Typography</h3>
-                            <p class="text-muted">Strong grasp of type treatment including picking appropriate typefaces, and adjusting them to achieve design&nbsp;goals. </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="service-box">
-                            <div class= "icon-3d"></div>
-                            <h3>Artistry</h3>
-                            <p class="text-muted">Knowledgable on design appropriate aesthetics and how to digitally replicate them for design&nbsp;directions.</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="contact_placement_text">
+                <p class="contact_intro_text">I am currently available for selective consulting opportunities. Would love to collaborate with creatives and brands who are passionate about their vision and ambitious about their&nbsp;impact.</p>
+                <h2 class="contact_header_text">LETS BUILD SOMETHING GREAT&nbsp;TOGETHER.</h2>                                               
             </div>
+            <div class="contact_placement_info">
+                <h5>CONTACT</h5>
+                <h4><a href="mailto:Samturoff@gmail.com?subject=subject" class="contact_social">SAMTUROFF@GMAIL.COM</a></h4>
+            </div>
+            <div class="contact_placement_social">
+                <h5>SOCIAL</h5>
+                <h4><a href="#" class="contact_social">LINKEDIN</a></h4>
+                <h4><a href="#" class="contact_social">INSTAGRAM</a></h4>
+                <h4><a href="#" class="contact_social">TWITTER</a></h4>
+            </div> 
+            <h5 id="copyright">&copy; Copyright Sam Turoff-Ortmeyer 2020</h5>
         </section>
+    </div>
+    <!-- jQuery -->
+<!--    
+    <script src="vendor/jquery/jquery.min.js"></script>
 
+
+    <script type="text/javascript" src="js/html5lightbox/jquery.js"></script>
+    <script type="text/javascript" src="js/html5lightbox/html5lightbox.js"></script>
+-->
+    <!-- Bootstrap Core JavaScript -->
+<!--    <script src="vendor/bootstrap/js/bootstrap.min.js"></script> -->
+
+    <!-- Plugin JavaScript ...... <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>  -->
+<!--
+    <script src="vendor/jquery/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+-->
+    <!-- Theme JavaScript -->     
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
+    <script src="js/creative.js"></script>
+
+     <!-- Custom JavaScript -->
+     <!--
+    <script src="js/custom.js"></script>
+-->
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
          <section class="no-padding" id="portfolio">
         <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2 text-center">
                         <h2 class="section-heading" id="section-portfolio">Portfolio</h2>
-                        <!-- <button id="hide">Hide</button>
+                         <button id="hide">Hide</button>
                         <button id="show">Show</button>
-                        <button id="xxx">Hope this works!</button> -->
+                        <button id="xxx">Hope this works!</button> 
                         <hr class="hr-portfolio">
                     </div>
                 </div>
@@ -559,7 +673,7 @@
                             </div>
                         </a>
                     </div>
-    <!--                 <div class="col-lg-3 col-sm-4 col-xs-6">
+             <div class="col-lg-3 col-sm-4 col-xs-6">
                         <a href="img/portfolio/fullsize/real3D_microSite_WEB_med02.jpg" class="html5lightbox portfolio-box" data-group="mygroup" Title="<span class='description'><b>REAL 3D VISUALISATION</b> A responsive site for a hypothetical 3D visualisation company.<a href='http://nando5.github.io/real3d-visualisation/' target='_blank'> Click to view</a></span>">
                             <img src="img/portfolio/thumbnails/real3D_microSite_WEB_thumb.jpg" class="img-responsive" alt="">
                             <div class="portfolio-box-caption">
@@ -573,7 +687,7 @@
                                 </div>
                             </div>
                         </a>
-                    </div> -->
+                    </div> 
                     <div class="col-lg-3 col-sm-4 col-xs-6">
                         <a href="img/portfolio/my_full_images/5.jpg" class="html5lightbox portfolio-box" data-group="mygroup" Title="<span class='description'><b>Blind Eye Brewery </b>- Beer product design focusing on brand identity.</span>">
                             <img src="img/portfolio/my_thumbnails/5.jpg" class="img-responsive" alt="">
@@ -773,68 +887,4 @@
             </div>
         </section>
 
-        <section id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2 text-center">
-                        <h2 class="section-heading">Get In Touch</h2>
-                        <hr class="hr-contact">
-                    </div>
-                    <div class="col-lg-4 col-lg-offset-2 text-center">
-                        <i class="fa fa-phone fa-3x sr-contact"></i>
-                        <p>925-984-5715</p>
-                    </div>
-                    <div class="col-lg-4 text-center">
-                        <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                        <p><a href="mailto:samturoff@gmail.com">samturoff@gmail.com</a></p>
-                        <br><br>
-                    </div>
-                    <div class="col-lg-8 col-lg-offset-2 text-center">
-
-                        <a href='https://www.linkedin.com/in/samuel-turoff-ortmeyer-4882ab133/' target='_blank'> LinkedIn</a>
-                        <br>
-                        <a href='https://www.instagram.com/hush.gd/' target='_blank'> Instagram</a>
-                        <br><br>
-                    </div>                
-                    <div class="col-lg-8 col-lg-offset-2 text-center">
-                        <h5 id="copyright">&copy; Copyright Sam Turoff-Ortmeyer 2020</h5>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-    <!-- jQuery -->
-<!--    
-    <script src="vendor/jquery/jquery.min.js"></script>
-
-
-    <script type="text/javascript" src="js/html5lightbox/jquery.js"></script>
-    <script type="text/javascript" src="js/html5lightbox/html5lightbox.js"></script>
--->
-    <!-- Bootstrap Core JavaScript -->
-<!--    <script src="vendor/bootstrap/js/bootstrap.min.js"></script> -->
-
-    <!-- Plugin JavaScript ...... <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>  -->
-<!--
-    <script src="vendor/jquery/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
--->
-    <!-- Theme JavaScript -->
-
-    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"></script>
-    <script src="js/creative.js"></script>
-
-     <!-- Custom JavaScript -->
-     <!--
-    <script src="js/custom.js"></script>
--->
-
-</body>
-
-</html>
+    -->

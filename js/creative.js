@@ -53,7 +53,7 @@ $(document).ready(function(){
 
     }
     
-  })
+  }) 
 })
 
 //Hamburger menu + scroll button
@@ -77,21 +77,11 @@ function desktopMenu() {
         }
     })
 }
-var controller = new ScrollMagic.Controller();
 
-// build tween
-var tween = TweenMax.staggerFromTo(".animate4", 2, {left: 700}, {left: 0, ease: Back.easeOut}, 0.15);
-
-// build scene
-var scene = new ScrollMagic.Scene({triggerElement: "#trigger4", duration: 300})
-                .setTween(tween)
-                .addIndicators({name: "staggering"}) // add indicators (requires plugin)
-                .addTo(controller);
 //when the page loads call toggleIcon;
 $(toggleIcon);
 $(closeMobileMenu);
 $(desktopMenu);
-$(magicalScroll);
 
 
 
@@ -404,73 +394,93 @@ $(function() {
     });    
 });
 
+$(function portfolioMoveLeft() {
+    var controller = new ScrollMagic.Controller();    
+    // build tween
+    var tween = TweenMax.staggerFromTo(".portfolio_header1", 2, {left: 700}, {left: 0, ease: Power4.easeOut}, 0.0);
 
+    // build scene
+    var scene = new ScrollMagic.Scene({triggerElement: "#trigger1", duration: 400})
+                    .setTween(tween)
+//                    .addIndicators({name: "staggering"}) // add indicators (requires plugin)
+                    .addTo(controller);
+});
+$(function portfolioMoveright() {
+    var controller = new ScrollMagic.Controller();    
+    // build tween
+    var tween = TweenMax.staggerFromTo(".portfolio_header2", 2, {right: 700}, {left: 0, ease: Power4.easeOut}, 0.0);
 
+    // build scene
+    var scene = new ScrollMagic.Scene({triggerElement: "#trigger1", duration: 400})
+                    .setTween(tween)
+//                    .addIndicators({name: "staggering"}) // add indicators (requires plugin)
+                    .addTo(controller);
+});
+$(function portfolioTransitionColor() {
+    var controller = new ScrollMagic.Controller();    
 
-
-
-
-(function($) {
-    "use strict"; // Start of use strict
-
-    // jQuery for page scrolling feature - requires jQuery Easing plugin
-    $('a.page-scroll').bind('click', function(event) {
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: ($($anchor.attr('href')).offset().top - 50)
-        }, 1250, 'easeInOutExpo');
-        event.preventDefault();
-    });
-
-    // Highlight the top nav as scrolling occurs
-    $('body').scrollspy({
-        target: '.navbar-fixed-top',
-        offset: 51
-    });
-
-    // Closes the Responsive Menu on Menu Item Click
-    $('.navbar-collapse ul li a:not(.dropdown-toggle)').click(function() {
-        $('.navbar-toggle:visible').click();
-    });
-
-    // Offset for Main Navigation
-    $('#mainNav').affix({
-        offset: {
-            top: 100
-        }
+    new ScrollMagic.Scene({
+        triggerElement: "#trigger_portfolio_color",
+        triggerHook: 0.1, // show, when scrolled 10% into view
+        duration: "100%", // hide 10% before exiting view (80% + 10% from bottom)
+        offset: 100 // move trigger to center of element
     })
+    .setClassToggle("#reveal1", "visible") // add class to reveal
+//    .addIndicators({name: "reveal"}) // add indicators (requires plugin)
+    .addTo(controller);
+});
+$(function lTransition() {
+    var controller = new ScrollMagic.Controller();    
+    // build tween
+    var tween = TweenMax.staggerFromTo("#contact_header_l", 2, {top: 500}, {top: 100, right: 50, ease: Power4.easeOut}, 0.0);
 
-    // Initialize and Configure Scroll Reveal Animation
-    window.sr = ScrollReveal();
-    sr.reveal('.sr-icons', {
-        duration: 600,
-        scale: 0.3,
-        distance: '0px'
-    }, 200);
-    sr.reveal('.sr-button', {
-        duration: 1000,
-        delay: 200
-    });
-    sr.reveal('.sr-contact', {
-        duration: 600,
-        scale: 0.3,
-        distance: '0px'
-    }, 300);
+    // build scene
+    var scene = new ScrollMagic.Scene({triggerElement: "#trigger_lets", duration: 100})
+                    .setTween(tween)
+//                    .addIndicators({name: "contact"}) // add indicators (requires plugin)
+                    .addTo(controller);
+});
+$(function eTransition() {
+    var controller = new ScrollMagic.Controller();    
+    // build tween
+    var tween = TweenMax.staggerFromTo("#contact_header_e", 2, {top: 500}, {top: 100, right: 15, ease: Power4.easeOut}, 0.0);
 
-    // Initialize and Configure Magnific Popup Lightbox Plugin
-    $('.popup-gallery').magnificPopup({
-        delegate: 'a',
-        type: 'image',
-        tLoading: 'Loading image #%curr%...',
-        mainClass: 'mfp-img-mobile',
-        gallery: {
-            enabled: true,
-            navigateByImgClick: true,
-            preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
-        },
-        image: {
-            tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
-        }
-    });
+    // build scene
+    var scene = new ScrollMagic.Scene({triggerElement: "#trigger_lets", duration: 200})
+                    .setTween(tween)
+//                    .addIndicators({name: "contact"}) // add indicators (requires plugin)
+                    .addTo(controller);
+});
+$(function tTransition() {
+    var controller = new ScrollMagic.Controller();    
+    // build tween
+    var tween = TweenMax.staggerFromTo("#contact_header_t", 2, {top: 500}, {top: 100, right: -20, ease: Power4.easeOut}, 0.0);
 
-})(jQuery); // End of use strict
+    // build scene
+    var scene = new ScrollMagic.Scene({triggerElement: "#trigger_lets", duration: 300})
+                    .setTween(tween)
+//                    .addIndicators({name: "contact"}) // add indicators (requires plugin)
+                    .addTo(controller);
+});
+$(function sTransition() {
+    var controller = new ScrollMagic.Controller();    
+    // build tween
+    var tween = TweenMax.staggerFromTo("#contact_header_s", 2, {top: 500}, {top: 100, right: -55, ease: Power4.easeOut}, 0.0);
+
+    // build scene
+    var scene = new ScrollMagic.Scene({triggerElement: "#trigger_lets", duration: 400})
+                    .setTween(tween)
+//                    .addIndicators({name: "contact"}) // add indicators (requires plugin)
+                    .addTo(controller);
+});
+$(function collabTransition() {
+    var controller = new ScrollMagic.Controller();    
+    // build tween
+    var tween = TweenMax.staggerFromTo("#contact_header_collab", 2, {right: 500}, {right: 0, ease: Power4.easeOut}, 0.0);
+
+    // build scene
+    var scene = new ScrollMagic.Scene({triggerElement: "#trigger_collab", duration: 1})
+                    .setTween(tween)
+//                    .addIndicators({name: "contact"}) // add indicators (requires plugin)
+                    .addTo(controller);
+});

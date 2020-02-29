@@ -66,6 +66,8 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
+  text-decoration: none !important;
+
   color: #1eacc5;
 }
 a:hover,
@@ -92,7 +94,6 @@ p {
   font-size: 16px;
   line-height: 1.8;
   font-weight: 400;
-  margin-bottom: 24px;
 }
 .bg-primary {
   background-color: #f2f2f2;
@@ -1146,6 +1147,7 @@ transform: translateX(-100%);
   font-weight: 700;
   color: #D5D021;
   padding-bottom: 40px;
+  text-align: center;
 }
 .skills_box {
   max-width: 400px;
@@ -1160,19 +1162,85 @@ transform: translateX(-100%);
   grid-template-columns: repeat(6, 1fr);
   width: 100%;
   background-color: #171717;
-  padding-bottom: 60px;
 }
-.portfolio_tab_placement{
+.portfolio_header_placement{
+  position: relative;
   grid-column: 1 / 7;
+  margin: 0 auto;
+  overflow: hidden;
+
+  padding-top: 50px;
+  padding-bottom: 75px;
+  width: 100%;
+}
+#reveal1 {
+-webkit-transition: all 500ms ease;
+-moz-transition: all 500ms ease;
+-ms-transition: all 500ms ease;
+-o-transition: all 500ms ease;
+transition: all 500ms ease;
+}
+#reveal1.visible {
+  color: #D5D021;
+  -webkit-text-stroke-color: black;  
+
+}
+.portfolio_header{
+  position: relative;  
+  white-space: nowrap;
+  font-family: brandon-grotesque, sans-serif;
+  font-size: 60px !important;
+  font-weight: 700;
+  color: black;
+  text-align: center !important;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #CFCFCF;  
+}
+.portforlio_tab_cover{
+  grid-column: 1 / 7;
+  position: absolute;
   height: 100px;
+  width: 100%;
   background: linear-gradient(to bottom, hsla(240, 8%, 15%,1), hsla(240, 8%,9%,1));
   box-shadow: inset 0 1px 0 hsla(255,255%,255%,0.05), 
   inset 0 0 1px hsla(255,255%,255%,0.1), 0 4px 6px hsla(0,0%,0%,0.85), 
   0 1px 2px hsla(0,0%,0%,0.9);
   border-top: 2px solid hsla(240, 9%, 6%,1);
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+  opacity: .75; 
+
+}
+
+.portfolio_tab_placement:hover .portforlio_tab_cover { 
+  opacity: .5; 
+}
+.portfolio_tab_placement:hover .portfolio_tab_header { 
+  color: #DBD755;
+}
+.portfolio_tab_placement:hover .portfolio_tab_info { 
+  color: #DBD755;
+}
+.portfolio_tab_placement:hover .portfolio_border { 
+  background-color: #DBD755;
+}
+.portfolio_tab_placement{
+  grid-column: 1 / 7;
+  height: 100px;
+  white-space: nowrap;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url('../img/portfolio/my_thumbnails/1.png');
   cursor: pointer;
 }
 .portfolio_tab_header{
+  position: relative;  
   color: #CFCFCF;
   margin-top: 0;
   padding-top: 20px;
@@ -1180,7 +1248,14 @@ transform: translateX(-100%);
   width: 100%;
   padding-left: 40px;
   padding-right: 40px;
-  text-align: left;  
+  text-align: left; 
+  z-index: 1000;
+  -webkit-transition: all 250ms ease;
+  -moz-transition: all 250ms ease;
+  -ms-transition: all 250ms ease;
+  -o-transition: all 250ms ease;
+  transition: all 250ms ease;  
+
 }
 .portfolio_tab_info{
   grid-column: 1 / 7;
@@ -1192,6 +1267,12 @@ transform: translateX(-100%);
   color: #CFCFCF;
   width: 100%;
   text-align: left;
+  z-index: 1000;
+  -webkit-transition: all 250ms ease;
+  -moz-transition: all 250ms ease;
+  -ms-transition: all 250ms ease;
+  -o-transition: all 250ms ease;
+  transition: all 250ms ease;  
 }
 .portfolio_border{
   margin-top: 15px;
@@ -1201,6 +1282,11 @@ transform: translateX(-100%);
   height: 4px;
   width: 200px;
   background-color: #CFCFCF;
+  -webkit-transition: all 250ms ease;
+  -moz-transition: all 250ms ease;
+  -ms-transition: all 250ms ease;
+  -o-transition: all 250ms ease;
+  transition: all 250ms ease;  
 }
 .portfolio_tab_description{
   margin-top: 0;
@@ -1276,13 +1362,108 @@ transform: translateX(-100%);
   height: 400px;  
   background-color: purple;
 }
-
 .booty{
   width: 20px;
   height: 20px;
   background-color: purple;
 }
 /* END OF PORTFOLIO */
+/* CONTACT */
+.contact{
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(6, 1fr);
+  background-color: #1E1E1E;
+  padding-bottom: 40px;
+}
+.contact_placement_header{
+  grid-column: 1 / 7;
+  margin-top: -70px;
+}
+.contact_placement_header1{
+  position: relative;
+  height: 200px;
+  overflow: hidden;    
+}
+.contact_placement_header2{
+  position: relative;
+  height: 125px;
+  overflow: hidden;   
+}
+.contact_header1{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-family: brandon-grotesque, sans-serif;
+  font-size: 60px !important;
+  font-weight: 700;
+  color: #D5D021;
+-webkit-transition: all 500ms ease;
+-moz-transition: all 500ms ease;
+-ms-transition: all 500ms ease;
+-o-transition: all 500ms ease;
+transition: all 500ms ease;
+}
+.contact_header2{
+  position: absolute;
+  margin-top: -5px;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  font-family: brandon-grotesque, sans-serif;
+  font-size: 60px !important;
+  font-weight: 700;
+  color: #D5D021;
+-webkit-transition: all 1000ms ease;
+-moz-transition: all 1000ms ease;
+-ms-transition: all 1000ms ease;
+-o-transition: all 1000ms ease;
+transition: all 1000ms ease;  
+}
+.contact_placement_text{
+  grid-column: 1 / 7;
+  color: #CFCFCF;
+  padding-left: 40px;
+  padding-right: 40px; 
+}
+.contact_intro_text{
+  color: #CFCFCF;
+  text-align: center; 
+}
+.contact_header_text{
+  padding-top: 60px;
+  line-height: 40px;
+  padding-bottom: 60px;
+  color: #CFCFCF; 
+  text-align: center;   
+}
+.contact_placement_info{
+  grid-column: 1 / 4;
+  margin: 0 auto;
+  color: #CFCFCF;
+  padding-left: 40px;
+}
+.contact_placement_social{
+  grid-column: 4 / 7;
+  margin: 0 auto;
+  color: #CFCFCF;
+  padding-right: 40px;
+}
+.contact_social{
+  line-height: 20px;
+  color: #CFCFCF;
+}
+.contact_social:hover,
+.contact_social:focus {
+  color: #D5D021;
+}
+#copyright{
+  grid-column: 1 / 7;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+/* END OF CONACT*/
 
 /* ---------------------------------------------------- MY CODE ----------------------------------------------------*/
 
