@@ -1231,13 +1231,12 @@ transition: all 500ms ease;
   grid-column: 1 / 7;
   height: 100px;
   white-space: nowrap;
+  cursor: pointer;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  background-position: center;
-  background-image: url('../img/portfolio/my_thumbnails/1.png');
-  cursor: pointer;
+  background-position: center;  
 }
 .portfolio_tab_header{
   position: relative;  
@@ -1287,6 +1286,15 @@ transition: all 500ms ease;
   -ms-transition: all 250ms ease;
   -o-transition: all 250ms ease;
   transition: all 250ms ease;  
+}
+.portfolio_tab_one{
+  background-image: url('../img/portfolio/my_thumbnails/1.png');
+}
+.portfolio_tab_two{
+  background-image: url('../img/portfolio/my_thumbnails/2.png');
+}
+.portfolio_tab_three{
+  background-image: url('../img/portfolio/my_thumbnails/3.png');
 }
 .portfolio_tab_description{
   margin-top: 0;
