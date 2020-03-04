@@ -1395,7 +1395,7 @@ aside {
   }
   .portfolio_header_placement{
     position: relative;
-    grid-column: 1 / 7;
+    grid-column: 1 / 13;
     margin: 0 auto;
     overflow: hidden;
 
@@ -1427,7 +1427,6 @@ aside {
     -webkit-text-stroke-color: #CFCFCF;  
   }
   .portforlio_tab_cover{
-    grid-column: 1 / 7;
     position: absolute;
     height: 100px;
     width: 100%;
@@ -1443,6 +1442,36 @@ aside {
     transition: all 500ms ease;
     opacity: .75; 
 
+  }
+  .portforlio_tab_cover_mq_1{
+    grid-column: 1 / 7;
+  }
+  .portforlio_tab_cover_mq_2{
+    grid-column: 7 / 13;
+  }
+  .portforlio_tab_cover_mq_3{
+    grid-column: 1 / 7;
+  }
+  .portforlio_tab_cover_mq_4{
+    grid-column: 7 / 13;
+  }
+  .portforlio_tab_cover_mq_5{
+    grid-column: 1 / 7;
+  }
+  .portforlio_tab_cover_mq_6{
+    grid-column: 7 / 13;
+  }
+  .portforlio_tab_cover_mq_7{
+    grid-column: 1 / 7;
+  }
+  .portforlio_tab_cover_mq_8{
+    grid-column: 7 / 13;
+  }
+  .portforlio_tab_cover_mq_9{
+    grid-column: 1 / 7;
+  }
+  .portforlio_tab_cover_mq_10{
+    grid-column: 7 / 13;
   }
 
   .portfolio_tab_placement:hover .portforlio_tab_cover { 
@@ -1519,9 +1548,11 @@ aside {
   }
   .portfolio_tab_one{
     background-image: url('../img/portfolio/my_thumbnails/1.png');
+    grid-column: 1 / 7;
   }
   .portfolio_tab_two{
     background-image: url('../img/portfolio/my_thumbnails/2.png');
+    grid-column: 7 / 13;
   }
   .portfolio_tab_three{
     background-image: url('../img/portfolio/my_thumbnails/3.png');
@@ -1678,7 +1709,6 @@ aside {
     background-color: #DBD755;
   }
   .portfolio_tab_placement{
-    grid-column: 1 / 7;
     height: 100px;
     white-space: nowrap;
     cursor: pointer;
