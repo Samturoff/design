@@ -83,18 +83,52 @@ h6 {
   font-family: brandon-grotesque, sans-serif;
   font-weight: 700;
 }
-h3{
-  font-size: 20px
-}
-h4{
-  font-size: 16px;
-}
 p {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  line-height: 1.8;
-  font-weight: 400;
 }
+@media (max-width: 767px) {
+  h2{
+    font-size: 24px
+  }
+  h3{
+    font-size: 20px
+  }
+  h4{
+    font-size: 16px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+  h3{
+    font-size: 22px
+  }
+  h4{
+    font-size: 18px;
+  }
+  p {
+    font-size: 18px;
+    line-height: 1.8;
+    font-weight: 400;
+  }
+}
+@media only screen and (min-width: 992px){
+  h3{
+    font-size: 22px
+  }
+  h4{
+    font-size: 18px;
+  }
+  p {
+    font-size: 18px;
+    line-height: 1.8;
+    font-weight: 400;
+  }
+}
+
 .bg-primary {
   background-color: #f2f2f2;
   color: #1a1a1a;
@@ -111,9 +145,6 @@ p {
   color: #1a1a1a;
 }
 
-section {
-  padding: 40px 0 0 0;
-}
 aside {
   padding: 50px 0;
 }
@@ -324,7 +355,7 @@ aside {
     top: 0px;
     left: 0px;
     width: 100%;
-    z-index: 900;
+    z-index: 1000;
 }
 .mobile_navbar{
     position: fixed;
@@ -597,9 +628,6 @@ aside {
     padding-right: 40px;
     color: #CFCFCF;
     max-width: 600px;
-  }
-  .section_header_size{
-    font-size: 20px;
   }
 
   .section_header_padding{
@@ -1234,6 +1262,7 @@ aside {
     background-color: #DBD755;
   }
   .portfolio_tab_placement{
+    position: relative;      
     grid-column: 1 / 7;
     height: 100px;
     white-space: nowrap;
@@ -1243,6 +1272,15 @@ aside {
     background-size: cover;
     -o-background-size: cover;
     background-position: center;  
+  }
+  .portfolio_mobile{
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-color: purple;    
   }
   .portfolio_tab_header{
     position: relative;  
@@ -1254,16 +1292,16 @@ aside {
     padding-left: 40px;
     padding-right: 40px;
     text-align: left; 
-    z-index: 1000;
     -webkit-transition: all 250ms ease;
     -moz-transition: all 250ms ease;
     -ms-transition: all 250ms ease;
     -o-transition: all 250ms ease;
-    transition: all 250ms ease;  
-
+    transition: all 250ms ease;
   }
+  .portfolio_desktop{
+    display:none;
+  }  
   .portfolio_tab_info{
-    grid-column: 1 / 7;
     position: relative;
     margin-top: 0;
     padding-left: 40px;
@@ -1272,7 +1310,6 @@ aside {
     color: #CFCFCF;
     width: 100%;
     text-align: left;
-    z-index: 1000;
     -webkit-transition: all 250ms ease;
     -moz-transition: all 250ms ease;
     -ms-transition: all 250ms ease;
@@ -1376,11 +1413,6 @@ aside {
     height: 400px;  
     background-color: purple;
   }
-  .booty{
-    width: 20px;
-    height: 20px;
-    background-color: purple;
-  }
 }
 
 
@@ -1413,7 +1445,6 @@ aside {
   #reveal1.visible {
     color: #D5D021;
     -webkit-text-stroke-color: black;  
-
   }
   .portfolio_header{
     position: relative;  
@@ -1425,10 +1456,13 @@ aside {
     text-align: center !important;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #CFCFCF;  
+  } 
+  .portfolio_desktop{
+    display:none;
   }
   .portforlio_tab_cover{
     position: absolute;
-    height: 100px;
+    height: 125px;
     width: 100%;
     background: linear-gradient(to bottom, hsla(240, 8%, 15%,1), hsla(240, 8%,9%,1));
     box-shadow: inset 0 1px 0 hsla(255,255%,255%,0.05), 
@@ -1443,37 +1477,6 @@ aside {
     opacity: .75; 
 
   }
-  .portforlio_tab_cover_mq_1{
-    grid-column: 1 / 7;
-  }
-  .portforlio_tab_cover_mq_2{
-    grid-column: 7 / 13;
-  }
-  .portforlio_tab_cover_mq_3{
-    grid-column: 1 / 7;
-  }
-  .portforlio_tab_cover_mq_4{
-    grid-column: 7 / 13;
-  }
-  .portforlio_tab_cover_mq_5{
-    grid-column: 1 / 7;
-  }
-  .portforlio_tab_cover_mq_6{
-    grid-column: 7 / 13;
-  }
-  .portforlio_tab_cover_mq_7{
-    grid-column: 1 / 7;
-  }
-  .portforlio_tab_cover_mq_8{
-    grid-column: 7 / 13;
-  }
-  .portforlio_tab_cover_mq_9{
-    grid-column: 1 / 7;
-  }
-  .portforlio_tab_cover_mq_10{
-    grid-column: 7 / 13;
-  }
-
   .portfolio_tab_placement:hover .portforlio_tab_cover { 
     opacity: .5; 
   }
@@ -1487,8 +1490,8 @@ aside {
     background-color: #DBD755;
   }
   .portfolio_tab_placement{
-    grid-column: 1 / 7;
-    height: 100px;
+    grid-column: 1 / 13;        
+    height: 125px;
     white-space: nowrap;
     cursor: pointer;
     -webkit-background-size: cover;
@@ -1497,11 +1500,20 @@ aside {
     -o-background-size: cover;
     background-position: center;  
   }
+  .portfolio_mobile{
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-color: purple;    
+  }   
   .portfolio_tab_header{
     position: relative;  
     color: #CFCFCF;
     margin-top: 0;
-    padding-top: 20px;
+    padding-top: 31px;
     height: 25%;
     width: 100%;
     padding-left: 40px;
@@ -1513,12 +1525,11 @@ aside {
     -ms-transition: all 250ms ease;
     -o-transition: all 250ms ease;
     transition: all 250ms ease;  
-
   }
   .portfolio_tab_info{
     grid-column: 1 / 7;
     position: relative;
-    margin-top: 0;
+    padding-top: 15px;
     padding-left: 40px;
     padding-right: 40px;  
     display: inline-block;  
@@ -1533,12 +1544,12 @@ aside {
     transition: all 250ms ease;  
   }
   .portfolio_border{
-    margin-top: 15px;
+    margin-top: 5px;
     padding-left: 40px;
     padding-right: 40px;   
     border-radius: 25px;  
     height: 4px;
-    width: 200px;
+    width: 250px;
     background-color: #CFCFCF;
     -webkit-transition: all 250ms ease;
     -moz-transition: all 250ms ease;
@@ -1548,56 +1559,86 @@ aside {
   }
   .portfolio_tab_one{
     background-image: url('../img/portfolio/my_thumbnails/1.png');
-    grid-column: 1 / 7;
+    height: 125px;    
   }
   .portfolio_tab_two{
+    grid-column: 1 / 13;    
     background-image: url('../img/portfolio/my_thumbnails/2.png');
-    grid-column: 7 / 13;
   }
   .portfolio_tab_three{
+    grid-column: 1 / 13;    
     background-image: url('../img/portfolio/my_thumbnails/3.png');
   }
+  .portfolio_tab_four{
+    grid-column: 1 / 13;    
+    background-image: url('../img/portfolio/my_thumbnails/3.png');
+  }
+  .portfolio_tab_five{
+    grid-column: 1 / 13;    
+    background-image: url('../img/portfolio/my_thumbnails/3.png');
+  }
+  .portfolio_tab_six{
+    grid-column: 1 / 13;    
+    background-image: url('../img/portfolio/my_thumbnails/3.png');
+  }
+  .portfolio_tab_seven{
+    grid-column: 1 / 13;    
+    background-image: url('../img/portfolio/my_thumbnails/3.png');
+  }
+  .portfolio_tab_eight{
+    grid-column: 1 / 13;    
+    background-image: url('../img/portfolio/my_thumbnails/3.png');
+  }
+  .portfolio_tab_nine{
+    grid-column: 1 / 13;    
+    background-image: url('../img/portfolio/my_thumbnails/3.png');
+  }
+  .portfolio_tab_ten{
+    grid-column: 1 / 13;    
+    background-image: url('../img/portfolio/my_thumbnails/3.png');
+  }
+
   .portfolio_tab_description{
     margin-top: 0;
     padding-top: 6px;
   }
   .portfolio_project_one{
-    grid-column: 1 / 7;
+    grid-column: 1 / 13;
     height: 400px;  
     background-color: purple;
   }
   .portfolio_project_two{
-    grid-column: 1 / 7;
+    grid-column: 1 / 13;
     height: 400px;  
     background-color: purple;
   }
   .portfolio_project_three{
-    grid-column: 1 / 7;
+    grid-column: 1 / 13;
     height: 400px;  
     background-color: purple;
   }
   .portfolio_project_four{
-    grid-column: 1 / 7;
+    grid-column: 1 / 13;
     height: 400px;  
     background-color: purple;
   }
   .portfolio_project_five{
-    grid-column: 1 / 7;
+    grid-column: 1 / 13;
     height: 400px;  
     background-color: purple;
   }
   .portfolio_project_six{
-    grid-column: 1 / 7;
+    grid-column: 1 / 13;
     height: 400px;  
     background-color: purple;
   }
   .portfolio_project_seven{
-    grid-column: 1 / 7;
+    grid-column: 1 / 13;
     height: 400px;  
     background-color: purple;
   }
   .portfolio_project_eight{
-    grid-column: 1 / 7;
+    grid-column: 1 / 13;
     height: 400px;  
     background-color: purple;
   }
@@ -1607,32 +1648,31 @@ aside {
     background-color: purple;
   }
   .portfolio_project_ten{
-    grid-column: 1 / 7;
+    grid-column: 1 / 13;
     height: 400px;  
     background-color: purple;
   }
   .portfolio_project_eleven{
-    grid-column: 1 / 7;
+    grid-column: 1 / 13;
     height: 400px;  
     background-color: purple;
   }
   .portfolio_project_twelve{
-    grid-column: 1 / 7;
+    grid-column: 1 / 13;
     height: 400px;  
     background-color: purple;
   }
   .portfolio_project_thirteen{
-    grid-column: 1 / 7;
+    grid-column: 1 / 13;
     height: 400px;  
     background-color: purple;
   }
   .portfolio_project_fourteen{
-    grid-column: 1 / 7;
+    grid-column: 1 / 13;
     height: 400px;  
     background-color: purple;
   }
 }
-
 
 
 
@@ -1646,10 +1686,9 @@ aside {
   }
   .portfolio_header_placement{
     position: relative;
-    grid-column: 1 / 7;
+    grid-column: 1 / 13;
     margin: 0 auto;
     overflow: hidden;
-
     padding-top: 50px;
     padding-bottom: 75px;
     width: 100%;
@@ -1664,7 +1703,6 @@ aside {
   #reveal1.visible {
     color: #D5D021;
     -webkit-text-stroke-color: black;  
-
   }
   .portfolio_header{
     position: relative;  
@@ -1677,10 +1715,80 @@ aside {
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #CFCFCF;  
   }
+  .portfolio_mobile{
+    display:none;
+  }
+  .portfolio_mobile_hide{
+    display:none;    
+  }  
+  .portfolio_left:hover .portforlio_tab_cover { 
+    opacity: .5; 
+  }
+  .portfolio_left:hover .portfolio_tab_header { 
+    color: #DBD755;
+  }
+  .portfolio_left:hover .portfolio_tab_info { 
+    color: #DBD755;
+  }
+  .portfolio_left:hover .portfolio_border { 
+    background-color: #DBD755;
+  }
+  .portfolio_right:hover .portforlio_tab_cover { 
+    opacity: .5; 
+  }
+  .portfolio_right:hover .portfolio_tab_header { 
+    color: #DBD755;
+  }
+  .portfolio_right:hover .portfolio_tab_info { 
+    color: #DBD755;
+  }
+  .portfolio_right:hover .portfolio_border { 
+    background-color: #DBD755;
+  }  
+  .portfolio_tab_placement{
+    position: relative;
+    height: 125px;
+    white-space: nowrap;
+    cursor: pointer;
+    grid-column: 1 / 13;
+  }
+  .portfolio_desktop{
+    position: relative;
+  }  
+  .portfolio_left{
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    height: 125px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-color: purple;
+  }
+  .portfolio_bg_1{
+    background-image: url('../img/portfolio/my_thumbnails/1.png');    
+  }  
+  .portfolio_bg_2{
+    background-image: url('../img/portfolio/my_thumbnails/2.png');
+  }    
+  .portfolio_right{
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    height: 125px;
+    background-image: url('../img/portfolio/my_thumbnails/2.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-color: purple;
+  }
   .portforlio_tab_cover{
-    grid-column: 1 / 7;
     position: absolute;
-    height: 100px;
+    height: 125px;
     width: 100%;
     background: linear-gradient(to bottom, hsla(240, 8%, 15%,1), hsla(240, 8%,9%,1));
     box-shadow: inset 0 1px 0 hsla(255,255%,255%,0.05), 
@@ -1693,36 +1801,12 @@ aside {
     -o-transition: all 500ms ease;
     transition: all 500ms ease;
     opacity: .75; 
-
-  }
-
-  .portfolio_tab_placement:hover .portforlio_tab_cover { 
-    opacity: .5; 
-  }
-  .portfolio_tab_placement:hover .portfolio_tab_header { 
-    color: #DBD755;
-  }
-  .portfolio_tab_placement:hover .portfolio_tab_info { 
-    color: #DBD755;
-  }
-  .portfolio_tab_placement:hover .portfolio_border { 
-    background-color: #DBD755;
-  }
-  .portfolio_tab_placement{
-    height: 100px;
-    white-space: nowrap;
-    cursor: pointer;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    background-position: center;  
-  }
+  }  
   .portfolio_tab_header{
     position: relative;  
     color: #CFCFCF;
     margin-top: 0;
-    padding-top: 20px;
+    padding-top: 31px;
     height: 25%;
     width: 100%;
     padding-left: 40px;
@@ -1734,12 +1818,11 @@ aside {
     -ms-transition: all 250ms ease;
     -o-transition: all 250ms ease;
     transition: all 250ms ease;  
-
   }
   .portfolio_tab_info{
     grid-column: 1 / 7;
     position: relative;
-    margin-top: 0;
+    padding-top: 15px;
     padding-left: 40px;
     padding-right: 40px;  
     display: inline-block;  
@@ -1754,12 +1837,12 @@ aside {
     transition: all 250ms ease;  
   }
   .portfolio_border{
-    margin-top: 15px;
+    margin-top: 5px;
     padding-left: 40px;
     padding-right: 40px;   
     border-radius: 25px;  
     height: 4px;
-    width: 200px;
+    width: 250px;
     background-color: #CFCFCF;
     -webkit-transition: all 250ms ease;
     -moz-transition: all 250ms ease;
@@ -1767,13 +1850,40 @@ aside {
     -o-transition: all 250ms ease;
     transition: all 250ms ease;  
   }
-  .portfolio_tab_one{
-    background-image: url('../img/portfolio/my_thumbnails/1.png');
-  }
   .portfolio_tab_two{
+    grid-column: 7 / 13;    
     background-image: url('../img/portfolio/my_thumbnails/2.png');
   }
   .portfolio_tab_three{
+    grid-column: 1 / 7;    
+    background-image: url('../img/portfolio/my_thumbnails/3.png');
+  }
+  .portfolio_tab_four{
+    grid-column: 7 / 13;    
+    background-image: url('../img/portfolio/my_thumbnails/3.png');
+  }
+  .portfolio_tab_five{
+    grid-column: 1 / 7;    
+    background-image: url('../img/portfolio/my_thumbnails/3.png');
+  }
+  .portfolio_tab_six{
+    grid-column: 7 / 13;    
+    background-image: url('../img/portfolio/my_thumbnails/3.png');
+  }
+  .portfolio_tab_seven{
+    grid-column: 1 / 7;    
+    background-image: url('../img/portfolio/my_thumbnails/3.png');
+  }
+  .portfolio_tab_eight{
+    grid-column: 7 / 13;    
+    background-image: url('../img/portfolio/my_thumbnails/3.png');
+  }
+  .portfolio_tab_nine{
+    grid-column: 1 / 7;    
+    background-image: url('../img/portfolio/my_thumbnails/3.png');
+  }
+  .portfolio_tab_ten{
+    grid-column: 7 / 13;    
     background-image: url('../img/portfolio/my_thumbnails/3.png');
   }
   .portfolio_tab_description{
@@ -1781,42 +1891,42 @@ aside {
     padding-top: 6px;
   }
   .portfolio_project_one{
-    grid-column: 1 / 7;
+    grid-column: 1 / 13;
     height: 400px;  
     background-color: purple;
   }
   .portfolio_project_two{
-    grid-column: 1 / 7;
+    grid-column: 1 / 13;
     height: 400px;  
-    background-color: purple;
+    background-color: aqua;
   }
   .portfolio_project_three{
-    grid-column: 1 / 7;
+    grid-column: 1 / 13;
     height: 400px;  
     background-color: purple;
   }
   .portfolio_project_four{
-    grid-column: 1 / 7;
+    grid-column: 1 / 13;
     height: 400px;  
     background-color: purple;
   }
   .portfolio_project_five{
-    grid-column: 1 / 7;
+    grid-column: 1 / 13;
     height: 400px;  
     background-color: purple;
   }
   .portfolio_project_six{
-    grid-column: 1 / 7;
+    grid-column: 1 / 13;
     height: 400px;  
     background-color: purple;
   }
   .portfolio_project_seven{
-    grid-column: 1 / 7;
+    grid-column: 1 / 13;
     height: 400px;  
     background-color: purple;
   }
   .portfolio_project_eight{
-    grid-column: 1 / 7;
+    grid-column: 1 / 13;
     height: 400px;  
     background-color: purple;
   }
@@ -1826,27 +1936,27 @@ aside {
     background-color: purple;
   }
   .portfolio_project_ten{
-    grid-column: 1 / 7;
+    grid-column: 1 / 13;
     height: 400px;  
     background-color: purple;
   }
   .portfolio_project_eleven{
-    grid-column: 1 / 7;
+    grid-column: 1 / 13;
     height: 400px;  
     background-color: purple;
   }
   .portfolio_project_twelve{
-    grid-column: 1 / 7;
+    grid-column: 1 / 13;
     height: 400px;  
     background-color: purple;
   }
   .portfolio_project_thirteen{
-    grid-column: 1 / 7;
+    grid-column: 1 / 13;
     height: 400px;  
     background-color: purple;
   }
   .portfolio_project_fourteen{
-    grid-column: 1 / 7;
+    grid-column: 1 / 13;
     height: 400px;  
     background-color: purple;
   }
