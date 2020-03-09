@@ -400,7 +400,7 @@ $(function portfolioMoveLeft() {
     var tween = TweenMax.staggerFromTo(".portfolio_header1", 2, {left: 700}, {left: 0, ease: Power4.easeOut}, 0.0);
 
     // build scene
-    var scene = new ScrollMagic.Scene({triggerElement: "#trigger1", duration: 200})
+    var scene = new ScrollMagic.Scene({triggerElement: "#trigger1", duration: 400})
                     .setTween(tween)
 //                    .addIndicators({name: "staggering"}) // add indicators (requires plugin)
                     .addTo(controller);
@@ -411,11 +411,17 @@ $(function portfolioMoveright() {
     var tween = TweenMax.staggerFromTo(".portfolio_header2", 2, {right: 700}, {left: 0, ease: Power4.easeOut}, 0.0);
 
     // build scene
-    var scene = new ScrollMagic.Scene({triggerElement: "#trigger1", duration: 200})
+    var scene = new ScrollMagic.Scene({triggerElement: "#trigger1", duration: 400})
                     .setTween(tween)
 //                    .addIndicators({name: "staggering"}) // add indicators (requires plugin)
                     .addTo(controller);
 });
+
+
+
+
+
+
 $(function portfolioTransitionColor() {
     var controller = new ScrollMagic.Controller();    
 
@@ -429,6 +435,11 @@ $(function portfolioTransitionColor() {
 //    .addIndicators({name: "reveal"}) // add indicators (requires plugin)
     .addTo(controller);
 });
+
+
+
+
+
 $(function lTransition() {
     var controller = new ScrollMagic.Controller();    
     // build tween
