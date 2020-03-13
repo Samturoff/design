@@ -376,6 +376,19 @@ aside {
     0 1px 2px hsla(0,0%,0%,0.9);
     border-top: 2px solid hsla(240, 9%, 6%,1);
 }
+.desktop_navbar{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    display: block;
+    z-index: 999;
+    opacity: .9;
+    background: linear-gradient(to bottom, hsla(240, 8%, 15%,1), hsla(240, 8%,9%,1));
+    box-shadow: inset 0 1px 0 hsla(255,255%,255%,0.05), 
+    inset 0 0 1px hsla(255,255%,255%,0.1), 0 4px 6px hsla(0,0%,0%,0.85), 
+    0 1px 2px hsla(0,0%,0%,0.9);
+    border-top: 2px solid hsla(240, 9%, 6%,1);
+}
 .icon {
     position: fixed;
     cursor: pointer;
@@ -471,7 +484,20 @@ aside {
 .menu-mobile a:hover {
     color: #FFFB63;
 }
-
+.menu-desktop {
+  margin-top: 5px;
+  z-index: 1000;   
+}
+.menu-desktop a {
+    text-decoration: none;
+    color: #DEDEDE;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 700;
+    font-size: 20px;    
+}
+.menu-desktop a:hover {
+    color: #FFFB63;
+}
 .desktop, .menu-desktop, .menu-mobile {
         display: none;
 }
@@ -503,9 +529,6 @@ aside {
         text-decoration: none;
         color: #DEDEDE;
         justify-content: space-evenly;
-    }
-    .menu-desktop a:hover {
-        color: red;
     }
 
     .desktop {
@@ -1116,31 +1139,31 @@ aside {
     color: #CFCFCF;
   }
   .header_margin_0{
-    margin-top: 120px;  
+    margin-top: 160px;  
   }
   .header_margin_1{
-    margin-top: 60px;  
+    margin-top: 80px;  
   }
   .header_margin_2{
-    margin-top: 140px;  
-  }
-  .header_margin_3{
     margin-top: 180px;  
   }
+  .header_margin_3{
+    margin-top: 220px;  
+  }
   .header_margin_4{
-    margin-top: 240px;  
+    margin-top: 280px;  
   }
   .header_margin_5{
-    margin-top: 300px;  
+    margin-top: 340px;  
   }
   .header_margin_6{
-    margin-top: 360px;  
+    margin-top: 440px;  
   }
   .header_margin_7{
-    margin-top: 100px;  
+    margin-top: 140px;  
   }
   .header_margin_8{
-    margin-top: 260px;  
+    margin-top: 300px;  
   }
   .about_me_image_placement{
     grid-column: 1 / 13;
@@ -1764,9 +1787,9 @@ aside {
   -webkit-transform:translateX(100%); 
   transform:translateX(100%);
   /* Apply animation to this element */ 
-  -moz-animation: scroll-left 12s linear infinite;
-  -webkit-animation: scroll-left 12s linear infinite;
-  animation: scroll-left 12s linear infinite;
+  -moz-animation: scroll-left 16s linear infinite;
+  -webkit-animation: scroll-left 16s linear infinite;
+  animation: scroll-left 16s linear infinite;
   }
   /* Move it (define the animation) */
   @-moz-keyframes scroll-left1 {
@@ -1809,9 +1832,9 @@ aside {
   -webkit-transform:translateX(100%); 
   transform:translateX(100%);
   /* Apply animation to this element */ 
-  -moz-animation: scroll-left 8s linear infinite;
-  -webkit-animation: scroll-left 8s linear infinite;
-  animation: scroll-left 8s linear infinite;
+  -moz-animation: scroll-left 12s linear infinite;
+  -webkit-animation: scroll-left 12s linear infinite;
+  animation: scroll-left 12s linear infinite;
   }
   /* Move it (define the animation) */
   @-moz-keyframes scroll-left2 {
@@ -1854,9 +1877,9 @@ aside {
   -webkit-transform:translateX(100%); 
   transform:translateX(100%);
   /* Apply animation to this element */ 
-  -moz-animation: scroll-left 14s linear infinite;
-  -webkit-animation: scroll-left 14s linear infinite;
-  animation: scroll-left 14s linear infinite;
+  -moz-animation: scroll-left 18s linear infinite;
+  -webkit-animation: scroll-left 18s linear infinite;
+  animation: scroll-left 18s linear infinite;
   }
   /* Move it (define the animation) */
   @-moz-keyframes scroll-left3 {
@@ -1899,9 +1922,9 @@ aside {
   -webkit-transform:translateX(100%); 
   transform:translateX(100%);
   /* Apply animation to this element */ 
-  -moz-animation: scroll-left 11s linear infinite;
-  -webkit-animation: scroll-left 11s linear infinite;
-  animation: scroll-left 11s linear infinite;
+  -moz-animation: scroll-left 15s linear infinite;
+  -webkit-animation: scroll-left 15s linear infinite;
+  animation: scroll-left 15s linear infinite;
   }
   /* Move it (define the animation) */
   @-moz-keyframes scroll-left4 {
@@ -1944,9 +1967,9 @@ aside {
   -webkit-transform:translateX(100%); 
   transform:translateX(100%);
   /* Apply animation to this element */ 
-  -moz-animation: scroll-left 9s linear infinite;
-  -webkit-animation: scroll-left 9s linear infinite;
-  animation: scroll-left 9s linear infinite;
+  -moz-animation: scroll-left 17s linear infinite;
+  -webkit-animation: scroll-left 17s linear infinite;
+  animation: scroll-left 17s linear infinite;
   }
   /* Move it (define the animation) */
   @-moz-keyframes scroll-left5 {
@@ -1989,9 +2012,9 @@ aside {
   -webkit-transform:translateX(100%); 
   transform:translateX(100%);
   /* Apply animation to this element */ 
-  -moz-animation: scroll-left 14s linear infinite;
-  -webkit-animation: scroll-left 14s linear infinite;
-  animation: scroll-left 14s linear infinite;
+  -moz-animation: scroll-left 22s linear infinite;
+  -webkit-animation: scroll-left 22s linear infinite;
+  animation: scroll-left 22s linear infinite;
   }
   /* Move it (define the animation) */
   @-moz-keyframes scroll-left6 {
@@ -2034,9 +2057,9 @@ aside {
   -webkit-transform:translateX(100%); 
   transform:translateX(100%);
   /* Apply animation to this element */ 
-  -moz-animation: scroll-left 18s linear infinite;
-  -webkit-animation: scroll-left 18s linear infinite;
-  animation: scroll-left 18s linear infinite;
+  -moz-animation: scroll-left 26s linear infinite;
+  -webkit-animation: scroll-left 26s linear infinite;
+  animation: scroll-left 26s linear infinite;
   }
   /* Move it (define the animation) */
   @-moz-keyframes scroll-left7 {
@@ -2079,9 +2102,9 @@ aside {
   -webkit-transform:translateX(100%); 
   transform:translateX(100%);
   /* Apply animation to this element */ 
-  -moz-animation: scroll-left 22s linear infinite;
-  -webkit-animation: scroll-left 22s linear infinite;
-  animation: scroll-left 22s linear infinite;
+  -moz-animation: scroll-left 30s linear infinite;
+  -webkit-animation: scroll-left 30s linear infinite;
+  animation: scroll-left 30s linear infinite;
   }
   /* Move it (define the animation) */
   @-moz-keyframes scroll-left8 {
@@ -2248,6 +2271,7 @@ aside {
     margin: 0 auto;
     margin-top: -200px;
     background-color: #171717;
+    padding-top: 60px;        
     padding-left: 40px;
     padding-right: 40px;
     color: #CFCFCF;
@@ -2259,6 +2283,7 @@ aside {
     text-align: center;
     margin: 0 auto;
     background-color: #171717;
+    padding-top: 100px;        
     padding-left: 40px;
     padding-right: 40px;
     color: #CFCFCF;
@@ -2270,6 +2295,7 @@ aside {
     text-align: center;
     margin: 0 auto;
     background-color: #171717;
+    padding-top: 100px;        
     padding-left: 40px;
     padding-right: 40px;
     color: #CFCFCF;
@@ -2281,6 +2307,7 @@ aside {
     text-align: center;
     margin: 0 auto;
     background-color: #171717;
+    padding-top: 100px;        
     padding-left: 40px;
     padding-right: 40px;
     color: #CFCFCF;
@@ -2312,6 +2339,8 @@ aside {
   }
   .skills_cube_placement{
     grid-column: 1 / 13;
+    max-width: 992px;
+    margin: 0 auto;
     transform: scale(1.3);
   }
   .container_cube {
@@ -2716,6 +2745,19 @@ aside {
 /* END OF SKILLS */
 
 /* PORTFOLIO */
+  .portforlio_tab_cover_clicked { 
+    opacity: .5 !important; 
+  }
+  .portfolio_tab_header_clicked { 
+    color: #DBD755 !important;
+  }
+  .portfolio_tab_info_clicked { 
+    color: #DBD755 !important;
+  }
+  .portfolio_border_clicked { 
+    background-color: #DBD755 !important;
+  }
+
 @media (max-width: 767px) {
   .portfolio{
     display: grid;
@@ -2892,7 +2934,6 @@ aside {
   }
   .portfolio_project_one{
     grid-column: 1 / 7;
-    height: 400px;  
     background-color: purple;
   }
   .portfolio_project_two{
@@ -2931,7 +2972,7 @@ aside {
     background-color: purple;
   }
   .portfolio_project_nine{
-    grid-column: 1 / 13;
+    grid-column: 1 / 7;
     height: 400px;  
     background-color: purple;
   }
@@ -2960,6 +3001,9 @@ aside {
     height: 400px;  
     background-color: purple;
   }
+  .trigger_lets_hide_desktop{
+    display: none;
+  }  
 }
 
 
@@ -3190,7 +3234,7 @@ aside {
     background-color: purple;
   }
   .portfolio_project_nine{
-    grid-column: 1 / 7;
+    grid-column: 1 / 13;
     height: 400px;  
     background-color: purple;
   }
@@ -3219,6 +3263,10 @@ aside {
     height: 400px;  
     background-color: purple;
   }
+  .trigger_lets_hide_desktop{
+    display: none;
+  } 
+  
 }
 
 
@@ -3478,7 +3526,7 @@ aside {
     background-color: aqua;
   }
   .portfolio_project_nine{
-    grid-column: 1 / 7;
+    grid-column: 1 / 13;
     height: 400px;  
     background-color: purple;
   }
@@ -3506,6 +3554,9 @@ aside {
     grid-column: 1 / 13;
     height: 400px;  
     background-color: aqua;
+  }
+  .trigger_lets_hide_mobile{
+    display: none;
   }
 }
 /* END OF PORTFOLIO */
@@ -3566,7 +3617,9 @@ transition: all 1000ms ease;
   grid-column: 1 / 7;
   color: #CFCFCF;
   padding-left: 40px;
-  padding-right: 40px; 
+  padding-right: 40px;
+  max-width: 600px;
+  margin: 0 auto;
 }
 .contact_intro_text{
   color: #CFCFCF;
@@ -3591,6 +3644,20 @@ transition: all 1000ms ease;
   color: #CFCFCF;
   padding-right: 40px;
 }
+@media only screen and (min-width: 992px){
+  .contact_placement_info{
+    grid-column: 2 / 4;
+    margin: 0 auto;
+    color: #CFCFCF;
+    padding-left: 40px;
+  }
+  .contact_placement_social{
+    grid-column: 4 / 6;
+    margin: 0 auto;
+    color: #CFCFCF;
+    padding-right: 40px;
+  }
+}
 .contact_social{
   line-height: 20px;
   color: #CFCFCF;
@@ -3605,9 +3672,81 @@ transition: all 1000ms ease;
   padding-top: 60px;
 }
 /* END OF CONACT*/
+/* PORTFOLIO PROJECTS MEDIA QUERIES */
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  .portfolio_project_mq{
+    width: 1281px;
+  }  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .portfolio_project_mq{
+    width: 1025px;
+  }   
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .portfolio_project_mq{
+    width: 1025px;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .portfolio_project_mq{
+    width: 768px;
+  }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .portfolio_project_mq{
+    width: 481px;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .portfolio_project_mq{
+    width: 320px;
+    overflow: hidden;
+  }
+}
+@media (max-width: 319px){
+  .portfolio_project_mq{
+    display: none;
+  }
+}
 
 /* ---------------------------------------------------- MY CODE ----------------------------------------------------*/
-
 
 
 

@@ -2,6 +2,7 @@
 'use strict'
 $(document).ready(function(){
     $('.mobile_navbar').hide();
+    $('.desktop_navbar').hide();
 
     $( ".portfolio_project_one" ).hide();
     $( ".portfolio_project_two" ).hide();
@@ -53,7 +54,43 @@ $(document).ready(function(){
 
     }
     
-  }) 
+  })
+    $(window).scroll(function(){
+    var light_pos = $('#container_color_changer').offset().top;
+    var light_height = $('#container_color_changer').height();
+    var menu_pos = $('.desktop').offset().top;
+    var menu_height = $('.desktop').height();
+    var scroll = $(window).scrollTop();
+    console.log('light',light_pos);
+    console.log('menu',menu_pos);
+    console.log('scroll',scroll);
+    
+    if(menu_pos > light_pos && menu_pos < (light_pos + light_height)) {
+//        $('.hamburger').addClass('menu_white');
+//        $('.hamburger').removeClass('menu_black');
+
+//        $('.hamburger2').addClass('menu_white');
+//        $('.hamburger2').removeClass('menu_black');
+
+//        $('.hamburger3').addClass('menu_white');
+//        $('.hamburger3').removeClass('menu_black');
+
+        $('.desktop_navbar').fadeIn();
+    }
+    else {
+//        $('.hamburger').removeClass('menu_white');
+//        $('.hamburger').addClass('menu_black');
+
+//        $('.hamburger2').removeClass('menu_white');
+//        $('.hamburger2').addClass('menu_black');
+
+//        $('.hamburger3').removeClass('menu_white');
+//        $('.hamburger3').addClass('menu_black');
+        $('.desktop_navbar').fadeOut();
+
+    }
+    
+  })     
 })
 
 //Hamburger menu + scroll button
@@ -101,9 +138,24 @@ $(function() {
         $( ".portfolio_project_eleven" ).slideUp( 1000 );                
         $( ".portfolio_project_twelve" ).slideUp( 1000 );                
         $( ".portfolio_project_thirteen" ).slideUp( 1000 );                
-        $( ".portfolio_project_fourteen" ).slideUp( 1000 );                
+        $( ".portfolio_project_fourteen" ).slideUp( 1000 );
+
+        $('.portforlio_tab_cover').removeClass('portforlio_tab_cover_clicked');
+        $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
+        $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
+        $('.portfolio_border').removeClass('portfolio_border_clicked');     
+
+        $('.portfolio_tab_one').find('.portforlio_tab_cover').addClass('portforlio_tab_cover_clicked');
+        $('.portfolio_tab_one').find('.portfolio_tab_header').addClass('portfolio_tab_header_clicked');
+        $('.portfolio_tab_one').find('.portfolio_tab_info').addClass('portfolio_tab_info_clicked');
+        $('.portfolio_tab_one').find('.portfolio_border').addClass('portfolio_border_clicked');
+
       } else {
         $( ".portfolio_project_one" ).slideUp( 1000 );
+        $('.portforlio_tab_cover').removeClass('portforlio_tab_cover_clicked');
+        $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
+        $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
+        $('.portfolio_border').removeClass('portfolio_border_clicked');        
       }
     });
     
@@ -123,9 +175,24 @@ $(function() {
         $( ".portfolio_project_twelve" ).slideUp( 1000 );                
         $( ".portfolio_project_thirteen" ).slideUp( 1000 );                
         $( ".portfolio_project_fourteen" ).slideUp( 1000 );
+
+        $('.portforlio_tab_cover').removeClass('portforlio_tab_cover_clicked');
+        $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
+        $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
+        $('.portfolio_border').removeClass('portfolio_border_clicked');
+
+        $('.portfolio_tab_two').find('.portforlio_tab_cover').addClass('portforlio_tab_cover_clicked');
+        $('.portfolio_tab_two').find('.portfolio_tab_header').addClass('portfolio_tab_header_clicked');
+        $('.portfolio_tab_two').find('.portfolio_tab_info').addClass('portfolio_tab_info_clicked');
+        $('.portfolio_tab_two').find('.portfolio_border').addClass('portfolio_border_clicked');      
         } 
         else {
-        $( ".portfolio_project_two" ).slideUp( 1000 );        
+        $( ".portfolio_project_two" ).slideUp( 1000 );
+
+        $('.portforlio_tab_cover').removeClass('portforlio_tab_cover_clicked');
+        $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
+        $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
+        $('.portfolio_border').removeClass('portfolio_border_clicked');          
       }
     }); 
     
@@ -144,10 +211,25 @@ $(function() {
         $( ".portfolio_project_eleven" ).slideUp( 1000 );                
         $( ".portfolio_project_twelve" ).slideUp( 1000 );                
         $( ".portfolio_project_thirteen" ).slideUp( 1000 );                
-        $( ".portfolio_project_fourteen" ).slideUp( 1000 );      
+        $( ".portfolio_project_fourteen" ).slideUp( 1000 );
+
+        $('.portforlio_tab_cover').removeClass('portforlio_tab_cover_clicked');
+        $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
+        $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
+        $('.portfolio_border').removeClass('portfolio_border_clicked');
+
+        $('.portfolio_tab_three').find('.portforlio_tab_cover').addClass('portforlio_tab_cover_clicked');
+        $('.portfolio_tab_three').find('.portfolio_tab_header').addClass('portfolio_tab_header_clicked');
+        $('.portfolio_tab_three').find('.portfolio_tab_info').addClass('portfolio_tab_info_clicked');
+        $('.portfolio_tab_three').find('.portfolio_border').addClass('portfolio_border_clicked');                
         } 
         else {
-        $( ".portfolio_project_three" ).slideUp( 1000 );        
+        $( ".portfolio_project_three" ).slideUp( 1000 );
+
+        $('.portforlio_tab_cover').removeClass('portforlio_tab_cover_clicked');
+        $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
+        $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
+        $('.portfolio_border').removeClass('portfolio_border_clicked');                
       }
     });
     
@@ -166,10 +248,25 @@ $(function() {
         $( ".portfolio_project_eleven" ).slideUp( 1000 );                
         $( ".portfolio_project_twelve" ).slideUp( 1000 );                
         $( ".portfolio_project_thirteen" ).slideUp( 1000 );                
-        $( ".portfolio_project_fourteen" ).slideUp( 1000 );      
+        $( ".portfolio_project_fourteen" ).slideUp( 1000 );
+
+        $('.portforlio_tab_cover').removeClass('portforlio_tab_cover_clicked');
+        $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
+        $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
+        $('.portfolio_border').removeClass('portfolio_border_clicked');
+
+        $('.portfolio_tab_four').find('.portforlio_tab_cover').addClass('portforlio_tab_cover_clicked');
+        $('.portfolio_tab_four').find('.portfolio_tab_header').addClass('portfolio_tab_header_clicked');
+        $('.portfolio_tab_four').find('.portfolio_tab_info').addClass('portfolio_tab_info_clicked');
+        $('.portfolio_tab_four').find('.portfolio_border').addClass('portfolio_border_clicked');   
         } 
         else {
-        $( ".portfolio_project_four" ).slideUp( 1000 );        
+        $( ".portfolio_project_four" ).slideUp( 1000 );
+
+        $('.portforlio_tab_cover').removeClass('portforlio_tab_cover_clicked');
+        $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
+        $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
+        $('.portfolio_border').removeClass('portfolio_border_clicked');         
       }
     });
     
@@ -188,10 +285,25 @@ $(function() {
         $( ".portfolio_project_eleven" ).slideUp( 1000 );                
         $( ".portfolio_project_twelve" ).slideUp( 1000 );                
         $( ".portfolio_project_thirteen" ).slideUp( 1000 );                
-        $( ".portfolio_project_fourteen" ).slideUp( 1000 );      
+        $( ".portfolio_project_fourteen" ).slideUp( 1000 ); 
+
+        $('.portforlio_tab_cover').removeClass('portforlio_tab_cover_clicked');
+        $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
+        $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
+        $('.portfolio_border').removeClass('portfolio_border_clicked');
+
+        $('.portfolio_tab_five').find('.portforlio_tab_cover').addClass('portforlio_tab_cover_clicked');
+        $('.portfolio_tab_five').find('.portfolio_tab_header').addClass('portfolio_tab_header_clicked');
+        $('.portfolio_tab_five').find('.portfolio_tab_info').addClass('portfolio_tab_info_clicked');
+        $('.portfolio_tab_five').find('.portfolio_border').addClass('portfolio_border_clicked');        
         } 
         else {
-        $( ".portfolio_project_five" ).slideUp( 1000 );        
+        $( ".portfolio_project_five" ).slideUp( 1000 );
+
+        $('.portforlio_tab_cover').removeClass('portforlio_tab_cover_clicked');
+        $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
+        $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
+        $('.portfolio_border').removeClass('portfolio_border_clicked'); 
       }
     });
     
@@ -210,10 +322,25 @@ $(function() {
         $( ".portfolio_project_eleven" ).slideUp( 1000 );                
         $( ".portfolio_project_twelve" ).slideUp( 1000 );                
         $( ".portfolio_project_thirteen" ).slideUp( 1000 );                
-        $( ".portfolio_project_fourteen" ).slideUp( 1000 );      
+        $( ".portfolio_project_fourteen" ).slideUp( 1000 );
+
+        $('.portforlio_tab_cover').removeClass('portforlio_tab_cover_clicked');
+        $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
+        $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
+        $('.portfolio_border').removeClass('portfolio_border_clicked');
+
+        $('.portfolio_tab_six').find('.portforlio_tab_cover').addClass('portforlio_tab_cover_clicked');
+        $('.portfolio_tab_six').find('.portfolio_tab_header').addClass('portfolio_tab_header_clicked');
+        $('.portfolio_tab_six').find('.portfolio_tab_info').addClass('portfolio_tab_info_clicked');
+        $('.portfolio_tab_six').find('.portfolio_border').addClass('portfolio_border_clicked');         
         } 
         else {
         $( ".portfolio_project_six" ).slideUp( 1000 );        
+
+        $('.portforlio_tab_cover').removeClass('portforlio_tab_cover_clicked');
+        $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
+        $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
+        $('.portfolio_border').removeClass('portfolio_border_clicked'); 
       }
     });
     
@@ -232,10 +359,25 @@ $(function() {
         $( ".portfolio_project_eleven" ).slideUp( 1000 );                
         $( ".portfolio_project_twelve" ).slideUp( 1000 );                
         $( ".portfolio_project_thirteen" ).slideUp( 1000 );                
-        $( ".portfolio_project_fourteen" ).slideUp( 1000 );      
+        $( ".portfolio_project_fourteen" ).slideUp( 1000 );
+
+        $('.portforlio_tab_cover').removeClass('portforlio_tab_cover_clicked');
+        $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
+        $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
+        $('.portfolio_border').removeClass('portfolio_border_clicked');
+
+        $('.portfolio_tab_seven').find('.portforlio_tab_cover').addClass('portforlio_tab_cover_clicked');
+        $('.portfolio_tab_seven').find('.portfolio_tab_header').addClass('portfolio_tab_header_clicked');
+        $('.portfolio_tab_seven').find('.portfolio_tab_info').addClass('portfolio_tab_info_clicked');
+        $('.portfolio_tab_seven').find('.portfolio_border').addClass('portfolio_border_clicked');         
         } 
         else {
         $( ".portfolio_project_seven" ).slideUp( 1000 );        
+
+        $('.portforlio_tab_cover').removeClass('portforlio_tab_cover_clicked');
+        $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
+        $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
+        $('.portfolio_border').removeClass('portfolio_border_clicked'); 
       }
     });
     
@@ -254,10 +396,25 @@ $(function() {
         $( ".portfolio_project_eleven" ).slideUp( 1000 );                
         $( ".portfolio_project_twelve" ).slideUp( 1000 );                
         $( ".portfolio_project_thirteen" ).slideUp( 1000 );                
-        $( ".portfolio_project_fourteen" ).slideUp( 1000 );      
+        $( ".portfolio_project_fourteen" ).slideUp( 1000 );
+
+        $('.portforlio_tab_cover').removeClass('portforlio_tab_cover_clicked');
+        $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
+        $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
+        $('.portfolio_border').removeClass('portfolio_border_clicked');
+
+        $('.portfolio_tab_eight').find('.portforlio_tab_cover').addClass('portforlio_tab_cover_clicked');
+        $('.portfolio_tab_eight').find('.portfolio_tab_header').addClass('portfolio_tab_header_clicked');
+        $('.portfolio_tab_eight').find('.portfolio_tab_info').addClass('portfolio_tab_info_clicked');
+        $('.portfolio_tab_eight').find('.portfolio_border').addClass('portfolio_border_clicked');         
         }
         else {
         $( ".portfolio_project_eight" ).slideUp( 1000 );        
+
+        $('.portforlio_tab_cover').removeClass('portforlio_tab_cover_clicked');
+        $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
+        $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
+        $('.portfolio_border').removeClass('portfolio_border_clicked'); 
       }
     });
     
@@ -276,10 +433,25 @@ $(function() {
         $( ".portfolio_project_eleven" ).slideUp( 1000 );                
         $( ".portfolio_project_twelve" ).slideUp( 1000 );                
         $( ".portfolio_project_thirteen" ).slideUp( 1000 );                
-        $( ".portfolio_project_fourteen" ).slideUp( 1000 );      
+        $( ".portfolio_project_fourteen" ).slideUp( 1000 ); 
+
+        $('.portforlio_tab_cover').removeClass('portforlio_tab_cover_clicked');
+        $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
+        $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
+        $('.portfolio_border').removeClass('portfolio_border_clicked');
+
+        $('.portfolio_tab_nine').find('.portforlio_tab_cover').addClass('portforlio_tab_cover_clicked');
+        $('.portfolio_tab_nine').find('.portfolio_tab_header').addClass('portfolio_tab_header_clicked');
+        $('.portfolio_tab_nine').find('.portfolio_tab_info').addClass('portfolio_tab_info_clicked');
+        $('.portfolio_tab_nine').find('.portfolio_border').addClass('portfolio_border_clicked');        
         } 
         else {
         $( ".portfolio_project_nine" ).slideUp( 1000 );        
+
+        $('.portforlio_tab_cover').removeClass('portforlio_tab_cover_clicked');
+        $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
+        $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
+        $('.portfolio_border').removeClass('portfolio_border_clicked'); 
       }
     });
 
@@ -298,100 +470,27 @@ $(function() {
         $( ".portfolio_project_eleven" ).slideUp( 1000 );                
         $( ".portfolio_project_twelve" ).slideUp( 1000 );                
         $( ".portfolio_project_thirteen" ).slideUp( 1000 );                
-        $( ".portfolio_project_fourteen" ).slideUp( 1000 );      
-        } 
-        else {
-        $( ".portfolio_project_ten" ).slideUp( 1000 );        
-      }
-    }); 
+        $( ".portfolio_project_fourteen" ).slideUp( 1000 );
 
-    $( ".portfolio_tab_eleven" ).click(function () {
-      if ( $( ".portfolio_project_eleven" ).is( ":hidden" ) ) {
-        $( ".portfolio_project_eleven" ).slideDown( 1000 );
-        $( ".portfolio_project_one" ).slideUp( 1000 );        
-        $( ".portfolio_project_two" ).slideUp( 1000 );
-        $( ".portfolio_project_three" ).slideUp( 1000 );                
-        $( ".portfolio_project_four" ).slideUp( 1000 );                
-        $( ".portfolio_project_five" ).slideUp( 1000 );                
-        $( ".portfolio_project_six" ).slideUp( 1000 );                
-        $( ".portfolio_project_seven" ).slideUp( 1000 );                
-        $( ".portfolio_project_eight" ).slideUp( 1000 );                
-        $( ".portfolio_project_nine" ).slideUp( 1000 );                
-        $( ".portfolio_project_ten" ).slideUp( 1000 );                
-        $( ".portfolio_project_twelve" ).slideUp( 1000 );                
-        $( ".portfolio_project_thirteen" ).slideUp( 1000 );                
-        $( ".portfolio_project_fourteen" ).slideUp( 1000 );      
-        } 
-        else {
-        $( ".portfolio_project_eleven" ).slideUp( 1000 );        
-      }
-    }); 
+        $('.portforlio_tab_cover').removeClass('portforlio_tab_cover_clicked');
+        $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
+        $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
+        $('.portfolio_border').removeClass('portfolio_border_clicked');
 
-    $( ".portfolio_tab_twelve" ).click(function () {
-      if ( $( ".portfolio_project_twelve" ).is( ":hidden" ) ) {
-        $( ".portfolio_project_twelve" ).slideDown( 1000 );
-        $( ".portfolio_project_one" ).slideUp( 1000 );        
-        $( ".portfolio_project_two" ).slideUp( 1000 );
-        $( ".portfolio_project_three" ).slideUp( 1000 );                
-        $( ".portfolio_project_four" ).slideUp( 1000 );                
-        $( ".portfolio_project_five" ).slideUp( 1000 );                
-        $( ".portfolio_project_six" ).slideUp( 1000 );                
-        $( ".portfolio_project_seven" ).slideUp( 1000 );                
-        $( ".portfolio_project_eight" ).slideUp( 1000 );                
-        $( ".portfolio_project_nine" ).slideUp( 1000 );                
-        $( ".portfolio_project_ten" ).slideUp( 1000 );                
-        $( ".portfolio_project_eleven" ).slideUp( 1000 );                
-        $( ".portfolio_project_thirteen" ).slideUp( 1000 );                
-        $( ".portfolio_project_fourteen" ).slideUp( 1000 );      
+        $('.portfolio_tab_ten').find('.portforlio_tab_cover').addClass('portforlio_tab_cover_clicked');
+        $('.portfolio_tab_ten').find('.portfolio_tab_header').addClass('portfolio_tab_header_clicked');
+        $('.portfolio_tab_ten').find('.portfolio_tab_info').addClass('portfolio_tab_info_clicked');
+        $('.portfolio_tab_ten').find('.portfolio_border').addClass('portfolio_border_clicked');         
         } 
         else {
-        $( ".portfolio_project_twelve" ).slideUp( 1000 );        
-      }
-    });
+        $( ".portfolio_project_ten" ).slideUp( 1000 );
 
-    $( ".portfolio_tab_thirteen" ).click(function () {
-      if ( $( ".portfolio_project_thirteen" ).is( ":hidden" ) ) {
-        $( ".portfolio_project_thirteen" ).slideDown( 1000 );
-        $( ".portfolio_project_one" ).slideUp( 1000 );        
-        $( ".portfolio_project_two" ).slideUp( 1000 );
-        $( ".portfolio_project_three" ).slideUp( 1000 );                
-        $( ".portfolio_project_four" ).slideUp( 1000 );                
-        $( ".portfolio_project_five" ).slideUp( 1000 );                
-        $( ".portfolio_project_six" ).slideUp( 1000 );                
-        $( ".portfolio_project_seven" ).slideUp( 1000 );                
-        $( ".portfolio_project_eight" ).slideUp( 1000 );                
-        $( ".portfolio_project_nine" ).slideUp( 1000 );                
-        $( ".portfolio_project_ten" ).slideUp( 1000 );                
-        $( ".portfolio_project_eleven" ).slideUp( 1000 );                
-        $( ".portfolio_project_twelve" ).slideUp( 1000 );                
-        $( ".portfolio_project_fourteen" ).slideUp( 1000 );      
-        } 
-        else {
-        $( ".portfolio_project_thirteen" ).slideUp( 1000 );        
+        $('.portforlio_tab_cover').removeClass('portforlio_tab_cover_clicked');
+        $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
+        $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
+        $('.portfolio_border').removeClass('portfolio_border_clicked');         
       }
-    });
-
-    $( ".portfolio_tab_fourteen" ).click(function () {
-      if ( $( ".portfolio_project_fourteen" ).is( ":hidden" ) ) {
-        $( ".portfolio_project_fourteen" ).slideDown( 1000 );
-        $( ".portfolio_project_one" ).slideUp( 1000 );        
-        $( ".portfolio_project_two" ).slideUp( 1000 );
-        $( ".portfolio_project_three" ).slideUp( 1000 );                
-        $( ".portfolio_project_four" ).slideUp( 1000 );                
-        $( ".portfolio_project_five" ).slideUp( 1000 );                
-        $( ".portfolio_project_six" ).slideUp( 1000 );                
-        $( ".portfolio_project_seven" ).slideUp( 1000 );                
-        $( ".portfolio_project_eight" ).slideUp( 1000 );                
-        $( ".portfolio_project_nine" ).slideUp( 1000 );                
-        $( ".portfolio_project_ten" ).slideUp( 1000 );                
-        $( ".portfolio_project_eleven" ).slideUp( 1000 );                
-        $( ".portfolio_project_twelve" ).slideUp( 1000 );                
-        $( ".portfolio_project_thirteen" ).slideUp( 1000 );                
-        } 
-        else {
-        $( ".portfolio_project_fourteen" ).slideUp( 1000 );        
-      }
-    });    
+    });     
 });
 
 $(function portfolioMoveLeft() {
@@ -446,7 +545,7 @@ $(function lTransition() {
     var tween = TweenMax.staggerFromTo("#contact_header_l", 2, {top: 500}, {top: 100, right: 50, ease: Power4.easeOut}, 0.0);
 
     // build scene
-    var scene = new ScrollMagic.Scene({triggerElement: "#trigger_lets", duration: 100})
+    var scene = new ScrollMagic.Scene({triggerElement: ".trigger_lets", duration: 100})
                     .setTween(tween)
 //                    .addIndicators({name: "contact"}) // add indicators (requires plugin)
                     .addTo(controller);
@@ -457,7 +556,7 @@ $(function eTransition() {
     var tween = TweenMax.staggerFromTo("#contact_header_e", 2, {top: 500}, {top: 100, right: 15, ease: Power4.easeOut}, 0.0);
 
     // build scene
-    var scene = new ScrollMagic.Scene({triggerElement: "#trigger_lets", duration: 200})
+    var scene = new ScrollMagic.Scene({triggerElement: ".trigger_lets", duration: 200})
                     .setTween(tween)
 //                    .addIndicators({name: "contact"}) // add indicators (requires plugin)
                     .addTo(controller);
@@ -468,7 +567,7 @@ $(function tTransition() {
     var tween = TweenMax.staggerFromTo("#contact_header_t", 2, {top: 500}, {top: 100, right: -20, ease: Power4.easeOut}, 0.0);
 
     // build scene
-    var scene = new ScrollMagic.Scene({triggerElement: "#trigger_lets", duration: 300})
+    var scene = new ScrollMagic.Scene({triggerElement: ".trigger_lets", duration: 300})
                     .setTween(tween)
 //                    .addIndicators({name: "contact"}) // add indicators (requires plugin)
                     .addTo(controller);
@@ -479,7 +578,7 @@ $(function sTransition() {
     var tween = TweenMax.staggerFromTo("#contact_header_s", 2, {top: 500}, {top: 100, right: -55, ease: Power4.easeOut}, 0.0);
 
     // build scene
-    var scene = new ScrollMagic.Scene({triggerElement: "#trigger_lets", duration: 400})
+    var scene = new ScrollMagic.Scene({triggerElement: ".trigger_lets", duration: 400})
                     .setTween(tween)
 //                    .addIndicators({name: "contact"}) // add indicators (requires plugin)
                     .addTo(controller);
@@ -490,8 +589,9 @@ $(function collabTransition() {
     var tween = TweenMax.staggerFromTo("#contact_header_collab", 2, {right: 500}, {right: 0, ease: Power4.easeOut}, 0.0);
 
     // build scene
-    var scene = new ScrollMagic.Scene({triggerElement: "#trigger_collab", duration: 1})
+    var scene = new ScrollMagic.Scene({triggerElement: ".trigger_collab", duration: 1})
                     .setTween(tween)
 //                    .addIndicators({name: "contact"}) // add indicators (requires plugin)
                     .addTo(controller);
 });
+
