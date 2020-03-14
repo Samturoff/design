@@ -157,6 +157,9 @@ $(function() {
         $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
         $('.portfolio_border').removeClass('portfolio_border_clicked');        
       }
+    $('html, body').animate({
+        scrollTop: $('.portfolio').find('#scroll_item_1').offset().top -60
+    }, 1000);      
     });
     
     $( ".portfolio_tab_two" ).click(function () {
@@ -184,7 +187,7 @@ $(function() {
         $('.portfolio_tab_two').find('.portforlio_tab_cover').addClass('portforlio_tab_cover_clicked');
         $('.portfolio_tab_two').find('.portfolio_tab_header').addClass('portfolio_tab_header_clicked');
         $('.portfolio_tab_two').find('.portfolio_tab_info').addClass('portfolio_tab_info_clicked');
-        $('.portfolio_tab_two').find('.portfolio_border').addClass('portfolio_border_clicked');      
+        $('.portfolio_tab_two').find('.portfolio_border').addClass('portfolio_border_clicked');
         } 
         else {
         $( ".portfolio_project_two" ).slideUp( 1000 );
@@ -194,6 +197,9 @@ $(function() {
         $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
         $('.portfolio_border').removeClass('portfolio_border_clicked');          
       }
+        $('html, body').animate({
+            scrollTop: $('.portfolio').find('#scroll_item_1').offset().top -60
+        }, 1000);
     }); 
     
     $( ".portfolio_tab_three" ).click(function () {
@@ -231,6 +237,9 @@ $(function() {
         $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
         $('.portfolio_border').removeClass('portfolio_border_clicked');                
       }
+        $('html, body').animate({
+            scrollTop: $('.portfolio').find('#scroll_item_2').offset().top -60
+        }, 1000);       
     });
     
     $( ".portfolio_tab_four" ).click(function () {
@@ -268,6 +277,9 @@ $(function() {
         $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
         $('.portfolio_border').removeClass('portfolio_border_clicked');         
       }
+        $('html, body').animate({
+            scrollTop: $('.portfolio').find('#scroll_item_2').offset().top -60
+        }, 1000);       
     });
     
     $( ".portfolio_tab_five" ).click(function () {
@@ -305,6 +317,9 @@ $(function() {
         $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
         $('.portfolio_border').removeClass('portfolio_border_clicked'); 
       }
+        $('html, body').animate({
+            scrollTop: $('.portfolio').find('#scroll_item_3').offset().top -60
+        }, 3000);       
     });
     
     $( ".portfolio_tab_six" ).click(function () {
@@ -332,7 +347,18 @@ $(function() {
         $('.portfolio_tab_six').find('.portforlio_tab_cover').addClass('portforlio_tab_cover_clicked');
         $('.portfolio_tab_six').find('.portfolio_tab_header').addClass('portfolio_tab_header_clicked');
         $('.portfolio_tab_six').find('.portfolio_tab_info').addClass('portfolio_tab_info_clicked');
-        $('.portfolio_tab_six').find('.portfolio_border').addClass('portfolio_border_clicked');         
+        $('.portfolio_tab_six').find('.portfolio_border').addClass('portfolio_border_clicked');
+        $('html, body').animate({
+            scrollTop: $('.portfolio').find('#scroll_item_1').offset().top -60
+        }, 1000); 
+
+        setTimeout(
+          function() 
+          {
+            $('html, body').animate({
+                scrollTop: $('.portfolio').find('#scroll_item_3').offset().top -60
+            }, 1000); 
+          }, 1002);                 
         } 
         else {
         $( ".portfolio_project_six" ).slideUp( 1000 );        
@@ -341,7 +367,7 @@ $(function() {
         $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
         $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
         $('.portfolio_border').removeClass('portfolio_border_clicked'); 
-      }
+      }            
     });
     
     $( ".portfolio_tab_seven" ).click(function () {
@@ -379,6 +405,9 @@ $(function() {
         $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
         $('.portfolio_border').removeClass('portfolio_border_clicked'); 
       }
+        $('html, body').animate({
+            scrollTop: $('.portfolio').find('#scroll_item_4').offset().top -60
+        }, 1000);       
     });
     
     $( ".portfolio_tab_eight" ).click(function () {
@@ -416,6 +445,9 @@ $(function() {
         $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
         $('.portfolio_border').removeClass('portfolio_border_clicked'); 
       }
+        $('html, body').animate({
+            scrollTop: $('.portfolio').find('#scroll_item_4').offset().top -60
+        }, 1000);       
     });
     
     $( ".portfolio_tab_nine" ).click(function () {
@@ -453,6 +485,9 @@ $(function() {
         $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
         $('.portfolio_border').removeClass('portfolio_border_clicked'); 
       }
+        $('html, body').animate({
+            scrollTop: $('.portfolio').find('#scroll_item_5').offset().top -60
+        }, 1000);       
     });
 
     $( ".portfolio_tab_ten" ).click(function () {
@@ -490,16 +525,19 @@ $(function() {
         $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
         $('.portfolio_border').removeClass('portfolio_border_clicked');         
       }
+        $('html, body').animate({
+            scrollTop: $('.portfolio').find('#scroll_item_5').offset().top -60
+        }, 1000);       
     });     
 });
 
 $(function portfolioMoveLeft() {
     var controller = new ScrollMagic.Controller();    
     // build tween
-    var tween = TweenMax.staggerFromTo(".portfolio_header1", 2, {left: 700}, {left: 0, ease: Power4.easeOut}, 0.0);
+    var tween = TweenMax.staggerFromTo(".portfolio_header1", 2, {left: 1200}, {left: 0, ease: Power4.easeOut}, 0.0);
 
     // build scene
-    var scene = new ScrollMagic.Scene({triggerElement: "#trigger1", duration: 400})
+    var scene = new ScrollMagic.Scene({triggerElement: "#trigger1", duration: 100})
                     .setTween(tween)
 //                    .addIndicators({name: "staggering"}) // add indicators (requires plugin)
                     .addTo(controller);
@@ -507,10 +545,10 @@ $(function portfolioMoveLeft() {
 $(function portfolioMoveright() {
     var controller = new ScrollMagic.Controller();    
     // build tween
-    var tween = TweenMax.staggerFromTo(".portfolio_header2", 2, {right: 700}, {left: 0, ease: Power4.easeOut}, 0.0);
+    var tween = TweenMax.staggerFromTo(".portfolio_header2", 2, {right: 1200}, {left: 0, ease: Power4.easeOut}, 0.0);
 
     // build scene
-    var scene = new ScrollMagic.Scene({triggerElement: "#trigger1", duration: 400})
+    var scene = new ScrollMagic.Scene({triggerElement: "#trigger1", duration: 100})
                     .setTween(tween)
 //                    .addIndicators({name: "staggering"}) // add indicators (requires plugin)
                     .addTo(controller);
@@ -595,3 +633,59 @@ $(function collabTransition() {
                     .addTo(controller);
 });
 
+
+$(function lTransition2() {
+    var controller = new ScrollMagic.Controller();    
+    // build tween
+    var tween = TweenMax.staggerFromTo("#contact_header_l2", 2, {top: 500}, {top: 100, right: 50, ease: Power4.easeOut}, 0.0);
+
+    // build scene
+    var scene = new ScrollMagic.Scene({triggerElement: ".trigger_lets2", duration: 100})
+                    .setTween(tween)
+//                    .addIndicators({name: "contact"}) // add indicators (requires plugin)
+                    .addTo(controller);
+});
+$(function eTransition2() {
+    var controller = new ScrollMagic.Controller();    
+    // build tween
+    var tween = TweenMax.staggerFromTo("#contact_header_e2", 2, {top: 500}, {top: 100, right: 15, ease: Power4.easeOut}, 0.0);
+
+    // build scene
+    var scene = new ScrollMagic.Scene({triggerElement: ".trigger_lets2", duration: 200})
+                    .setTween(tween)
+//                    .addIndicators({name: "contact"}) // add indicators (requires plugin)
+                    .addTo(controller);
+});
+$(function tTransition2() {
+    var controller = new ScrollMagic.Controller();    
+    // build tween
+    var tween = TweenMax.staggerFromTo("#contact_header_t2", 2, {top: 500}, {top: 100, right: -20, ease: Power4.easeOut}, 0.0);
+
+    // build scene
+    var scene = new ScrollMagic.Scene({triggerElement: ".trigger_lets2", duration: 300})
+                    .setTween(tween)
+//                    .addIndicators({name: "contact"}) // add indicators (requires plugin)
+                    .addTo(controller);
+});
+$(function sTransition2() {
+    var controller = new ScrollMagic.Controller();    
+    // build tween
+    var tween = TweenMax.staggerFromTo("#contact_header_s2", 2, {top: 500}, {top: 100, right: -55, ease: Power4.easeOut}, 0.0);
+
+    // build scene
+    var scene = new ScrollMagic.Scene({triggerElement: ".trigger_lets2", duration: 400})
+                    .setTween(tween)
+//                    .addIndicators({name: "contact"}) // add indicators (requires plugin)
+                    .addTo(controller);
+});
+$(function collabTransition2() {
+    var controller = new ScrollMagic.Controller();    
+    // build tween
+    var tween = TweenMax.staggerFromTo("#contact_header_collab2", 2, {right: 500}, {right: 0, ease: Power4.easeOut}, 0.0);
+
+    // build scene
+    var scene = new ScrollMagic.Scene({triggerElement: ".trigger_collab2", duration: 1})
+                    .setTween(tween)
+//                    .addIndicators({name: "contact"}) // add indicators (requires plugin)
+                    .addTo(controller);
+});
