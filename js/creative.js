@@ -227,7 +227,18 @@ $(function() {
         $('.portfolio_tab_three').find('.portforlio_tab_cover').addClass('portforlio_tab_cover_clicked');
         $('.portfolio_tab_three').find('.portfolio_tab_header').addClass('portfolio_tab_header_clicked');
         $('.portfolio_tab_three').find('.portfolio_tab_info').addClass('portfolio_tab_info_clicked');
-        $('.portfolio_tab_three').find('.portfolio_border').addClass('portfolio_border_clicked');                
+        $('.portfolio_tab_three').find('.portfolio_border').addClass('portfolio_border_clicked');
+        $('html, body').animate({
+            scrollTop: $('.portfolio').find('#scroll_item_1').offset().top -60
+        }, 1000); 
+
+        setTimeout(
+          function() 
+          {
+            $('html, body').animate({
+                scrollTop: $('.portfolio').find('#scroll_item_2').offset().top -60
+            }, 1000); 
+          }, 1002);                         
         } 
         else {
         $( ".portfolio_project_three" ).slideUp( 1000 );
@@ -236,10 +247,7 @@ $(function() {
         $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
         $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
         $('.portfolio_border').removeClass('portfolio_border_clicked');                
-      }
-        $('html, body').animate({
-            scrollTop: $('.portfolio').find('#scroll_item_2').offset().top -60
-        }, 1000);       
+      }     
     });
     
     $( ".portfolio_tab_four" ).click(function () {
@@ -267,7 +275,18 @@ $(function() {
         $('.portfolio_tab_four').find('.portforlio_tab_cover').addClass('portforlio_tab_cover_clicked');
         $('.portfolio_tab_four').find('.portfolio_tab_header').addClass('portfolio_tab_header_clicked');
         $('.portfolio_tab_four').find('.portfolio_tab_info').addClass('portfolio_tab_info_clicked');
-        $('.portfolio_tab_four').find('.portfolio_border').addClass('portfolio_border_clicked');   
+        $('.portfolio_tab_four').find('.portfolio_border').addClass('portfolio_border_clicked');
+        $('html, body').animate({
+            scrollTop: $('.portfolio').find('#scroll_item_1').offset().top -60
+        }, 1000); 
+
+        setTimeout(
+          function() 
+          {
+            $('html, body').animate({
+                scrollTop: $('.portfolio').find('#scroll_item_2').offset().top -60
+            }, 1000); 
+          }, 1002);         
         } 
         else {
         $( ".portfolio_project_four" ).slideUp( 1000 );
@@ -277,9 +296,7 @@ $(function() {
         $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
         $('.portfolio_border').removeClass('portfolio_border_clicked');         
       }
-        $('html, body').animate({
-            scrollTop: $('.portfolio').find('#scroll_item_2').offset().top -60
-        }, 1000);       
+     
     });
     
     $( ".portfolio_tab_five" ).click(function () {
@@ -307,7 +324,19 @@ $(function() {
         $('.portfolio_tab_five').find('.portforlio_tab_cover').addClass('portforlio_tab_cover_clicked');
         $('.portfolio_tab_five').find('.portfolio_tab_header').addClass('portfolio_tab_header_clicked');
         $('.portfolio_tab_five').find('.portfolio_tab_info').addClass('portfolio_tab_info_clicked');
-        $('.portfolio_tab_five').find('.portfolio_border').addClass('portfolio_border_clicked');        
+        $('.portfolio_tab_five').find('.portfolio_border').addClass('portfolio_border_clicked');
+
+        $('html, body').animate({
+            scrollTop: $('.portfolio').find('#scroll_item_1').offset().top -60
+        }, 1000); 
+
+        setTimeout(
+          function() 
+          {
+            $('html, body').animate({
+                scrollTop: $('.portfolio').find('#scroll_item_3').offset().top -60
+            }, 1000); 
+          }, 1002);         
         } 
         else {
         $( ".portfolio_project_five" ).slideUp( 1000 );
@@ -316,10 +345,7 @@ $(function() {
         $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
         $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
         $('.portfolio_border').removeClass('portfolio_border_clicked'); 
-      }
-        $('html, body').animate({
-            scrollTop: $('.portfolio').find('#scroll_item_3').offset().top -60
-        }, 3000);       
+      }    
     });
     
     $( ".portfolio_tab_six" ).click(function () {
@@ -395,7 +421,18 @@ $(function() {
         $('.portfolio_tab_seven').find('.portforlio_tab_cover').addClass('portforlio_tab_cover_clicked');
         $('.portfolio_tab_seven').find('.portfolio_tab_header').addClass('portfolio_tab_header_clicked');
         $('.portfolio_tab_seven').find('.portfolio_tab_info').addClass('portfolio_tab_info_clicked');
-        $('.portfolio_tab_seven').find('.portfolio_border').addClass('portfolio_border_clicked');         
+        $('.portfolio_tab_seven').find('.portfolio_border').addClass('portfolio_border_clicked');
+        $('html, body').animate({
+            scrollTop: $('.portfolio').find('#scroll_item_1').offset().top -60
+        }, 1000); 
+
+        setTimeout(
+          function() 
+          {
+            $('html, body').animate({
+                scrollTop: $('.portfolio').find('#scroll_item_4').offset().top -60
+            }, 1000); 
+          }, 1002);         
         } 
         else {
         $( ".portfolio_project_seven" ).slideUp( 1000 );        
@@ -404,10 +441,7 @@ $(function() {
         $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
         $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
         $('.portfolio_border').removeClass('portfolio_border_clicked'); 
-      }
-        $('html, body').animate({
-            scrollTop: $('.portfolio').find('#scroll_item_4').offset().top -60
-        }, 1000);       
+      }     
     });
     
     $( ".portfolio_tab_eight" ).click(function () {
@@ -435,7 +469,18 @@ $(function() {
         $('.portfolio_tab_eight').find('.portforlio_tab_cover').addClass('portforlio_tab_cover_clicked');
         $('.portfolio_tab_eight').find('.portfolio_tab_header').addClass('portfolio_tab_header_clicked');
         $('.portfolio_tab_eight').find('.portfolio_tab_info').addClass('portfolio_tab_info_clicked');
-        $('.portfolio_tab_eight').find('.portfolio_border').addClass('portfolio_border_clicked');         
+        $('.portfolio_tab_eight').find('.portfolio_border').addClass('portfolio_border_clicked');
+        $('html, body').animate({
+            scrollTop: $('.portfolio').find('#scroll_item_1').offset().top -60
+        }, 1000); 
+
+        setTimeout(
+          function() 
+          {
+            $('html, body').animate({
+                scrollTop: $('.portfolio').find('#scroll_item_4').offset().top -60
+            }, 1000); 
+          }, 1002);                  
         }
         else {
         $( ".portfolio_project_eight" ).slideUp( 1000 );        
@@ -444,10 +489,7 @@ $(function() {
         $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
         $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
         $('.portfolio_border').removeClass('portfolio_border_clicked'); 
-      }
-        $('html, body').animate({
-            scrollTop: $('.portfolio').find('#scroll_item_4').offset().top -60
-        }, 1000);       
+      }     
     });
     
     $( ".portfolio_tab_nine" ).click(function () {
@@ -475,7 +517,18 @@ $(function() {
         $('.portfolio_tab_nine').find('.portforlio_tab_cover').addClass('portforlio_tab_cover_clicked');
         $('.portfolio_tab_nine').find('.portfolio_tab_header').addClass('portfolio_tab_header_clicked');
         $('.portfolio_tab_nine').find('.portfolio_tab_info').addClass('portfolio_tab_info_clicked');
-        $('.portfolio_tab_nine').find('.portfolio_border').addClass('portfolio_border_clicked');        
+        $('.portfolio_tab_nine').find('.portfolio_border').addClass('portfolio_border_clicked');
+        $('html, body').animate({
+            scrollTop: $('.portfolio').find('#scroll_item_1').offset().top -60
+        }, 1000); 
+
+        setTimeout(
+          function() 
+          {
+            $('html, body').animate({
+                scrollTop: $('.portfolio').find('#scroll_item_5').offset().top -60
+            }, 1000); 
+          }, 1002);                 
         } 
         else {
         $( ".portfolio_project_nine" ).slideUp( 1000 );        
@@ -484,10 +537,7 @@ $(function() {
         $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
         $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
         $('.portfolio_border').removeClass('portfolio_border_clicked'); 
-      }
-        $('html, body').animate({
-            scrollTop: $('.portfolio').find('#scroll_item_5').offset().top -60
-        }, 1000);       
+      }    
     });
 
     $( ".portfolio_tab_ten" ).click(function () {
@@ -515,7 +565,18 @@ $(function() {
         $('.portfolio_tab_ten').find('.portforlio_tab_cover').addClass('portforlio_tab_cover_clicked');
         $('.portfolio_tab_ten').find('.portfolio_tab_header').addClass('portfolio_tab_header_clicked');
         $('.portfolio_tab_ten').find('.portfolio_tab_info').addClass('portfolio_tab_info_clicked');
-        $('.portfolio_tab_ten').find('.portfolio_border').addClass('portfolio_border_clicked');         
+        $('.portfolio_tab_ten').find('.portfolio_border').addClass('portfolio_border_clicked');
+        $('html, body').animate({
+            scrollTop: $('.portfolio').find('#scroll_item_1').offset().top -60
+        }, 1000); 
+
+        setTimeout(
+          function() 
+          {
+            $('html, body').animate({
+                scrollTop: $('.portfolio').find('#scroll_item_3').offset().top -60
+            }, 1000); 
+          }, 1002);                  
         } 
         else {
         $( ".portfolio_project_ten" ).slideUp( 1000 );
@@ -524,10 +585,7 @@ $(function() {
         $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
         $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
         $('.portfolio_border').removeClass('portfolio_border_clicked');         
-      }
-        $('html, body').animate({
-            scrollTop: $('.portfolio').find('#scroll_item_5').offset().top -60
-        }, 1000);       
+      }      
     });     
 });
 

@@ -85,6 +85,11 @@ h6,
 p {
   font-family: 'Open Sans', sans-serif;
 }
+h6{
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
 @media (max-width: 767px) {
   h1{
     font-size: 60px;
@@ -100,7 +105,9 @@ p {
   }
   h6{
     font-size: 18px;
-    line-height: 1.8;
+    line-height: 1.6;
+    font-weight: 600;
+
   }
   p {
     font-size: 16px;
@@ -3367,7 +3374,8 @@ header {
   }
   .portfolio_project_one{
     grid-column: 1 / 7;
-    background-color: #1E1E1E;  
+    background-color: #1E1E1E;
+    padding-top: 40px;
     padding-bottom: 40px;
   }
   .portfolio_project_two{
@@ -4171,24 +4179,58 @@ transition: all 1000ms ease;
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-  .portfolio_project{
+  .portfolio_project{    
     width: 320px;
     margin: 0 auto;
   }
   .portfolio_project_bt{
     color: #CFCFCF;
-    background-color: #1E1E1E;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    opacity: .8;
+    text-align: center;
     padding-left: 40px;
     padding-right: 40px;
-    max-width: 386px;
+    display: inline-block;
     margin: 0 auto;
+
   }  
   .portfolio_project_spacer{
-    padding-top: 30px;
+    padding-top: 40px;
   }
+  .portfolio_project_spacer_divided{
+    padding-top: 20px;
+  }  
+  .portfolio_project_line1{
+    display: block;
+    height: 3px;
+    width: 60px;
+    border: 0;
+    border-top: 3px solid #CFCFCF;
+    opacity: .2;    
+    border-radius: 25px;
+    margin: 0 auto;
+  }
+  .portfolio_project_line2{
+    display: block;
+    height: 3px;
+    width: 75%;
+    border: 0;
+    border-top: 3px solid #CFCFCF;
+    opacity: .2;    
+    border-radius: 25px;
+    float: left;
+  }
+  .portfolio_project_line3{
+    display: block;
+    height: 3px;
+    width: 75%;
+    border: 0;
+    border-top: 3px solid #CFCFCF;
+    opacity: .2;    
+    border-radius: 25px;
+    float: right;
+  }  
 }
+
 @media (max-width: 319px){
   .portfolio_project{
     display: none;
