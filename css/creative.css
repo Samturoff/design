@@ -3398,8 +3398,6 @@ header {
   .portfolio_project_three{
     grid-column: 1 / 7;
     background-color: #1E1E1E;
-    padding-top: 40px;
-    padding-bottom: 40px;
   }
   .portfolio_project_four{
     grid-column: 1 / 7;
@@ -3672,8 +3670,6 @@ header {
   .portfolio_project_three{
     grid-column: 1 / 13;
     background-color: #1E1E1E;
-    padding-top: 40px;
-    padding-bottom: 40px;
   }
   .portfolio_project_four{
     grid-column: 1 / 13;
@@ -4875,6 +4871,7 @@ PORTFOLIO PROJECTS TWO
   .portfolio_project2{
     display: none;
   }
+}
 /* 
 PORTFOLIO PROJECTS TWO END
 */
@@ -6588,6 +6585,1033 @@ PORTFOLIO PROJECTS SEVEN
 
 /* 
 PORTFOLIO PROJECTS SEVEN END
+*/
+
+
+/* 
+PORTFOLIO PROJECTS EIGHT
+*/
+@media (min-width: 1501px) {
+  .portfolio_project_sizing8{
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .portfolio_project8_bt_container_desktop{
+    width: 100%;
+  }
+  .portfolio_project8_container_mobile{
+    display: none;
+  }    
+  .portfolio_project8_bt_container_mobile{
+    display: none;
+  }
+  .portfolio_project8_bt{
+    color: #CFCFCF;
+    opacity: .8;
+    max-width: 582px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 auto;
+  }  
+  .portfolio_project8_spacer{
+    padding-top: 40px;
+  }
+  .portfolio_project8_spacer_divided{
+    padding-top: 20px;
+  }  
+  .portfolio_project8_line1{
+    display: block;
+    height: 3px;
+    width: 100px;
+    border: 0;
+    border-top: 3px solid #CFCFCF;
+    opacity: .2;    
+    border-radius: 25px;
+    margin: 0 auto;
+  }   
+}
+
+@media (min-width: 1281px) and (max-width: 1500px) {
+  .portfolio_project_sizing8{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .portfolio_project8_bt_container_desktop{
+    width: 100%;
+  }
+  .portfolio_project8_container_mobile{
+    display: none;
+  }    
+  .portfolio_project8_bt_container_mobile{
+    display: none;
+  }
+  .portfolio_project8_bt{
+    color: #CFCFCF;
+    opacity: .8;
+    max-width: 582px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 auto;
+  }  
+  .portfolio_project8_spacer{
+    padding-top: 40px;
+  }
+  .portfolio_project8_spacer_divided{
+    padding-top: 20px;
+  }  
+  .portfolio_project8_line1{
+    display: block;
+    height: 3px;
+    width: 100px;
+    border: 0;
+    border-top: 3px solid #CFCFCF;
+    opacity: .2;    
+    border-radius: 25px;
+    margin: 0 auto;
+  }   
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .portfolio_project_sizing8{
+    width: 100%;
+    max-width: 1200px;    
+    margin: 0 auto;
+  }
+  .portfolio_project8_bt{
+    color: #CFCFCF;
+    opacity: .8;
+    max-width: 582px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 auto;
+  }
+  .portfolio_project8_bt_container_desktop{
+    width: 100%;
+  }
+  .portfolio_project8_container_mobile{
+    display: none;
+  }    
+  .portfolio_project8_bt_container_mobile{
+    display: none;
+  }  
+  .portfolio_project8_spacer{
+    padding-top: 40px;
+  }
+  .portfolio_project8_spacer_divided{
+    padding-top: 20px;
+  }  
+
+  .portfolio_project8_line1{
+    display: block;
+    height: 3px;
+    width: 100px;
+    border: 0;
+    border-top: 3px solid #CFCFCF;
+    opacity: .2;    
+    border-radius: 25px;
+    margin: 0 auto;
+  }   
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .portfolio_project_sizing8{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .portfolio_project8_bt{
+    color: #CFCFCF;
+    opacity: .8;
+    max-width: 582px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 auto;
+  }
+  .portfolio_project8_container_desktop{
+    display: none;
+  }  
+  .portfolio_project8_bt_container_desktop{
+    display: none;
+  }
+  .portfolio_project8_bt_container_mobile{
+    width: 100%;
+  }  
+  .portfolio_project8_spacer{
+    padding-top: 40px;
+  }
+  .portfolio_project8_spacer_divided{
+    padding-top: 20px;
+  }  
+  .portfolio_project8_line1{
+    display: block;
+    height: 3px;
+    width: 60px;
+    border: 0;
+    border-top: 3px solid #CFCFCF;
+    opacity: .2;    
+    border-radius: 25px;
+    margin: 0 auto;
+  } 
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .portfolio_project_sizing8{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .portfolio_project8_bt{
+    color: #CFCFCF;
+    opacity: .8;
+    max-width: 582px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 auto;
+  }
+  .portfolio_project8_bt_container_mobile{
+    width: 100%;
+  }
+  .portfolio_project8_container_desktop{
+    display: none;
+  }          
+  .portfolio_project8_bt_container_desktop{
+    display: none;
+  }        
+  .portfolio_project8_spacer{
+    padding-top: 40px;
+  }
+  .portfolio_project8_spacer_divided{
+    padding-top: 20px;
+  }  
+  .portfolio_project8_line1{
+    display: block;
+    height: 3px;
+    width: 60px;
+    border: 0;
+    border-top: 3px solid #CFCFCF;
+    opacity: .2;    
+    border-radius: 25px;
+    margin: 0 auto;
+  }  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .portfolio_project_sizing8{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .portfolio_project8_bt{
+    color: #CFCFCF;
+    opacity: .8;
+    max-width: 582px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 auto;
+  }
+  .portfolio_project8_container_desktop{
+    display: none;
+  }   
+  .portfolio_project8_bt_container_desktop{
+    display: none;
+  }        
+  .portfolio_project8_spacer{
+    padding-top: 40px;
+  }
+  .portfolio_project8_spacer_divided{
+    padding-top: 20px;
+  }  
+  .portfolio_project8_line1{
+    display: block;
+    height: 3px;
+    width: 60px;
+    border: 0;
+    border-top: 3px solid #CFCFCF;
+    opacity: .2;    
+    border-radius: 25px;
+    margin: 0 auto;
+  }  
+}
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .portfolio_project_sizing8{
+    width: 320px;
+    margin: 0 auto;
+  }
+  .portfolio_project8_bt{
+    color: #CFCFCF;
+    opacity: .8;
+    max-width: 582px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 auto;
+  }
+  .portfolio_project8_container_desktop{
+    display: none;
+  }   
+  .portfolio_project8_bt_container_desktop{
+    display: none;
+  }     
+  .portfolio_project8_spacer{
+    padding-top: 40px;
+  }
+  .portfolio_project8_spacer_divided{
+    padding-top: 20px;
+  }  
+  .portfolio_project8_line1{
+    display: block;
+    height: 3px;
+    width: 60px;
+    border: 0;
+    border-top: 3px solid #CFCFCF;
+    opacity: .2;    
+    border-radius: 25px;
+    margin: 0 auto;
+  }
+  .portfolio_project8_line2{
+    display: block;
+    height: 3px;
+    width: 75%;
+    border: 0;
+    border-top: 3px solid #CFCFCF;
+    opacity: .2;    
+    border-radius: 25px;
+    float: left;
+  }
+  .portfolio_project8_line3{
+    display: block;
+    height: 3px;
+    width: 75%;
+    border: 0;
+    border-top: 3px solid #CFCFCF;
+    opacity: .2;    
+    border-radius: 25px;
+    float: right;
+  }  
+}
+
+@media (max-width: 319px){
+  .portfolio_project8{
+    display: none;
+  }
+}
+
+/* 
+PORTFOLIO PROJECTS EIGHT END
+*/
+
+
+/* 
+PORTFOLIO PROJECTS NINE
+*/
+@media (min-width: 1501px) {
+  .portfolio_project_sizing9{
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .portfolio_project9_bt_container_desktop{
+    width: 100%;
+  }
+  .portfolio_project9_container_mobile{
+    display: none;
+  }    
+  .portfolio_project9_bt_container_mobile{
+    display: none;
+  }
+  .portfolio_project9_bt{
+    color: #CFCFCF;
+    opacity: .8;
+    max-width: 582px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 auto;
+  }  
+  .portfolio_project9_spacer{
+    padding-top: 40px;
+  }
+  .portfolio_project9_spacer_divided{
+    padding-top: 20px;
+  }  
+  .portfolio_project9_line1{
+    display: block;
+    height: 3px;
+    width: 100px;
+    border: 0;
+    border-top: 3px solid #CFCFCF;
+    opacity: .2;    
+    border-radius: 25px;
+    margin: 0 auto;
+  }   
+}
+
+@media (min-width: 1281px) and (max-width: 1500px) {
+  .portfolio_project_sizing9{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .portfolio_project9_bt_container_desktop{
+    width: 100%;
+  }
+  .portfolio_project9_container_mobile{
+    display: none;
+  }    
+  .portfolio_project9_bt_container_mobile{
+    display: none;
+  }
+  .portfolio_project9_bt{
+    color: #CFCFCF;
+    opacity: .8;
+    max-width: 582px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 auto;
+  }  
+  .portfolio_project9_spacer{
+    padding-top: 40px;
+  }
+  .portfolio_project9_spacer_divided{
+    padding-top: 20px;
+  }  
+  .portfolio_project9_line1{
+    display: block;
+    height: 3px;
+    width: 100px;
+    border: 0;
+    border-top: 3px solid #CFCFCF;
+    opacity: .2;    
+    border-radius: 25px;
+    margin: 0 auto;
+  }   
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .portfolio_project_sizing9{
+    width: 100%;
+    max-width: 1200px;    
+    margin: 0 auto;
+  }
+  .portfolio_project9_bt{
+    color: #CFCFCF;
+    opacity: .8;
+    max-width: 582px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 auto;
+  }
+  .portfolio_project9_bt_container_desktop{
+    width: 100%;
+  }
+  .portfolio_project9_container_mobile{
+    display: none;
+  }    
+  .portfolio_project9_bt_container_mobile{
+    display: none;
+  }  
+  .portfolio_project9_spacer{
+    padding-top: 40px;
+  }
+  .portfolio_project9_spacer_divided{
+    padding-top: 20px;
+  }  
+
+  .portfolio_project9_line1{
+    display: block;
+    height: 3px;
+    width: 100px;
+    border: 0;
+    border-top: 3px solid #CFCFCF;
+    opacity: .2;    
+    border-radius: 25px;
+    margin: 0 auto;
+  }   
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .portfolio_project_sizing9{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .portfolio_project9_bt{
+    color: #CFCFCF;
+    opacity: .8;
+    max-width: 582px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 auto;
+  }
+  .portfolio_project9_container_desktop{
+    display: none;
+  }  
+  .portfolio_project9_bt_container_desktop{
+    display: none;
+  }
+  .portfolio_project9_bt_container_mobile{
+    width: 100%;
+  }  
+  .portfolio_project9_spacer{
+    padding-top: 40px;
+  }
+  .portfolio_project9_spacer_divided{
+    padding-top: 20px;
+  }  
+  .portfolio_project9_line1{
+    display: block;
+    height: 3px;
+    width: 60px;
+    border: 0;
+    border-top: 3px solid #CFCFCF;
+    opacity: .2;    
+    border-radius: 25px;
+    margin: 0 auto;
+  } 
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .portfolio_project_sizing9{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .portfolio_project9_bt{
+    color: #CFCFCF;
+    opacity: .8;
+    max-width: 582px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 auto;
+  }
+  .portfolio_project9_bt_container_mobile{
+    width: 100%;
+  }
+  .portfolio_project9_container_desktop{
+    display: none;
+  }          
+  .portfolio_project9_bt_container_desktop{
+    display: none;
+  }        
+  .portfolio_project9_spacer{
+    padding-top: 40px;
+  }
+  .portfolio_project9_spacer_divided{
+    padding-top: 20px;
+  }  
+  .portfolio_project9_line1{
+    display: block;
+    height: 3px;
+    width: 60px;
+    border: 0;
+    border-top: 3px solid #CFCFCF;
+    opacity: .2;    
+    border-radius: 25px;
+    margin: 0 auto;
+  }  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .portfolio_project_sizing9{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .portfolio_project9_bt{
+    color: #CFCFCF;
+    opacity: .8;
+    max-width: 582px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 auto;
+  }
+  .portfolio_project9_container_desktop{
+    display: none;
+  }   
+  .portfolio_project9_bt_container_desktop{
+    display: none;
+  }        
+  .portfolio_project9_spacer{
+    padding-top: 40px;
+  }
+  .portfolio_project9_spacer_divided{
+    padding-top: 20px;
+  }  
+  .portfolio_project9_line1{
+    display: block;
+    height: 3px;
+    width: 60px;
+    border: 0;
+    border-top: 3px solid #CFCFCF;
+    opacity: .2;    
+    border-radius: 25px;
+    margin: 0 auto;
+  }  
+}
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .portfolio_project_sizing9{
+    width: 320px;
+    margin: 0 auto;
+  }
+  .portfolio_project9_bt{
+    color: #CFCFCF;
+    opacity: .8;
+    max-width: 582px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 auto;
+  }
+  .portfolio_project9_container_desktop{
+    display: none;
+  }   
+  .portfolio_project9_bt_container_desktop{
+    display: none;
+  }     
+  .portfolio_project9_spacer{
+    padding-top: 40px;
+  }
+  .portfolio_project9_spacer_divided{
+    padding-top: 20px;
+  }  
+  .portfolio_project9_line1{
+    display: block;
+    height: 3px;
+    width: 60px;
+    border: 0;
+    border-top: 3px solid #CFCFCF;
+    opacity: .2;    
+    border-radius: 25px;
+    margin: 0 auto;
+  }
+  .portfolio_project9_line2{
+    display: block;
+    height: 3px;
+    width: 75%;
+    border: 0;
+    border-top: 3px solid #CFCFCF;
+    opacity: .2;    
+    border-radius: 25px;
+    float: left;
+  }
+  .portfolio_project9_line3{
+    display: block;
+    height: 3px;
+    width: 75%;
+    border: 0;
+    border-top: 3px solid #CFCFCF;
+    opacity: .2;    
+    border-radius: 25px;
+    float: right;
+  }  
+}
+
+@media (max-width: 319px){
+  .portfolio_project9{
+    display: none;
+  }
+}
+
+/* 
+PORTFOLIO PROJECTS NINE END
+*/
+
+
+
+/* 
+PORTFOLIO PROJECTS TEN
+*/
+@media (min-width: 1501px) {
+  .portfolio_project_sizing10{
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .portfolio_project10_bt_container_desktop{
+    width: 100%;
+  }
+  .portfolio_project10_container_mobile{
+    display: none;
+  }    
+  .portfolio_project10_bt_container_mobile{
+    display: none;
+  }
+  .portfolio_project10_bt{
+    color: #CFCFCF;
+    opacity: .8;
+    max-width: 582px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 auto;
+  }  
+  .portfolio_project10_spacer{
+    padding-top: 40px;
+  }
+  .portfolio_project10_spacer_divided{
+    padding-top: 20px;
+  }  
+  .portfolio_project10_line1{
+    display: block;
+    height: 3px;
+    width: 100px;
+    border: 0;
+    border-top: 3px solid #CFCFCF;
+    opacity: .2;    
+    border-radius: 25px;
+    margin: 0 auto;
+  }   
+}
+
+@media (min-width: 1281px) and (max-width: 1500px) {
+  .portfolio_project_sizing10{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .portfolio_project10_bt_container_desktop{
+    width: 100%;
+  }
+  .portfolio_project10_container_mobile{
+    display: none;
+  }    
+  .portfolio_project10_bt_container_mobile{
+    display: none;
+  }
+  .portfolio_project10_bt{
+    color: #CFCFCF;
+    opacity: .8;
+    max-width: 582px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 auto;
+  }  
+  .portfolio_project10_spacer{
+    padding-top: 40px;
+  }
+  .portfolio_project10_spacer_divided{
+    padding-top: 20px;
+  }  
+  .portfolio_project10_line1{
+    display: block;
+    height: 3px;
+    width: 100px;
+    border: 0;
+    border-top: 3px solid #CFCFCF;
+    opacity: .2;    
+    border-radius: 25px;
+    margin: 0 auto;
+  }   
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .portfolio_project_sizing10{
+    width: 100%;
+    max-width: 1200px;    
+    margin: 0 auto;
+  }
+  .portfolio_project10_bt{
+    color: #CFCFCF;
+    opacity: .8;
+    max-width: 582px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 auto;
+  }
+  .portfolio_project10_bt_container_desktop{
+    width: 100%;
+  }
+  .portfolio_project10_container_mobile{
+    display: none;
+  }    
+  .portfolio_project10_bt_container_mobile{
+    display: none;
+  }  
+  .portfolio_project10_spacer{
+    padding-top: 40px;
+  }
+  .portfolio_project10_spacer_divided{
+    padding-top: 20px;
+  }  
+
+  .portfolio_project10_line1{
+    display: block;
+    height: 3px;
+    width: 100px;
+    border: 0;
+    border-top: 3px solid #CFCFCF;
+    opacity: .2;    
+    border-radius: 25px;
+    margin: 0 auto;
+  }   
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .portfolio_project_sizing10{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .portfolio_project10_bt{
+    color: #CFCFCF;
+    opacity: .8;
+    max-width: 582px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 auto;
+  }
+  .portfolio_project10_container_desktop{
+    display: none;
+  }  
+  .portfolio_project10_bt_container_desktop{
+    display: none;
+  }
+  .portfolio_project10_bt_container_mobile{
+    width: 100%;
+  }  
+  .portfolio_project10_spacer{
+    padding-top: 40px;
+  }
+  .portfolio_project10_spacer_divided{
+    padding-top: 20px;
+  }  
+  .portfolio_project10_line1{
+    display: block;
+    height: 3px;
+    width: 60px;
+    border: 0;
+    border-top: 3px solid #CFCFCF;
+    opacity: .2;    
+    border-radius: 25px;
+    margin: 0 auto;
+  } 
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .portfolio_project_sizing10{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .portfolio_project10_bt{
+    color: #CFCFCF;
+    opacity: .8;
+    max-width: 582px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 auto;
+  }
+  .portfolio_project10_bt_container_mobile{
+    width: 100%;
+  }
+  .portfolio_project10_container_desktop{
+    display: none;
+  }          
+  .portfolio_project10_bt_container_desktop{
+    display: none;
+  }        
+  .portfolio_project10_spacer{
+    padding-top: 40px;
+  }
+  .portfolio_project10_spacer_divided{
+    padding-top: 20px;
+  }  
+  .portfolio_project10_line1{
+    display: block;
+    height: 3px;
+    width: 60px;
+    border: 0;
+    border-top: 3px solid #CFCFCF;
+    opacity: .2;    
+    border-radius: 25px;
+    margin: 0 auto;
+  }  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .portfolio_project_sizing10{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .portfolio_project10_bt{
+    color: #CFCFCF;
+    opacity: .8;
+    max-width: 582px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 auto;
+  }
+  .portfolio_project10_container_desktop{
+    display: none;
+  }   
+  .portfolio_project10_bt_container_desktop{
+    display: none;
+  }        
+  .portfolio_project10_spacer{
+    padding-top: 40px;
+  }
+  .portfolio_project10_spacer_divided{
+    padding-top: 20px;
+  }  
+  .portfolio_project10_line1{
+    display: block;
+    height: 3px;
+    width: 60px;
+    border: 0;
+    border-top: 3px solid #CFCFCF;
+    opacity: .2;    
+    border-radius: 25px;
+    margin: 0 auto;
+  }  
+}
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .portfolio_project_sizing10{
+    width: 320px;
+    margin: 0 auto;
+  }
+  .portfolio_project10_bt{
+    color: #CFCFCF;
+    opacity: .8;
+    max-width: 582px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 auto;
+  }
+  .portfolio_project10_container_desktop{
+    display: none;
+  }   
+  .portfolio_project10_bt_container_desktop{
+    display: none;
+  }     
+  .portfolio_project10_spacer{
+    padding-top: 40px;
+  }
+  .portfolio_project10_spacer_divided{
+    padding-top: 20px;
+  }  
+  .portfolio_project10_line1{
+    display: block;
+    height: 3px;
+    width: 60px;
+    border: 0;
+    border-top: 3px solid #CFCFCF;
+    opacity: .2;    
+    border-radius: 25px;
+    margin: 0 auto;
+  }
+  .portfolio_project10_line2{
+    display: block;
+    height: 3px;
+    width: 75%;
+    border: 0;
+    border-top: 3px solid #CFCFCF;
+    opacity: .2;    
+    border-radius: 25px;
+    float: left;
+  }
+  .portfolio_project10_line3{
+    display: block;
+    height: 3px;
+    width: 75%;
+    border: 0;
+    border-top: 3px solid #CFCFCF;
+    opacity: .2;    
+    border-radius: 25px;
+    float: right;
+  }  
+}
+
+@media (max-width: 319px){
+  .portfolio_project10{
+    display: none;
+  }
+}
+
+/* 
+PORTFOLIO PROJECTS TEN END
 */
 /* ---------------------------------------------------- MY CODE ----------------------------------------------------*/
 
