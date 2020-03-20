@@ -4474,7 +4474,7 @@ PORTFOLIO PROJECTS ONE
     width: 320px;
     margin: 0 auto;
   }
-  .portfolio_project4_bt{
+  .portfolio_project_bt{
     color: #CFCFCF;
     opacity: .8;
     max-width: 582px;
@@ -4483,19 +4483,19 @@ PORTFOLIO PROJECTS ONE
     padding-right: 40px;
     margin: 0 auto;
   }
-  .portfolio_project4_container_desktop{
+  .portfolio_project_container_desktop{
     display: none;
   }   
-  .portfolio_project4_bt_container_desktop{
+  .portfolio_project_bt_container_desktop{
     display: none;
   }     
-  .portfolio_project4_spacer{
+  .portfolio_project_spacer{
     padding-top: 40px;
   }
-  .portfolio_project4_spacer_divided{
+  .portfolio_project_spacer_divided{
     padding-top: 20px;
   }  
-  .portfolio_project4_line1{
+  .portfolio_project_line1{
     display: block;
     height: 3px;
     width: 60px;
@@ -4505,7 +4505,7 @@ PORTFOLIO PROJECTS ONE
     border-radius: 25px;
     margin: 0 auto;
   }
-  .portfolio_project4_line2{
+  .portfolio_project_line2{
     display: block;
     height: 3px;
     width: 75%;
@@ -4515,7 +4515,7 @@ PORTFOLIO PROJECTS ONE
     border-radius: 25px;
     float: left;
   }
-  .portfolio_project4_line3{
+  .portfolio_project_line3{
     display: block;
     height: 3px;
     width: 75%;
@@ -4528,8 +4528,9 @@ PORTFOLIO PROJECTS ONE
 }
 
 @media (max-width: 319px){
-  .portfolio_project4{
+  .portfolio_project{
     display: none;
+  }
 }
 /* 
 PORTFOLIO PROJECTS ONE END
@@ -4817,7 +4818,7 @@ PORTFOLIO PROJECTS TWO
     width: 320px;
     margin: 0 auto;
   }
-  .portfolio_project4_bt{
+  .portfolio_project2_bt{
     color: #CFCFCF;
     opacity: .8;
     max-width: 582px;
@@ -4826,19 +4827,19 @@ PORTFOLIO PROJECTS TWO
     padding-right: 40px;
     margin: 0 auto;
   }
-  .portfolio_project4_container_desktop{
+  .portfolio_project2_container_desktop{
     display: none;
   }   
-  .portfolio_project4_bt_container_desktop{
+  .portfolio_project2_bt_container_desktop{
     display: none;
   }     
-  .portfolio_project4_spacer{
+  .portfolio_project2_spacer{
     padding-top: 40px;
   }
-  .portfolio_project4_spacer_divided{
+  .portfolio_project2_spacer_divided{
     padding-top: 20px;
   }  
-  .portfolio_project4_line1{
+  .portfolio_project2_line1{
     display: block;
     height: 3px;
     width: 60px;
@@ -4848,7 +4849,7 @@ PORTFOLIO PROJECTS TWO
     border-radius: 25px;
     margin: 0 auto;
   }
-  .portfolio_project4_line2{
+  .portfolio_project2_line2{
     display: block;
     height: 3px;
     width: 75%;
@@ -4858,7 +4859,7 @@ PORTFOLIO PROJECTS TWO
     border-radius: 25px;
     float: left;
   }
-  .portfolio_project4_line3{
+  .portfolio_project2_line3{
     display: block;
     height: 3px;
     width: 75%;
@@ -4871,7 +4872,7 @@ PORTFOLIO PROJECTS TWO
 }
 
 @media (max-width: 319px){
-  .portfolio_project4{
+  .portfolio_project2{
     display: none;
   }
 /* 
