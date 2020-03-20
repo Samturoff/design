@@ -4815,7 +4815,7 @@ PORTFOLIO PROJECTS TWO
 
 @media (min-width: 320px) and (max-width: 480px) {
   .portfolio_project_sizing2{
-    width: 320px;
+    width: 100%;
     margin: 0 auto;
   }
   .portfolio_project2_bt{
