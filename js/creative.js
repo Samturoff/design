@@ -638,7 +638,7 @@ $(function portfolioTransitionColor() {
 $(function lTransition() {
     var controller = new ScrollMagic.Controller();    
     // build tween
-    var tween = TweenMax.staggerFromTo("#contact_header_l", 2, {top: 500}, {top: 100, right: 50, ease: Power4.easeOut}, 0.0);
+    var tween = TweenMax.staggerFromTo("#contact_header_l", 2, {top: 500}, {top: 50, right: 50, ease: Power4.easeOut}, 0.0);
 
     // build scene
     var scene = new ScrollMagic.Scene({triggerElement: ".trigger_lets", duration: 100})
@@ -649,7 +649,7 @@ $(function lTransition() {
 $(function eTransition() {
     var controller = new ScrollMagic.Controller();    
     // build tween
-    var tween = TweenMax.staggerFromTo("#contact_header_e", 2, {top: 500}, {top: 100, right: 15, ease: Power4.easeOut}, 0.0);
+    var tween = TweenMax.staggerFromTo("#contact_header_e", 2, {top: 500}, {top: 50, right: 15, ease: Power4.easeOut}, 0.0);
 
     // build scene
     var scene = new ScrollMagic.Scene({triggerElement: ".trigger_lets", duration: 200})
@@ -660,7 +660,7 @@ $(function eTransition() {
 $(function tTransition() {
     var controller = new ScrollMagic.Controller();    
     // build tween
-    var tween = TweenMax.staggerFromTo("#contact_header_t", 2, {top: 500}, {top: 100, right: -20, ease: Power4.easeOut}, 0.0);
+    var tween = TweenMax.staggerFromTo("#contact_header_t", 2, {top: 500}, {top: 50, right: -20, ease: Power4.easeOut}, 0.0);
 
     // build scene
     var scene = new ScrollMagic.Scene({triggerElement: ".trigger_lets", duration: 300})
@@ -671,7 +671,7 @@ $(function tTransition() {
 $(function sTransition() {
     var controller = new ScrollMagic.Controller();    
     // build tween
-    var tween = TweenMax.staggerFromTo("#contact_header_s", 2, {top: 500}, {top: 100, right: -55, ease: Power4.easeOut}, 0.0);
+    var tween = TweenMax.staggerFromTo("#contact_header_s", 2, {top: 500}, {top: 50, right: -55, ease: Power4.easeOut}, 0.0);
 
     // build scene
     var scene = new ScrollMagic.Scene({triggerElement: ".trigger_lets", duration: 400})
@@ -695,7 +695,7 @@ $(function collabTransition() {
 $(function lTransition2() {
     var controller = new ScrollMagic.Controller();    
     // build tween
-    var tween = TweenMax.staggerFromTo("#contact_header_l2", 2, {top: 500}, {top: 100, right: 50, ease: Power4.easeOut}, 0.0);
+    var tween = TweenMax.staggerFromTo("#contact_header_l2", 2, {top: 500}, {top: 50, right: 50, ease: Power4.easeOut}, 0.0);
 
     // build scene
     var scene = new ScrollMagic.Scene({triggerElement: ".trigger_lets2", duration: 100})
@@ -706,7 +706,7 @@ $(function lTransition2() {
 $(function eTransition2() {
     var controller = new ScrollMagic.Controller();    
     // build tween
-    var tween = TweenMax.staggerFromTo("#contact_header_e2", 2, {top: 500}, {top: 100, right: 15, ease: Power4.easeOut}, 0.0);
+    var tween = TweenMax.staggerFromTo("#contact_header_e2", 2, {top: 500}, {top: 50, right: 15, ease: Power4.easeOut}, 0.0);
 
     // build scene
     var scene = new ScrollMagic.Scene({triggerElement: ".trigger_lets2", duration: 200})
@@ -717,7 +717,7 @@ $(function eTransition2() {
 $(function tTransition2() {
     var controller = new ScrollMagic.Controller();    
     // build tween
-    var tween = TweenMax.staggerFromTo("#contact_header_t2", 2, {top: 500}, {top: 100, right: -20, ease: Power4.easeOut}, 0.0);
+    var tween = TweenMax.staggerFromTo("#contact_header_t2", 2, {top: 500}, {top: 50, right: -20, ease: Power4.easeOut}, 0.0);
 
     // build scene
     var scene = new ScrollMagic.Scene({triggerElement: ".trigger_lets2", duration: 300})
@@ -728,7 +728,7 @@ $(function tTransition2() {
 $(function sTransition2() {
     var controller = new ScrollMagic.Controller();    
     // build tween
-    var tween = TweenMax.staggerFromTo("#contact_header_s2", 2, {top: 500}, {top: 100, right: -55, ease: Power4.easeOut}, 0.0);
+    var tween = TweenMax.staggerFromTo("#contact_header_s2", 2, {top: 500}, {top: 50, right: -55, ease: Power4.easeOut}, 0.0);
 
     // build scene
     var scene = new ScrollMagic.Scene({triggerElement: ".trigger_lets2", duration: 400})
