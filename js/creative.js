@@ -568,13 +568,13 @@ $(function() {
         $('.portfolio_tab_ten').find('.portfolio_border').addClass('portfolio_border_clicked');
         $('html, body').animate({
             scrollTop: $('.portfolio').find('#scroll_item_1').offset().top -60
-        }, 1000); 
+        }, 1000);  
 
         setTimeout(
           function() 
           {
             $('html, body').animate({
-                scrollTop: $('.portfolio').find('#scroll_item_3').offset().top -60
+                scrollTop: $('.portfolio').find('#scroll_item_5').offset().top -60
             }, 1000); 
           }, 1002);                  
         } 

@@ -3402,44 +3402,30 @@ header {
   .portfolio_project_four{
     grid-column: 1 / 7;
     background-color: #1E1E1E;
-    padding-top: 40px;
-    padding-bottom: 40px;
   }
   .portfolio_project_five{
     grid-column: 1 / 7;
     background-color: #1E1E1E;
-    padding-top: 40px;
-    padding-bottom: 40px;
   }
   .portfolio_project_six{
     grid-column: 1 / 7;
     background-color: #1E1E1E;
-    padding-top: 40px;
-    padding-bottom: 40px;
   }
   .portfolio_project_seven{
     grid-column: 1 / 7;
     background-color: #1E1E1E;
-    padding-top: 40px;
-    padding-bottom: 40px;
   }
   .portfolio_project_eight{
     grid-column: 1 / 7;
     background-color: #1E1E1E;
-    padding-top: 40px;
-    padding-bottom: 40px;
   }
   .portfolio_project_nine{
     grid-column: 1 / 7;
     background-color: #1E1E1E;
-    padding-top: 40px;
-    padding-bottom: 40px;
   }
   .portfolio_project_ten{
     grid-column: 1 / 7;
     background-color: #1E1E1E;
-    padding-top: 40px;
-    padding-bottom: 40px;
   }
   .portfolio_project_eleven{
     grid-column: 1 / 7;
@@ -5136,7 +5122,7 @@ PORTFOLIO PROJECTS THREE
 
 @media (min-width: 320px) and (max-width: 480px) {
   .portfolio_project_sizing3{
-    width: 320px;
+    width: 100%;
     margin: 0 auto;
   }
   .portfolio_project3_bt{
@@ -5478,7 +5464,7 @@ PORTFOLIO PROJECTS FOUR
 
 @media (min-width: 320px) and (max-width: 480px) {
   .portfolio_project_sizing4{
-    width: 320px;
+    width: 100%;
     margin: 0 auto;
   }
   .portfolio_project4_bt{
@@ -5821,7 +5807,7 @@ PORTFOLIO PROJECTS FIVE
 
 @media (min-width: 320px) and (max-width: 480px) {
   .portfolio_project_sizing5{
-    width: 320px;
+    width: 100%;
     margin: 0 auto;
   }
   .portfolio_project5_bt{
@@ -6162,7 +6148,7 @@ PORTFOLIO PROJECTS SIX
 
 @media (min-width: 320px) and (max-width: 480px) {
   .portfolio_project_sizing6{
-    width: 320px;
+    width: 100%;
     margin: 0 auto;
   }
   .portfolio_project6_bt{
@@ -6503,7 +6489,7 @@ PORTFOLIO PROJECTS SEVEN
 
 @media (min-width: 320px) and (max-width: 480px) {
   .portfolio_project_sizing7{
-    width: 320px;
+    width: 100%;
     margin: 0 auto;
   }
   .portfolio_project7_bt{
@@ -6845,7 +6831,7 @@ PORTFOLIO PROJECTS EIGHT
 
 @media (min-width: 320px) and (max-width: 480px) {
   .portfolio_project_sizing8{
-    width: 320px;
+    width: 100%;
     margin: 0 auto;
   }
   .portfolio_project8_bt{
@@ -7187,7 +7173,7 @@ PORTFOLIO PROJECTS NINE
 
 @media (min-width: 320px) and (max-width: 480px) {
   .portfolio_project_sizing9{
-    width: 320px;
+    width: 100%;
     margin: 0 auto;
   }
   .portfolio_project9_bt{
@@ -7530,7 +7516,7 @@ PORTFOLIO PROJECTS TEN
 
 @media (min-width: 320px) and (max-width: 480px) {
   .portfolio_project_sizing10{
-    width: 320px;
+    width: 100%;
     margin: 0 auto;
   }
   .portfolio_project10_bt{
