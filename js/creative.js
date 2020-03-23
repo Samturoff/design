@@ -592,21 +592,21 @@ $(function() {
 $(function portfolioMoveLeft() {
     var controller = new ScrollMagic.Controller();    
     // build tween
-    var tween = TweenMax.staggerFromTo(".portfolio_header1", 2, {left: 1200}, {left: 0, ease: Power4.easeOut}, 0.0);
+    var tween = TweenMax.staggerFromTo(".portfolio_header1", 2, {left: 1200}, {left: 0, ease: Back.easeOut}, 0.0);
 
     // build scene
-    var scene = new ScrollMagic.Scene({triggerElement: "#trigger1", duration: 100})
+    var scene = new ScrollMagic.Scene({triggerElement: "#trigger1"/*, duration: 100*/})
                     .setTween(tween)
 //                    .addIndicators({name: "staggering"}) // add indicators (requires plugin)
                     .addTo(controller);
 });
-$(function portfolioMoveright() {
+$(function portfolioMoveRight() {
     var controller = new ScrollMagic.Controller();    
     // build tween
-    var tween = TweenMax.staggerFromTo(".portfolio_header2", 2, {right: 1200}, {left: 0, ease: Power4.easeOut}, 0.0);
+    var tween = TweenMax.staggerFromTo(".portfolio_header2", 2, {right: 1200}, {left: 0, ease: Back.easeOut}, 0.0);
 
     // build scene
-    var scene = new ScrollMagic.Scene({triggerElement: "#trigger1", duration: 100})
+    var scene = new ScrollMagic.Scene({triggerElement: "#trigger1"})
                     .setTween(tween)
 //                    .addIndicators({name: "staggering"}) // add indicators (requires plugin)
                     .addTo(controller);
