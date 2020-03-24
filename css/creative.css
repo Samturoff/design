@@ -331,11 +331,6 @@ aside {
   padding-top: 40px;
 }
 
-#services {
-  padding-top: 20px;
-  padding-bottom: 60px;
-  background-color: #f2f2f2;
-}
 
 #contact p, #contact h2 {
   color: white;
@@ -680,9 +675,9 @@ header {
   }
 
   #graphicDesignerTitle {
-    font-size: 28px;  
+    font-size: 36px;  
     font-weight: 600;
-    color: #95dbcd;
+    color: #D5D021;
   }
 
   #lineBreak{
@@ -747,9 +742,9 @@ header {
   }
 
   #graphicDesignerTitle {
-    font-size: 28px;  
+    font-size: 36px;  
     font-weight: 600;
-    color: #95dbcd;
+    color: #D5D021;
   }
 
   #lineBreak{
@@ -814,9 +809,9 @@ header {
   }
 
   #graphicDesignerTitle {
-    font-size: 24px;  
+    font-size: 28px;  
     font-weight: 600;
-    color: #95dbcd;
+    color: #D5D021;
   }
 
   #lineBreak{
@@ -891,7 +886,7 @@ header {
   #graphicDesignerTitle {
     font-size: 20px;  
     font-weight: 600;
-    color: #95dbcd;
+    color: #D5D021;
   }
 
   #lineBreak{
@@ -955,7 +950,7 @@ header {
   #graphicDesignerTitle {
     font-size: 16px;  
     font-weight: 600;
-    color: #95dbcd;
+    color: #D5D021;
   }
 
   #lineBreak{
@@ -1015,7 +1010,7 @@ header {
   #graphicDesignerTitle {
     font-size: 14px;  
     font-weight: 600;
-    color: #95dbcd;
+    color: #D5D021;
   }
 
   #lineBreak{
@@ -1131,6 +1126,12 @@ header {
     background-color: #1E1E1E;
     z-index: 1;
     opacity: .9;
+    background-image: url('../img/portfolio/design_full_images/my_face.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;    
   }
   .about_me_bt_placement_1{
     grid-column: 1 / 7;
@@ -1656,6 +1657,12 @@ header {
     background-color: #1E1E1E;
     z-index: 1;
     opacity: .9;
+    background-image: url('../img/portfolio/design_full_images/my_face.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;    
   }
   .about_me_bt_placement_1{
     grid-column: 2 / 12;
@@ -2180,6 +2187,12 @@ header {
     background-color: #1E1E1E;
     z-index: 1;
     opacity: .9;
+    background-image: url('../img/portfolio/design_full_images/my_face.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;    
   }
   .about_me_bt_placement_1{
     grid-column: 1 / 7;
@@ -2617,6 +2630,10 @@ header {
 /* END OF ABOUT ME */
 
 /* SKILLS */
+.cube_cover{
+  width: 150px;
+  height: auto;  
+}
 @media only screen and (min-width: 320px) and (max-width: 480px){
   .skills{
     display: grid;

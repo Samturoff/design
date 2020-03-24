@@ -120,7 +120,96 @@ $(toggleIcon);
 $(closeMobileMenu);
 $(desktopMenu);
 
+$(function() {
+    $('.menu-desktop').find('#intro-section').click(function () {
 
+    $('html, body').animate({
+        scrollTop: $('#page-top').offset().top -60
+    }, 500);      
+    });
+});
+
+$(function() {
+    $('.menu-desktop').find('#about').click(function () {
+
+    $('html, body').animate({
+        scrollTop: $('.about_me').offset().top
+    }, 500);      
+    });
+});
+
+$(function() {
+    $('.menu-desktop').find('#services').click(function () {
+
+    $('html, body').animate({
+        scrollTop: $('.skills').offset().top -60
+    }, 500);      
+    });
+});
+
+$(function() {
+    $('.menu-desktop').find('#portfolio').click(function () {
+
+    $('html, body').animate({
+        scrollTop: $('.portfolio').offset().top -60
+    }, 500);      
+    });
+});
+
+$(function() {
+    $('.menu-desktop').find('#contact').click(function () {
+
+    $('html, body').animate({
+        scrollTop: $('.contact').offset().top -60
+    }, 500);      
+    });
+});
+
+
+$(function() {
+    $('.menu-mobile').find('#intro-section').click(function () {
+
+    $('html, body').animate({
+        scrollTop: $('#page-top').offset().top -60
+    }, 500);      
+    });
+});
+
+$(function() {
+    $('.menu-mobile').find('#about').click(function () {
+
+    $('html, body').animate({
+        scrollTop: $('.about_me').offset().top
+    }, 500);      
+    });
+});
+
+$(function() {
+    $('.menu-mobile').find('#services').click(function () {
+
+    $('html, body').animate({
+        scrollTop: $('.skills').offset().top -60
+    }, 500);      
+    });
+});
+
+$(function() {
+    $('.menu-mobile').find('#portfolio').click(function () {
+
+    $('html, body').animate({
+        scrollTop: $('.portfolio').offset().top -60
+    }, 500);      
+    });
+});
+
+$(function() {
+    $('.menu-mobile').find('#contact').click(function () {
+
+    $('html, body').animate({
+        scrollTop: $('.contact').offset().top -60
+    }, 500);      
+    });
+});
 
 $(function() {
     $( ".portfolio_tab_one" ).click(function () {
