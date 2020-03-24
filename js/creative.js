@@ -90,7 +90,121 @@ $(document).ready(function(){
 
     }
     
-  })     
+  })
+$(function lTransition() {
+    var controller = new ScrollMagic.Controller();    
+    // build tween
+    var tween = TweenMax.staggerFromTo("#contact_header_l", 2, {top: 500}, {top: 50, right: 50, ease: Power4.easeOut}, 0.0);
+
+    // build scene
+    var scene = new ScrollMagic.Scene({triggerElement: ".trigger_lets", duration: 100})
+                    .setTween(tween)
+//                    .addIndicators({name: "contact"}) // add indicators (requires plugin)
+                    .addTo(controller);
+});
+$(function eTransition() {
+    var controller = new ScrollMagic.Controller();    
+    // build tween
+    var tween = TweenMax.staggerFromTo("#contact_header_e", 2, {top: 500}, {top: 50, right: 15, ease: Power4.easeOut}, 0.0);
+
+    // build scene
+    var scene = new ScrollMagic.Scene({triggerElement: ".trigger_lets", duration: 200})
+                    .setTween(tween)
+//                    .addIndicators({name: "contact"}) // add indicators (requires plugin)
+                    .addTo(controller);
+});
+$(function tTransition() {
+    var controller = new ScrollMagic.Controller();    
+    // build tween
+    var tween = TweenMax.staggerFromTo("#contact_header_t", 2, {top: 500}, {top: 50, right: -20, ease: Power4.easeOut}, 0.0);
+
+    // build scene
+    var scene = new ScrollMagic.Scene({triggerElement: ".trigger_lets", duration: 300})
+                    .setTween(tween)
+//                    .addIndicators({name: "contact"}) // add indicators (requires plugin)
+                    .addTo(controller);
+});
+$(function sTransition() {
+    var controller = new ScrollMagic.Controller();    
+    // build tween
+    var tween = TweenMax.staggerFromTo("#contact_header_s", 2, {top: 500}, {top: 50, right: -55, ease: Power4.easeOut}, 0.0);
+
+    // build scene
+    var scene = new ScrollMagic.Scene({triggerElement: ".trigger_lets", duration: 400})
+                    .setTween(tween)
+//                    .addIndicators({name: "contact"}) // add indicators (requires plugin)
+                    .addTo(controller);
+});
+$(function collabTransition() {
+    var controller = new ScrollMagic.Controller();    
+    // build tween
+    var tween = TweenMax.staggerFromTo("#contact_header_collab", 2, {right: 500}, {right: 0, ease: Power4.easeOut}, 0.0);
+
+    // build scene
+    var scene = new ScrollMagic.Scene({triggerElement: ".trigger_collab", duration: 1})
+                    .setTween(tween)
+//                    .addIndicators({name: "contact"}) // add indicators (requires plugin)
+                    .addTo(controller);
+});
+
+
+$(function lTransition2() {
+    var controller = new ScrollMagic.Controller();    
+    // build tween
+    var tween = TweenMax.staggerFromTo("#contact_header_l2", 2, {top: 500}, {top: 50, right: 50, ease: Power4.easeOut}, 0.0);
+
+    // build scene
+    var scene = new ScrollMagic.Scene({triggerElement: ".trigger_lets2", duration: 100})
+                    .setTween(tween)
+//                    .addIndicators({name: "contact"}) // add indicators (requires plugin)
+                    .addTo(controller);
+});
+$(function eTransition2() {
+    var controller = new ScrollMagic.Controller();    
+    // build tween
+    var tween = TweenMax.staggerFromTo("#contact_header_e2", 2, {top: 500}, {top: 50, right: 15, ease: Power4.easeOut}, 0.0);
+
+    // build scene
+    var scene = new ScrollMagic.Scene({triggerElement: ".trigger_lets2", duration: 200})
+                    .setTween(tween)
+//                    .addIndicators({name: "contact"}) // add indicators (requires plugin)
+                    .addTo(controller);
+});
+$(function tTransition2() {
+    var controller = new ScrollMagic.Controller();    
+    // build tween
+    var tween = TweenMax.staggerFromTo("#contact_header_t2", 2, {top: 500}, {top: 50, right: -20, ease: Power4.easeOut}, 0.0);
+
+    // build scene
+    var scene = new ScrollMagic.Scene({triggerElement: ".trigger_lets2", duration: 300})
+                    .setTween(tween)
+//                    .addIndicators({name: "contact"}) // add indicators (requires plugin)
+                    .addTo(controller);
+});
+$(function sTransition2() {
+    var controller = new ScrollMagic.Controller();    
+    // build tween
+    var tween = TweenMax.staggerFromTo("#contact_header_s2", 2, {top: 500}, {top: 50, right: -55, ease: Power4.easeOut}, 0.0);
+
+    // build scene
+    var scene = new ScrollMagic.Scene({triggerElement: ".trigger_lets2", duration: 400})
+                    .setTween(tween)
+//                    .addIndicators({name: "contact"}) // add indicators (requires plugin)
+                    .addTo(controller);
+});
+$(function collabTransition2() {
+    var controller = new ScrollMagic.Controller();    
+    // build tween
+    var tween = TweenMax.staggerFromTo("#contact_header_collab2", 2, {right: 500}, {right: 0, ease: Power4.easeOut}, 0.0);
+
+    // build scene
+    var scene = new ScrollMagic.Scene({triggerElement: ".trigger_collab2", duration: 1})
+                    .setTween(tween)
+//                    .addIndicators({name: "contact"}) // add indicators (requires plugin)
+                    .addTo(controller);
+});
+
+       
 })
 
 //Hamburger menu + scroll button
@@ -718,121 +832,4 @@ $(function portfolioTransitionColor() {
     .setClassToggle("#reveal1", "visible") // add class to reveal
 //    .addIndicators({name: "reveal"}) // add indicators (requires plugin)
     .addTo(controller);
-});
-
-
-
-
-
-$(function lTransition() {
-    var controller = new ScrollMagic.Controller();    
-    // build tween
-    var tween = TweenMax.staggerFromTo("#contact_header_l", 2, {top: 500}, {top: 50, right: 50, ease: Power4.easeOut}, 0.0);
-
-    // build scene
-    var scene = new ScrollMagic.Scene({triggerElement: ".trigger_lets", duration: 100})
-                    .setTween(tween)
-//                    .addIndicators({name: "contact"}) // add indicators (requires plugin)
-                    .addTo(controller);
-});
-$(function eTransition() {
-    var controller = new ScrollMagic.Controller();    
-    // build tween
-    var tween = TweenMax.staggerFromTo("#contact_header_e", 2, {top: 500}, {top: 50, right: 15, ease: Power4.easeOut}, 0.0);
-
-    // build scene
-    var scene = new ScrollMagic.Scene({triggerElement: ".trigger_lets", duration: 200})
-                    .setTween(tween)
-//                    .addIndicators({name: "contact"}) // add indicators (requires plugin)
-                    .addTo(controller);
-});
-$(function tTransition() {
-    var controller = new ScrollMagic.Controller();    
-    // build tween
-    var tween = TweenMax.staggerFromTo("#contact_header_t", 2, {top: 500}, {top: 50, right: -20, ease: Power4.easeOut}, 0.0);
-
-    // build scene
-    var scene = new ScrollMagic.Scene({triggerElement: ".trigger_lets", duration: 300})
-                    .setTween(tween)
-//                    .addIndicators({name: "contact"}) // add indicators (requires plugin)
-                    .addTo(controller);
-});
-$(function sTransition() {
-    var controller = new ScrollMagic.Controller();    
-    // build tween
-    var tween = TweenMax.staggerFromTo("#contact_header_s", 2, {top: 500}, {top: 50, right: -55, ease: Power4.easeOut}, 0.0);
-
-    // build scene
-    var scene = new ScrollMagic.Scene({triggerElement: ".trigger_lets", duration: 400})
-                    .setTween(tween)
-//                    .addIndicators({name: "contact"}) // add indicators (requires plugin)
-                    .addTo(controller);
-});
-$(function collabTransition() {
-    var controller = new ScrollMagic.Controller();    
-    // build tween
-    var tween = TweenMax.staggerFromTo("#contact_header_collab", 2, {right: 500}, {right: 0, ease: Power4.easeOut}, 0.0);
-
-    // build scene
-    var scene = new ScrollMagic.Scene({triggerElement: ".trigger_collab", duration: 1})
-                    .setTween(tween)
-//                    .addIndicators({name: "contact"}) // add indicators (requires plugin)
-                    .addTo(controller);
-});
-
-
-$(function lTransition2() {
-    var controller = new ScrollMagic.Controller();    
-    // build tween
-    var tween = TweenMax.staggerFromTo("#contact_header_l2", 2, {top: 500}, {top: 50, right: 50, ease: Power4.easeOut}, 0.0);
-
-    // build scene
-    var scene = new ScrollMagic.Scene({triggerElement: ".trigger_lets2", duration: 100})
-                    .setTween(tween)
-//                    .addIndicators({name: "contact"}) // add indicators (requires plugin)
-                    .addTo(controller);
-});
-$(function eTransition2() {
-    var controller = new ScrollMagic.Controller();    
-    // build tween
-    var tween = TweenMax.staggerFromTo("#contact_header_e2", 2, {top: 500}, {top: 50, right: 15, ease: Power4.easeOut}, 0.0);
-
-    // build scene
-    var scene = new ScrollMagic.Scene({triggerElement: ".trigger_lets2", duration: 200})
-                    .setTween(tween)
-//                    .addIndicators({name: "contact"}) // add indicators (requires plugin)
-                    .addTo(controller);
-});
-$(function tTransition2() {
-    var controller = new ScrollMagic.Controller();    
-    // build tween
-    var tween = TweenMax.staggerFromTo("#contact_header_t2", 2, {top: 500}, {top: 50, right: -20, ease: Power4.easeOut}, 0.0);
-
-    // build scene
-    var scene = new ScrollMagic.Scene({triggerElement: ".trigger_lets2", duration: 300})
-                    .setTween(tween)
-//                    .addIndicators({name: "contact"}) // add indicators (requires plugin)
-                    .addTo(controller);
-});
-$(function sTransition2() {
-    var controller = new ScrollMagic.Controller();    
-    // build tween
-    var tween = TweenMax.staggerFromTo("#contact_header_s2", 2, {top: 500}, {top: 50, right: -55, ease: Power4.easeOut}, 0.0);
-
-    // build scene
-    var scene = new ScrollMagic.Scene({triggerElement: ".trigger_lets2", duration: 400})
-                    .setTween(tween)
-//                    .addIndicators({name: "contact"}) // add indicators (requires plugin)
-                    .addTo(controller);
-});
-$(function collabTransition2() {
-    var controller = new ScrollMagic.Controller();    
-    // build tween
-    var tween = TweenMax.staggerFromTo("#contact_header_collab2", 2, {right: 500}, {right: 0, ease: Power4.easeOut}, 0.0);
-
-    // build scene
-    var scene = new ScrollMagic.Scene({triggerElement: ".trigger_collab2", duration: 1})
-                    .setTween(tween)
-//                    .addIndicators({name: "contact"}) // add indicators (requires plugin)
-                    .addTo(controller);
 });
