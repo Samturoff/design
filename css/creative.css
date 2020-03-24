@@ -827,9 +827,6 @@ header {
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
-}
 
 /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -3463,6 +3460,11 @@ header {
     width: 100%;
   }
   #reveal1 {
+  -webkit-transition: -webkit-text-stroke-color 500ms ease, color 500ms ease;
+  -moz-transition: -webkit-text-stroke-color 500ms ease, color 500ms ease;
+  -ms-transition: -webkit-text-stroke-color 500ms ease, color 500ms ease;
+  -o-transition: -webkit-text-stroke-color 500ms ease, color 500ms ease;
+  transition: -webkit-text-stroke-color 500ms ease, color 500ms ease;    
   }
   #reveal1.visible {
     color: #D5D021;
@@ -3589,25 +3591,25 @@ header {
     background-image: url('../img/portfolio/my_thumbnails/3.png');
   }
   .portfolio_tab_four{
-    background-image: url('../img/portfolio/my_thumbnails/3.png');
+    background-image: url('../img/portfolio/my_thumbnails/4.png');
   }
   .portfolio_tab_five{
-    background-image: url('../img/portfolio/my_thumbnails/3.png');
+    background-image: url('../img/portfolio/my_thumbnails/5.png');
   }
   .portfolio_tab_six{
-    background-image: url('../img/portfolio/my_thumbnails/3.png');
+    background-image: url('../img/portfolio/my_thumbnails/6.png');
   }
   .portfolio_tab_seven{
-    background-image: url('../img/portfolio/my_thumbnails/3.png');
+    background-image: url('../img/portfolio/my_thumbnails/7.png');
   }
   .portfolio_tab_eight{
-    background-image: url('../img/portfolio/my_thumbnails/3.png');
+    background-image: url('../img/portfolio/my_thumbnails/8.png');
   }
   .portfolio_tab_nine{
-    background-image: url('../img/portfolio/my_thumbnails/3.png');
+    background-image: url('../img/portfolio/my_thumbnails/9.png');
   }
   .portfolio_tab_ten{
-    background-image: url('../img/portfolio/my_thumbnails/3.png');
+    background-image: url('../img/portfolio/my_thumbnails/10.png');
   }
   .portfolio_tab_description{
     margin-top: 0;
@@ -3703,6 +3705,11 @@ header {
     width: 100%;
   }
   #reveal1 {
+  -webkit-transition: -webkit-text-stroke-color 500ms ease, color 500ms ease;
+  -moz-transition: -webkit-text-stroke-color 500ms ease, color 500ms ease;
+  -ms-transition: -webkit-text-stroke-color 500ms ease, color 500ms ease;
+  -o-transition: -webkit-text-stroke-color 500ms ease, color 500ms ease;
+  transition: -webkit-text-stroke-color 500ms ease, color 500ms ease;    
   }
   #reveal1.visible {
     color: #D5D021;
@@ -3829,25 +3836,25 @@ header {
     background-image: url('../img/portfolio/my_thumbnails/3.png');
   }
   .portfolio_tab_four{
-    background-image: url('../img/portfolio/my_thumbnails/3.png');
+    background-image: url('../img/portfolio/my_thumbnails/4.png');
   }
   .portfolio_tab_five{
-    background-image: url('../img/portfolio/my_thumbnails/3.png');
+    background-image: url('../img/portfolio/my_thumbnails/5.png');
   }
   .portfolio_tab_six{
-    background-image: url('../img/portfolio/my_thumbnails/3.png');
+    background-image: url('../img/portfolio/my_thumbnails/6.png');
   }
   .portfolio_tab_seven{
-    background-image: url('../img/portfolio/my_thumbnails/3.png');
+    background-image: url('../img/portfolio/my_thumbnails/7.png');
   }
   .portfolio_tab_eight{
-    background-image: url('../img/portfolio/my_thumbnails/3.png');
+    background-image: url('../img/portfolio/my_thumbnails/8.png');
   }
   .portfolio_tab_nine{
-    background-image: url('../img/portfolio/my_thumbnails/3.png');
+    background-image: url('../img/portfolio/my_thumbnails/9.png');
   }
   .portfolio_tab_ten{
-    background-image: url('../img/portfolio/my_thumbnails/3.png');
+    background-image: url('../img/portfolio/my_thumbnails/10.png');
   }
   .portfolio_tab_description{
     margin-top: 0;
@@ -3945,6 +3952,11 @@ header {
     width: 100%;
   }
   #reveal1 {
+  -webkit-transition: -webkit-text-stroke-color 500ms ease, color 500ms ease;
+  -moz-transition: -webkit-text-stroke-color 500ms ease, color 500ms ease;
+  -ms-transition: -webkit-text-stroke-color 500ms ease, color 500ms ease;
+  -o-transition: -webkit-text-stroke-color 500ms ease, color 500ms ease;
+  transition: -webkit-text-stroke-color 500ms ease, color 500ms ease;    
   }
   #reveal1.visible {
     color: #D5D021;
@@ -4075,31 +4087,31 @@ header {
   }
   .portfolio_tab_four{
     grid-column: 1 / 13;    
-    background-image: url('../img/portfolio/my_thumbnails/3.png');
+    background-image: url('../img/portfolio/my_thumbnails/4.png');
   }
   .portfolio_tab_five{
     grid-column: 1 / 13;    
-    background-image: url('../img/portfolio/my_thumbnails/3.png');
+    background-image: url('../img/portfolio/my_thumbnails/5.png');
   }
   .portfolio_tab_six{
     grid-column: 1 / 13;    
-    background-image: url('../img/portfolio/my_thumbnails/3.png');
+    background-image: url('../img/portfolio/my_thumbnails/6.png');
   }
   .portfolio_tab_seven{
     grid-column: 1 / 13;    
-    background-image: url('../img/portfolio/my_thumbnails/3.png');
+    background-image: url('../img/portfolio/my_thumbnails/7.png');
   }
   .portfolio_tab_eight{
     grid-column: 1 / 13;    
-    background-image: url('../img/portfolio/my_thumbnails/3.png');
+    background-image: url('../img/portfolio/my_thumbnails/8.png');
   }
   .portfolio_tab_nine{
     grid-column: 1 / 13;    
-    background-image: url('../img/portfolio/my_thumbnails/3.png');
+    background-image: url('../img/portfolio/my_thumbnails/9.png');
   }
   .portfolio_tab_ten{
     grid-column: 1 / 13;    
-    background-image: url('../img/portfolio/my_thumbnails/3.png');
+    background-image: url('../img/portfolio/my_thumbnails/10.png');
   }
 
   .portfolio_tab_description{
@@ -4373,31 +4385,31 @@ header {
   }
   .portfolio_tab_four{
     grid-column: 7 / 13;    
-    background-image: url('../img/portfolio/my_thumbnails/3.png');
+    background-image: url('../img/portfolio/my_thumbnails/4.png');
   }
   .portfolio_tab_five{
     grid-column: 1 / 7;    
-    background-image: url('../img/portfolio/my_thumbnails/3.png');
+    background-image: url('../img/portfolio/my_thumbnails/5.png');
   }
   .portfolio_tab_six{
     grid-column: 7 / 13;    
-    background-image: url('../img/portfolio/my_thumbnails/3.png');
+    background-image: url('../img/portfolio/my_thumbnails/6.png');
   }
   .portfolio_tab_seven{
     grid-column: 1 / 7;    
-    background-image: url('../img/portfolio/my_thumbnails/3.png');
+    background-image: url('../img/portfolio/my_thumbnails/7.png');
   }
   .portfolio_tab_eight{
     grid-column: 7 / 13;    
-    background-image: url('../img/portfolio/my_thumbnails/3.png');
+    background-image: url('../img/portfolio/my_thumbnails/8.png');
   }
   .portfolio_tab_nine{
     grid-column: 1 / 7;    
-    background-image: url('../img/portfolio/my_thumbnails/3.png');
+    background-image: url('../img/portfolio/my_thumbnails/9.png');
   }
   .portfolio_tab_ten{
     grid-column: 7 / 13;    
-    background-image: url('../img/portfolio/my_thumbnails/3.png');
+    background-image: url('../img/portfolio/my_thumbnails/10.png');
   }
   .portfolio_tab_description{
     margin-top: 0;
@@ -4872,46 +4884,6 @@ PORTFOLIO PROJECTS ONE
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .portfolio_project_sizing1{
-    width: 481px;
-    margin: 0 auto;
-  }
-  .portfolio_project_bt{
-    color: #CFCFCF;
-    opacity: .8;
-    max-width: 582px;
-    text-align: center;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin: 0 auto;
-  }
-  .portfolio_project_bt_container_mobile{
-    width: 100%;
-  }
-  .portfolio_project_container_desktop{
-    display: none;
-  }          
-  .portfolio_project_bt_container_desktop{
-    display: none;
-  }        
-  .portfolio_project_spacer{
-    padding-top: 40px;
-  }
-  .portfolio_project_spacer_divided{
-    padding-top: 20px;
-  }  
-  .portfolio_project_line1{
-    display: block;
-    height: 3px;
-    width: 60px;
-    border: 0;
-    border-top: 3px solid #CFCFCF;
-    opacity: .2;    
-    border-radius: 25px;
-    margin: 0 auto;
-  }  
-}
 
 /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -5214,47 +5186,6 @@ PORTFOLIO PROJECTS TWO
   ##Device = Tablets, Ipads (landscape)
   ##Screen = B/w 768px to 1024px
 */
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .portfolio_project_sizing2{
-    width: 100%;
-    margin: 0 auto;
-  }
-  .portfolio_project2_bt{
-    color: #CFCFCF;
-    opacity: .8;
-    max-width: 582px;
-    text-align: center;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin: 0 auto;
-  }
-  .portfolio_project2_bt_container_mobile{
-    width: 100%;
-  }
-  .portfolio_project2_container_desktop{
-    display: none;
-  }          
-  .portfolio_project2_bt_container_desktop{
-    display: none;
-  }        
-  .portfolio_project2_spacer{
-    padding-top: 40px;
-  }
-  .portfolio_project2_spacer_divided{
-    padding-top: 20px;
-  }  
-  .portfolio_project2_line1{
-    display: block;
-    height: 3px;
-    width: 60px;
-    border: 0;
-    border-top: 3px solid #CFCFCF;
-    opacity: .2;    
-    border-radius: 25px;
-    margin: 0 auto;
-  }  
-}
 
 /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -5592,49 +5523,6 @@ PORTFOLIO PROJECTS THREE
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .portfolio_project_sizing3{
-    width: 100%;
-    margin: 0 auto;
-  }
-  .portfolio_project_sizing3_2{
-    width: 100% !important;
-  }  
-  .portfolio_project3_bt{
-    color: #CFCFCF;
-    opacity: .8;
-    max-width: 582px;
-    text-align: center;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin: 0 auto;
-  }
-  .portfolio_project3_bt_container_mobile{
-    width: 100%;
-  }
-  .portfolio_project3_container_desktop{
-    display: none;
-  }          
-  .portfolio_project3_bt_container_desktop{
-    display: none;
-  }        
-  .portfolio_project3_spacer{
-    padding-top: 40px;
-  }
-  .portfolio_project3_spacer_divided{
-    padding-top: 20px;
-  }  
-  .portfolio_project3_line1{
-    display: block;
-    height: 3px;
-    width: 60px;
-    border: 0;
-    border-top: 3px solid #CFCFCF;
-    opacity: .2;    
-    border-radius: 25px;
-    margin: 0 auto;
-  }  
-}
 
 /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -6004,61 +5892,6 @@ PORTFOLIO PROJECTS FOUR
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .portfolio_project_sizing4{
-    width: 100%;
-  }
-  .portfolio_project_sizing4_1{
-    width: 704px !important;
-  }
-  .portfolio_project_sizing4_2{
-    height: 450px !important;
-    width: auto !important;
-  }    
-  .portfolio_project4_bt{
-    color: #CFCFCF;
-    opacity: .8;
-    max-width: 582px;
-    text-align: center;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin: 0 auto;
-  }
-  .portfolio_project4_container_desktop_special_case{
-    display: none;
-  }  
-  .portfolio_project4_bt_container_desktop{
-    display: none;
-  }
-  .portfolio_project4_container_mobile{
-    display: none;
-  }    
-  .portfolio_project4_bt_container_mobile{
-    display: 100%;
-  }  
-  .portfolio_project4_spacer{
-    width: 100%;
-    height: 40px;
-  }
-  .portfolio_project4_spacer_divided{
-    padding-top: 20px;
-  }
-  .portfolio_project4_vertical_spacer{
-    width: 40px;
-    height: 300px;
-  }    
-  .portfolio_project4_line1{
-    display: block;
-    height: 3px;
-    width: 100px;
-    border: 0;
-    border-top: 3px solid #CFCFCF;
-    opacity: .2;    
-    border-radius: 25px;
-    margin: 0 auto;
-  }  
-}
-
 /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
   ##Screen = B/w 481px to 767px
@@ -6361,46 +6194,6 @@ PORTFOLIO PROJECTS FIVE
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .portfolio_project_sizing5{
-    width: 100%;
-    margin: 0 auto;
-  }
-  .portfolio_project5_bt{
-    color: #CFCFCF;
-    opacity: .8;
-    max-width: 582px;
-    text-align: center;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin: 0 auto;
-  }
-  .portfolio_project5_bt_container_mobile{
-    width: 100%;
-  }
-  .portfolio_project5_container_desktop{
-    display: none;
-  }          
-  .portfolio_project5_bt_container_desktop{
-    display: none;
-  }        
-  .portfolio_project5_spacer{
-    padding-top: 40px;
-  }
-  .portfolio_project5_spacer_divided{
-    padding-top: 20px;
-  }  
-  .portfolio_project5_line1{
-    display: block;
-    height: 3px;
-    width: 60px;
-    border: 0;
-    border-top: 3px solid #CFCFCF;
-    opacity: .2;    
-    border-radius: 25px;
-    margin: 0 auto;
-  }  
-}
 
 /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -6701,46 +6494,6 @@ PORTFOLIO PROJECTS SIX
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .portfolio_project_sizing6{
-    width: 100%;
-    margin: 0 auto;
-  }
-  .portfolio_project6_bt{
-    color: #CFCFCF;
-    opacity: .8;
-    max-width: 582px;
-    text-align: center;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin: 0 auto;
-  }
-  .portfolio_project6_bt_container_mobile{
-    width: 100%;
-  }
-  .portfolio_project6_container_desktop{
-    display: none;
-  }          
-  .portfolio_project6_bt_container_desktop{
-    display: none;
-  }        
-  .portfolio_project6_spacer{
-    padding-top: 40px;
-  }
-  .portfolio_project6_spacer_divided{
-    padding-top: 20px;
-  }  
-  .portfolio_project6_line1{
-    display: block;
-    height: 3px;
-    width: 60px;
-    border: 0;
-    border-top: 3px solid #CFCFCF;
-    opacity: .2;    
-    border-radius: 25px;
-    margin: 0 auto;
-  }  
-}
 
 /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -7111,61 +6864,6 @@ PORTFOLIO PROJECTS SEVEN
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .portfolio_project_sizing7{
-    width: 1000px;
-    margin: 0 auto;
-  }
-  .portfolio_project_sizing7_1{
-    width: 100% !important;    
-  }
-  .portfolio_project_sizing7_2{
-    width: 500px !important;    
-  }
-  .portfolio_project_sizing7_3{
-    width: 500px !important;    
-  }
-  .portfolio_project_sizing7_4{
-    width: 500px !important;    
-  }
-  .portfolio_project_sizing7_5{
-    width: 500px !important;    
-  }
-  .portfolio_project7_bt{
-    color: #CFCFCF;
-    opacity: .8;
-    max-width: 582px;
-    text-align: center;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin: 0 auto;
-  }
-  .portfolio_project7_bt_container_mobile{
-    width: 100%;
-  }
-  .portfolio_project7_container_desktop{
-    display: none;
-  }          
-  .portfolio_project7_bt_container_desktop{
-    display: none;
-  }        
-  .portfolio_project7_spacer{
-    padding-top: 40px;
-  }
-  .portfolio_project7_spacer_divided{
-    padding-top: 20px;
-  }  
-  .portfolio_project7_line1{
-    display: block;
-    height: 3px;
-    width: 60px;
-    border: 0;
-    border-top: 3px solid #CFCFCF;
-    opacity: .2;    
-    border-radius: 25px;
-    margin: 0 auto;
-  }  
-}
 
 /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -7351,6 +7049,10 @@ PORTFOLIO PROJECTS EIGHT
     height: 40px;
     width: 100%;
   }
+  .portfolio_project8_vertical_spacer{
+    width: 40px;
+    height: 400px;    
+  }  
   .portfolio_project8_spacer_top{
     padding-top: 40px;
     width: 100%;
@@ -7424,6 +7126,10 @@ PORTFOLIO PROJECTS EIGHT
     height: 40px;
     width: 100%;
   }
+  .portfolio_project8_vertical_spacer{
+    width: 40px;
+    height: 400px;    
+  }  
   .portfolio_project8_spacer_top{
     padding-top: 40px;
     width: 100%;
@@ -7502,6 +7208,10 @@ PORTFOLIO PROJECTS EIGHT
     height: 40px;
     width: 100%;
   }
+  .portfolio_project8_vertical_spacer{
+    width: 40px;
+    height: 400px;    
+  }  
   .portfolio_project8_spacer_top{
     padding-top: 40px;
     width: 100%;
@@ -7605,75 +7315,6 @@ PORTFOLIO PROJECTS EIGHT
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .portfolio_project_sizing8{
-    width: 100%;
-    margin: 0 auto;
-  }
-  .portfolio_project_sizing8_1{
-    width: 500px !important;    
-  }
-  .portfolio_project_sizing8_2{
-    width: 600px !important;    
-  }
-  .portfolio_project_sizing8_3{
-    width: 600px !important;    
-  }
-  .portfolio_project_sizing8_4{
-    width: 600px !important;    
-  }
-  .portfolio_project_sizing8_5{
-    width: 600px !important;    
-  }
-  .portfolio_project_sizing8_6{
-    width: 600px !important;    
-  }
-  .portfolio_project_sizing8_7{
-    width: 600px !important;    
-  }  
-  .portfolio_project8_bt{
-    color: #CFCFCF;
-    opacity: .8;
-    max-width: 582px;
-    text-align: center;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin: 0 auto;
-  }
-  .portfolio_project8_bt_container_mobile{
-    width: 100%;
-  }
-  .portfolio_project8_container_desktop{
-    display: none;
-  }          
-  .portfolio_project8_bt_container_desktop{
-    display: none;
-  }        
-  .portfolio_project8_spacer{
-    padding-top: 40px;
-  }
-  .portfolio_project8_spacer_top{
-    padding-top: 40px;
-    width: 100%;
-  }
-  .portfolio_project8_spacer_bottom{
-    padding-top: 80px;
-    width: 100%;    
-  }  
-  .portfolio_project8_spacer_divided{
-    padding-top: 20px;
-  }  
-  .portfolio_project8_line1{
-    display: block;
-    height: 3px;
-    width: 60px;
-    border: 0;
-    border-top: 3px solid #CFCFCF;
-    opacity: .2;    
-    border-radius: 25px;
-    margin: 0 auto;
-  }  
-}
 
 /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -8112,73 +7753,6 @@ PORTFOLIO PROJECTS NINE
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .portfolio_project_sizing9{
-    width: 100%;
-    margin: 0 auto;
-  }
-  .portfolio_project_sizing9_1{
-    width: 600px !important;    
-  }
-  .portfolio_project_sizing9_2{
-    width: 600px !important;    
-  }
-  .portfolio_project_sizing9_3{
-    width: 600px !important;    
-  }
-  .portfolio_project_sizing9_4{
-    width: 600px !important;    
-  }
-  .portfolio_project_sizing9_5{
-    width: 600px !important;    
-  }
-  .portfolio_project_sizing9_6{
-    width: 600px !important;    
-  }   
-  .portfolio_project9_bt{
-    color: #CFCFCF;
-    opacity: .8;
-    max-width: 582px;
-    text-align: center;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin: 0 auto;
-  }  
-  .portfolio_project9_bt{
-    color: #CFCFCF;
-    opacity: .8;
-    max-width: 582px;
-    text-align: center;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin: 0 auto;
-  }
-  .portfolio_project9_container_desktop{
-    display: none;
-  }  
-  .portfolio_project9_bt_container_desktop{
-    display: none;
-  }
-  .portfolio_project9_bt_container_mobile{
-    width: 100%;
-  }  
-  .portfolio_project9_spacer{
-    padding-top: 40px;
-  }
-  .portfolio_project9_spacer_divided{
-    padding-top: 20px;
-  }  
-  .portfolio_project9_line1{
-    display: block;
-    height: 3px;
-    width: 60px;
-    border: 0;
-    border-top: 3px solid #CFCFCF;
-    opacity: .2;    
-    border-radius: 25px;
-    margin: 0 auto;
-  }  
-}
 
 /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -8516,46 +8090,6 @@ PORTFOLIO PROJECTS TEN
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .portfolio_project_sizing10{
-    width: 100%;
-    margin: 0 auto;
-  }
-  .portfolio_project10_bt{
-    color: #CFCFCF;
-    opacity: .8;
-    max-width: 582px;
-    text-align: center;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin: 0 auto;
-  }
-  .portfolio_project10_bt_container_mobile{
-    width: 100%;
-  }
-  .portfolio_project10_container_desktop{
-    display: none;
-  }          
-  .portfolio_project10_bt_container_desktop{
-    display: none;
-  }        
-  .portfolio_project10_spacer{
-    padding-top: 40px;
-  }
-  .portfolio_project10_spacer_divided{
-    padding-top: 20px;
-  }  
-  .portfolio_project10_line1{
-    display: block;
-    height: 3px;
-    width: 60px;
-    border: 0;
-    border-top: 3px solid #CFCFCF;
-    opacity: .2;    
-    border-radius: 25px;
-    margin: 0 auto;
-  }  
-}
 
 /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
