@@ -204,7 +204,7 @@ $(function collabTransition2() {
                     .addTo(controller);
 });
 
-       
+
 })
 
 //Hamburger menu + scroll button
@@ -326,6 +326,11 @@ $(function() {
 });
 
 $(function() {
+    $( ".portfolio_tab_one_hero" ).click(function () {
+        window.location = "www.example.com/index.php?id=" + this.id;
+     
+    });
+
     $( ".portfolio_tab_one" ).click(function () {
       if ( $( ".portfolio_project_one" ).is( ":hidden" ) ) {
         $( ".portfolio_project_one" ).slideDown( 1000 );

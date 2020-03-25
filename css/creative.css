@@ -3451,28 +3451,33 @@ header {
   }
   .portfolio_header_placement{
     position: relative;
-    grid-column: 1 / 7;
-    margin: 0 auto;
-    overflow: hidden;
-
+    grid-column: 1 / 13;
     padding-top: 50px;
     padding-bottom: 75px;
     width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .portfolio_header_height{
+    height: 75px;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   #reveal1 {
   -webkit-transition: -webkit-text-stroke-color 500ms ease, color 500ms ease;
   -moz-transition: -webkit-text-stroke-color 500ms ease, color 500ms ease;
   -ms-transition: -webkit-text-stroke-color 500ms ease, color 500ms ease;
   -o-transition: -webkit-text-stroke-color 500ms ease, color 500ms ease;
-  transition: -webkit-text-stroke-color 500ms ease, color 500ms ease;    
+  transition: -webkit-text-stroke-color 500ms ease, color 500ms ease;
   }
   #reveal1.visible {
-    color: #D5D021;
-    -webkit-text-stroke-color: black;  
+  color: #D5D021;      
+  -webkit-text-stroke-color: black;  
   }
   .portfolio_header{
+    overflow: hidden;
+    text-overflow: ellipsis;
     position: relative;  
-    white-space: nowrap;
     font-family: brandon-grotesque, sans-serif;
     font-size: 48px !important;
     font-weight: 700;
@@ -3696,28 +3701,33 @@ header {
   }
   .portfolio_header_placement{
     position: relative;
-    grid-column: 1 / 7;
-    margin: 0 auto;
-    overflow: hidden;
-
+    grid-column: 1 / 13;
     padding-top: 50px;
     padding-bottom: 75px;
     width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .portfolio_header_height{
+    height: 90px;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   #reveal1 {
   -webkit-transition: -webkit-text-stroke-color 500ms ease, color 500ms ease;
   -moz-transition: -webkit-text-stroke-color 500ms ease, color 500ms ease;
   -ms-transition: -webkit-text-stroke-color 500ms ease, color 500ms ease;
   -o-transition: -webkit-text-stroke-color 500ms ease, color 500ms ease;
-  transition: -webkit-text-stroke-color 500ms ease, color 500ms ease;    
+  transition: -webkit-text-stroke-color 500ms ease, color 500ms ease;
   }
   #reveal1.visible {
-    color: #D5D021;
-    -webkit-text-stroke-color: black;  
+  color: #D5D021;      
+  -webkit-text-stroke-color: black;  
   }
   .portfolio_header{
+    overflow: hidden;
+    text-overflow: ellipsis;
     position: relative;  
-    white-space: nowrap;
     font-family: brandon-grotesque, sans-serif;
     font-size: 70px !important;
     font-weight: 700;
@@ -3742,9 +3752,7 @@ header {
     -o-transition: all 500ms ease;
     transition: all 500ms ease;
     opacity: .75; 
-
   }
-
   .portfolio_tab_placement:hover .portforlio_tab_cover { 
     opacity: .5; 
   }
@@ -3944,35 +3952,42 @@ header {
   .portfolio_header_placement{
     position: relative;
     grid-column: 1 / 13;
-    margin: 0 auto;
-    overflow: hidden;
-
+    padding-left: 40px;
+    padding-right: 40px;    
     padding-top: 50px;
     padding-bottom: 75px;
     width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .portfolio_header_height{
+    height: 90px;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   #reveal1 {
   -webkit-transition: -webkit-text-stroke-color 500ms ease, color 500ms ease;
   -moz-transition: -webkit-text-stroke-color 500ms ease, color 500ms ease;
   -ms-transition: -webkit-text-stroke-color 500ms ease, color 500ms ease;
   -o-transition: -webkit-text-stroke-color 500ms ease, color 500ms ease;
-  transition: -webkit-text-stroke-color 500ms ease, color 500ms ease;    
+  transition: -webkit-text-stroke-color 500ms ease, color 500ms ease;
   }
   #reveal1.visible {
-    color: #D5D021;
-    -webkit-text-stroke-color: black;  
+  color: #D5D021;      
+  -webkit-text-stroke-color: black;  
   }
   .portfolio_header{
+    overflow: hidden;
+    text-overflow: ellipsis;
     position: relative;  
-    white-space: nowrap;
     font-family: brandon-grotesque, sans-serif;
-    font-size: 80px !important;
+    font-size: 70px !important;
     font-weight: 700;
     color: black;
     text-align: center !important;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #CFCFCF;  
-  } 
+  }
   .portfolio_desktop{
     display:none;
   }
@@ -4073,6 +4088,10 @@ header {
     -o-transition: all 250ms ease;
     transition: all 250ms ease;  
   }
+  .portfolio_tab_one_hero{
+    background-image: url('../img/portfolio/my_thumbnails/1.png');
+    height: 125px;    
+  }  
   .portfolio_tab_one{
     background-image: url('../img/portfolio/my_thumbnails/1.png');
     height: 125px;    
@@ -4211,6 +4230,8 @@ header {
   }
   .portfolio_header_placement{
     position: relative;
+    padding-left: 40px;
+    padding-right: 40px;    
     grid-column: 1 / 13;
     padding-top: 50px;
     padding-bottom: 75px;
