@@ -404,6 +404,167 @@ aside {
 
 
 /* ---------------------------------------------------- MY CODE ----------------------------------------------------*/
+#scroll_item_1{
+  margin-top: -60px;
+}
+#scroll_item_2{
+  margin-top: -60px;
+}
+#scroll_item_3{
+  margin-top: -60px;
+}
+#scroll_item_4{
+  margin-top: -60px;
+}
+#scroll_item_5{
+  margin-top: -60px;
+}
+.portfolio_block_transition1{
+  position: fixed;
+  z-index: 2000;
+  height: 20vh;
+  width: 0%;
+  background-color: #D5D021;
+  -webkit-transition: all 1000ms ease;
+  -moz-transition: all 1000ms ease;
+  -ms-transition: all 1000ms ease;
+  -o-transition: all 1000ms ease;
+  transition: all 1000ms ease;
+  left: 0;  
+}
+.portfolio_block_transition2{
+  position: fixed;
+  z-index: 2000;
+  height: 20vh;
+  width: 0%;
+  background-color: #D5D021;
+  -webkit-transition: all 1000ms ease;
+  -moz-transition: all 1000ms ease;
+  -ms-transition: all 1000ms ease;
+  -o-transition: all 1000ms ease;
+  transition: all 1000ms ease;
+  margin-top: 20vh;
+  left: 0;  
+}
+.portfolio_block_transition3{
+  position: fixed;
+  z-index: 2000;
+  height: 20vh;
+  width: 0%;
+  background-color: #D5D021;
+  -webkit-transition: all 1000ms ease;
+  -moz-transition: all 1000ms ease;
+  -ms-transition: all 1000ms ease;
+  -o-transition: all 1000ms ease;
+  transition: all 1000ms ease;
+  margin-top: 40vh;  
+  left: 0;  
+}
+.portfolio_block_transition4{
+  position: fixed;
+  z-index: 2000;
+  height: 20vh;
+  width: 0%;
+  background-color: #D5D021;
+  -webkit-transition: all 1000ms ease;
+  -moz-transition: all 1000ms ease;
+  -ms-transition: all 1000ms ease;
+  -o-transition: all 1000ms ease;
+  transition: all 1000ms ease;
+  margin-top: 60vh;  
+  left: 0;  
+}
+.portfolio_block_transition5{
+  position: fixed;
+  z-index: 2000;
+  height: 20vh;
+  width: 0%;
+  background-color: #D5D021;
+  -webkit-transition: all 1000ms ease;
+  -moz-transition: all 1000ms ease;
+  -ms-transition: all 1000ms ease;
+  -o-transition: all 1000ms ease;
+  transition: all 1000ms ease;
+  margin-top: 80vh;  
+  left: 0;  
+}
+.portfolio_block_transition6{
+  position: fixed;
+  z-index: 2000;
+  height: 20vh;
+  width: 100%;
+  background-color: #00011c;
+  -webkit-transition: all 1000ms ease;
+  -moz-transition: all 1000ms ease;
+  -ms-transition: all 1000ms ease;
+  -o-transition: all 1000ms ease;
+  transition: all 1000ms ease;
+  right: 0;  
+}
+.portfolio_block_transition7{
+  position: fixed;
+  z-index: 2000;
+  height: 20vh;
+  width: 100%;
+  background-color: #00011c;
+  -webkit-transition: all 1000ms ease;
+  -moz-transition: all 1000ms ease;
+  -ms-transition: all 1000ms ease;
+  -o-transition: all 1000ms ease;
+  transition: all 1000ms ease;
+  margin-top: 20vh;
+  right: 0;  
+}
+.portfolio_block_transition8{
+  position: fixed;
+  z-index: 2000;
+  height: 20vh;
+  width: 100%;
+  background-color: #00011c;
+  -webkit-transition: all 1000ms ease;
+  -moz-transition: all 1000ms ease;
+  -ms-transition: all 1000ms ease;
+  -o-transition: all 1000ms ease;
+  transition: all 1000ms ease;
+  margin-top: 40vh;  
+  right: 0;  
+}
+.portfolio_block_transition9{
+  position: fixed;
+  z-index: 2000;
+  height: 20vh;
+  width: 100%;
+  background-color: #00011c;
+  -webkit-transition: all 1000ms ease;
+  -moz-transition: all 1000ms ease;
+  -ms-transition: all 1000ms ease;
+  -o-transition: all 1000ms ease;
+  transition: all 1000ms ease;
+  margin-top: 60vh;  
+  right: 0;  
+}
+.portfolio_block_transition10{
+  position: fixed;
+  z-index: 2000;
+  height: 20vh;
+  width: 100%;
+  background-color: #00011c;
+  -webkit-transition: all 1000ms ease;
+  -moz-transition: all 1000ms ease;
+  -ms-transition: all 1000ms ease;
+  -o-transition: all 1000ms ease;
+  transition: all 1000ms ease;
+  margin-top: 80vh;  
+  right: 0;  
+}
+.portfolio_block_transitiont{
+  width: 100% !important;
+  background-color: #00011c !important;
+}
+.portfolio_block_transitiont_2{
+  width: 0% !important;
+  background-color: #D5D021 !important;
+}
 /* START of Mobile Menu */
 .nav, .desktop {
     display: block;
@@ -620,9 +781,6 @@ header {
   text-align: center;
   color: white;
 }
-
-
-
 
 @media (min-width: 1281px) {
   header {

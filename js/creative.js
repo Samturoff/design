@@ -54,7 +54,7 @@ $(document).ready(function(){
 
     }
     
-  })
+  });
     $(window).scroll(function(){
     var light_pos = $('#container_color_changer').offset().top;
     var light_height = $('#container_color_changer').height();
@@ -88,38 +88,53 @@ $(document).ready(function(){
 //        $('.hamburger3').addClass('menu_black');
         $('.desktop_navbar').fadeOut();
     }
+  });
 
-    if(window.location == "https://samturoff.github.io/design/portfolio1.html")
-    {   var x = 1;
-        if(x == 1){
-        $( ".portfolio_project_one" ).slideDown( 1000 );
-        $( ".portfolio_project_two" ).slideUp( 1000 );
-        $( ".portfolio_project_three" ).slideUp( 1000 );                
-        $( ".portfolio_project_four" ).slideUp( 1000 );                
-        $( ".portfolio_project_five" ).slideUp( 1000 );                
-        $( ".portfolio_project_six" ).slideUp( 1000 );                
-        $( ".portfolio_project_seven" ).slideUp( 1000 );                
-        $( ".portfolio_project_eight" ).slideUp( 1000 );                
-        $( ".portfolio_project_nine" ).slideUp( 1000 );                
-        $( ".portfolio_project_ten" ).slideUp( 1000 );                
-        $( ".portfolio_project_eleven" ).slideUp( 1000 );                
-        $( ".portfolio_project_twelve" ).slideUp( 1000 );                
-        $( ".portfolio_project_thirteen" ).slideUp( 1000 );                
-        $( ".portfolio_project_fourteen" ).slideUp( 1000 );
+    if(window.location == "file:///C:/Users/Sam/Documents/GitHub/username.github.io/project_two/design/portfolio1.html")
+    {
+        setTimeout(
+        function() 
+        {
+            location.href = "#scroll_item_1"; 
 
-        $('.portforlio_tab_cover').removeClass('portforlio_tab_cover_clicked');
-        $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
-        $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
-        $('.portfolio_border').removeClass('portfolio_border_clicked');     
+            $('.portfolio_block_transition6').addClass('portfolio_block_transitiont_2');
+            $('.portfolio_block_transition7').addClass('portfolio_block_transitiont_2');        
+            $('.portfolio_block_transition8').addClass('portfolio_block_transitiont_2');        
+            $('.portfolio_block_transition9').addClass('portfolio_block_transitiont_2');        
+            $('.portfolio_block_transition10').addClass('portfolio_block_transitiont_2');
 
-        $('.portfolio_tab_one').find('.portforlio_tab_cover').addClass('portforlio_tab_cover_clicked');
-        $('.portfolio_tab_one').find('.portfolio_tab_header').addClass('portfolio_tab_header_clicked');
-        $('.portfolio_tab_one').find('.portfolio_tab_info').addClass('portfolio_tab_info_clicked');
-        $('.portfolio_tab_one').find('.portfolio_border').addClass('portfolio_border_clicked');
-        x++;
+            $( ".portfolio_project_one" ).slideDown( 1000 );
+            $( ".portfolio_project_two" ).slideUp( 1000 );
+            $( ".portfolio_project_three" ).slideUp( 1000 );                
+            $( ".portfolio_project_four" ).slideUp( 1000 );                
+            $( ".portfolio_project_five" ).slideUp( 1000 );                
+            $( ".portfolio_project_six" ).slideUp( 1000 );                
+            $( ".portfolio_project_seven" ).slideUp( 1000 );                
+            $( ".portfolio_project_eight" ).slideUp( 1000 );                
+            $( ".portfolio_project_nine" ).slideUp( 1000 );                
+            $( ".portfolio_project_ten" ).slideUp( 1000 );                
+            $( ".portfolio_project_eleven" ).slideUp( 1000 );                
+            $( ".portfolio_project_twelve" ).slideUp( 1000 );                
+            $( ".portfolio_project_thirteen" ).slideUp( 1000 );                
+            $( ".portfolio_project_fourteen" ).slideUp( 1000 );
+
+            $('.portforlio_tab_cover').removeClass('portforlio_tab_cover_clicked');
+            $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
+            $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
+            $('.portfolio_border').removeClass('portfolio_border_clicked');     
+
+            $('.portfolio_tab_one').find('.portforlio_tab_cover').addClass('portforlio_tab_cover_clicked');
+            $('.portfolio_tab_one').find('.portfolio_tab_header').addClass('portfolio_tab_header_clicked');
+            $('.portfolio_tab_one').find('.portfolio_tab_info').addClass('portfolio_tab_info_clicked');
+            $('.portfolio_tab_one').find('.portfolio_border').addClass('portfolio_border_clicked');
+        }, 100);                  
     }
-    }
-  })
+});
+
+
+
+
+
 $(function lTransition() {
     var controller = new ScrollMagic.Controller();    
     // build tween
@@ -234,7 +249,6 @@ $(function collabTransition2() {
 });
 
 
-})
 
 //Hamburger menu + scroll button
 function toggleIcon() {
@@ -346,6 +360,7 @@ $(function() {
 });
 
 $(function() {
+
     $('.menu-mobile').find('#contact').click(function () {
 
     $('html, body').animate({
@@ -356,43 +371,17 @@ $(function() {
 
 $(function() {
     $( ".portfolio_tab_one_hero" ).click(function () {
-        window.location = "portfolio1.html" + this.id;
-      if ( $( ".portfolio_project_one" ).is( ":hidden" ) ) {
-        $( ".portfolio_project_one" ).slideDown( 1000 );
-        $( ".portfolio_project_two" ).slideUp( 1000 );
-        $( ".portfolio_project_three" ).slideUp( 1000 );                
-        $( ".portfolio_project_four" ).slideUp( 1000 );                
-        $( ".portfolio_project_five" ).slideUp( 1000 );                
-        $( ".portfolio_project_six" ).slideUp( 1000 );                
-        $( ".portfolio_project_seven" ).slideUp( 1000 );                
-        $( ".portfolio_project_eight" ).slideUp( 1000 );                
-        $( ".portfolio_project_nine" ).slideUp( 1000 );                
-        $( ".portfolio_project_ten" ).slideUp( 1000 );                
-        $( ".portfolio_project_eleven" ).slideUp( 1000 );                
-        $( ".portfolio_project_twelve" ).slideUp( 1000 );                
-        $( ".portfolio_project_thirteen" ).slideUp( 1000 );                
-        $( ".portfolio_project_fourteen" ).slideUp( 1000 );
+        $('.portfolio_block_transition1').addClass('portfolio_block_transitiont');
+        $('.portfolio_block_transition2').addClass('portfolio_block_transitiont');        
+        $('.portfolio_block_transition3').addClass('portfolio_block_transitiont');        
+        $('.portfolio_block_transition4').addClass('portfolio_block_transitiont');        
+        $('.portfolio_block_transition5').addClass('portfolio_block_transitiont');
 
-        $('.portforlio_tab_cover').removeClass('portforlio_tab_cover_clicked');
-        $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
-        $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
-        $('.portfolio_border').removeClass('portfolio_border_clicked');     
-
-        $('.portfolio_tab_one').find('.portforlio_tab_cover').addClass('portforlio_tab_cover_clicked');
-        $('.portfolio_tab_one').find('.portfolio_tab_header').addClass('portfolio_tab_header_clicked');
-        $('.portfolio_tab_one').find('.portfolio_tab_info').addClass('portfolio_tab_info_clicked');
-        $('.portfolio_tab_one').find('.portfolio_border').addClass('portfolio_border_clicked');
-
-      } else {
-        $( ".portfolio_project_one" ).slideUp( 1000 );
-        $('.portforlio_tab_cover').removeClass('portforlio_tab_cover_clicked');
-        $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
-        $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
-        $('.portfolio_border').removeClass('portfolio_border_clicked');        
-      }
-    $('html, body').animate({
-        scrollTop: $('.portfolio').find('#scroll_item_1').offset().top -60
-    }, 1000);       
+        setTimeout(
+        function() 
+        {
+            window.location = "file:///C:/Users/Sam/Documents/GitHub/username.github.io/project_two/design/portfolio1.html";
+        }, 1200);                  
     });
 
     $( ".portfolio_tab_one" ).click(function () {
@@ -430,7 +419,7 @@ $(function() {
         $('.portfolio_border').removeClass('portfolio_border_clicked');        
       }
     $('html, body').animate({
-        scrollTop: $('.portfolio').find('#scroll_item_1').offset().top -60
+        scrollTop: $('.portfolio').find('#scroll_item_1').offset().top 
     }, 1000);      
     });
     
@@ -470,7 +459,7 @@ $(function() {
         $('.portfolio_border').removeClass('portfolio_border_clicked');          
       }
         $('html, body').animate({
-            scrollTop: $('.portfolio').find('#scroll_item_1').offset().top -60
+            scrollTop: $('.portfolio').find('#scroll_item_1').offset().top 
         }, 1000);
     }); 
     
@@ -501,14 +490,14 @@ $(function() {
         $('.portfolio_tab_three').find('.portfolio_tab_info').addClass('portfolio_tab_info_clicked');
         $('.portfolio_tab_three').find('.portfolio_border').addClass('portfolio_border_clicked');
         $('html, body').animate({
-            scrollTop: $('.portfolio').find('#scroll_item_1').offset().top -60
+            scrollTop: $('.portfolio').find('#scroll_item_1').offset().top 
         }, 1000); 
 
         setTimeout(
           function() 
           {
             $('html, body').animate({
-                scrollTop: $('.portfolio').find('#scroll_item_2').offset().top -60
+                scrollTop: $('.portfolio').find('#scroll_item_2').offset().top 
             }, 1000); 
           }, 1002);                         
         } 
@@ -549,14 +538,14 @@ $(function() {
         $('.portfolio_tab_four').find('.portfolio_tab_info').addClass('portfolio_tab_info_clicked');
         $('.portfolio_tab_four').find('.portfolio_border').addClass('portfolio_border_clicked');
         $('html, body').animate({
-            scrollTop: $('.portfolio').find('#scroll_item_1').offset().top -60
+            scrollTop: $('.portfolio').find('#scroll_item_1').offset().top 
         }, 1000); 
 
         setTimeout(
           function() 
           {
             $('html, body').animate({
-                scrollTop: $('.portfolio').find('#scroll_item_2').offset().top -60
+                scrollTop: $('.portfolio').find('#scroll_item_2').offset().top 
             }, 1000); 
           }, 1002);         
         } 
@@ -599,14 +588,14 @@ $(function() {
         $('.portfolio_tab_five').find('.portfolio_border').addClass('portfolio_border_clicked');
 
         $('html, body').animate({
-            scrollTop: $('.portfolio').find('#scroll_item_1').offset().top -60
+            scrollTop: $('.portfolio').find('#scroll_item_1').offset().top 
         }, 1000); 
 
         setTimeout(
           function() 
           {
             $('html, body').animate({
-                scrollTop: $('.portfolio').find('#scroll_item_3').offset().top -60
+                scrollTop: $('.portfolio').find('#scroll_item_3').offset().top 
             }, 1000); 
           }, 1002);         
         } 
@@ -647,14 +636,14 @@ $(function() {
         $('.portfolio_tab_six').find('.portfolio_tab_info').addClass('portfolio_tab_info_clicked');
         $('.portfolio_tab_six').find('.portfolio_border').addClass('portfolio_border_clicked');
         $('html, body').animate({
-            scrollTop: $('.portfolio').find('#scroll_item_1').offset().top -60
+            scrollTop: $('.portfolio').find('#scroll_item_1').offset().top 
         }, 1000); 
 
         setTimeout(
           function() 
           {
             $('html, body').animate({
-                scrollTop: $('.portfolio').find('#scroll_item_3').offset().top -60
+                scrollTop: $('.portfolio').find('#scroll_item_3').offset().top 
             }, 1000); 
           }, 1002);                 
         } 
@@ -695,14 +684,14 @@ $(function() {
         $('.portfolio_tab_seven').find('.portfolio_tab_info').addClass('portfolio_tab_info_clicked');
         $('.portfolio_tab_seven').find('.portfolio_border').addClass('portfolio_border_clicked');
         $('html, body').animate({
-            scrollTop: $('.portfolio').find('#scroll_item_1').offset().top -60
+            scrollTop: $('.portfolio').find('#scroll_item_1').offset().top 
         }, 1000); 
 
         setTimeout(
           function() 
           {
             $('html, body').animate({
-                scrollTop: $('.portfolio').find('#scroll_item_4').offset().top -60
+                scrollTop: $('.portfolio').find('#scroll_item_4').offset().top 
             }, 1000); 
           }, 1002);         
         } 
@@ -743,14 +732,14 @@ $(function() {
         $('.portfolio_tab_eight').find('.portfolio_tab_info').addClass('portfolio_tab_info_clicked');
         $('.portfolio_tab_eight').find('.portfolio_border').addClass('portfolio_border_clicked');
         $('html, body').animate({
-            scrollTop: $('.portfolio').find('#scroll_item_1').offset().top -60
+            scrollTop: $('.portfolio').find('#scroll_item_1').offset().top 
         }, 1000); 
 
         setTimeout(
           function() 
           {
             $('html, body').animate({
-                scrollTop: $('.portfolio').find('#scroll_item_4').offset().top -60
+                scrollTop: $('.portfolio').find('#scroll_item_4').offset().top 
             }, 1000); 
           }, 1002);                  
         }
@@ -791,14 +780,14 @@ $(function() {
         $('.portfolio_tab_nine').find('.portfolio_tab_info').addClass('portfolio_tab_info_clicked');
         $('.portfolio_tab_nine').find('.portfolio_border').addClass('portfolio_border_clicked');
         $('html, body').animate({
-            scrollTop: $('.portfolio').find('#scroll_item_1').offset().top -60
+            scrollTop: $('.portfolio').find('#scroll_item_1').offset().top 
         }, 1000); 
 
         setTimeout(
           function() 
           {
             $('html, body').animate({
-                scrollTop: $('.portfolio').find('#scroll_item_5').offset().top -60
+                scrollTop: $('.portfolio').find('#scroll_item_5').offset().top 
             }, 1000); 
           }, 1002);                 
         } 
@@ -839,14 +828,14 @@ $(function() {
         $('.portfolio_tab_ten').find('.portfolio_tab_info').addClass('portfolio_tab_info_clicked');
         $('.portfolio_tab_ten').find('.portfolio_border').addClass('portfolio_border_clicked');
         $('html, body').animate({
-            scrollTop: $('.portfolio').find('#scroll_item_1').offset().top -60
+            scrollTop: $('.portfolio').find('#scroll_item_1').offset().top 
         }, 1000);  
 
         setTimeout(
           function() 
           {
             $('html, body').animate({
-                scrollTop: $('.portfolio').find('#scroll_item_5').offset().top -60
+                scrollTop: $('.portfolio').find('#scroll_item_5').offset().top 
             }, 1000); 
           }, 1002);                  
         } 
