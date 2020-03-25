@@ -90,8 +90,8 @@ $(document).ready(function(){
     }
 
     if(window.location == "https://samturoff.github.io/design/portfolio1.html")
-    {
-      if ( $( ".portfolio_project_one" ).is( ":hidden" ) ) {
+    {   var x = 1;
+        if(x == 1){
         $( ".portfolio_project_one" ).slideDown( 1000 );
         $( ".portfolio_project_two" ).slideUp( 1000 );
         $( ".portfolio_project_three" ).slideUp( 1000 );                
@@ -116,17 +116,9 @@ $(document).ready(function(){
         $('.portfolio_tab_one').find('.portfolio_tab_header').addClass('portfolio_tab_header_clicked');
         $('.portfolio_tab_one').find('.portfolio_tab_info').addClass('portfolio_tab_info_clicked');
         $('.portfolio_tab_one').find('.portfolio_border').addClass('portfolio_border_clicked');
-
-      } else {
-        $( ".portfolio_project_one" ).slideUp( 1000 );
-        $('.portforlio_tab_cover').removeClass('portforlio_tab_cover_clicked');
-        $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
-        $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
-        $('.portfolio_border').removeClass('portfolio_border_clicked');        
-      }
-    $('html, body').animate({
-        scrollTop: $('.portfolio').find('#scroll_item_1').offset().top -60
-    }, 1000);      }
+        x++;
+    }
+    }
   })
 $(function lTransition() {
     var controller = new ScrollMagic.Controller();    
