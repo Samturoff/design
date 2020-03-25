@@ -113,7 +113,7 @@ $(document).ready(function(){
         setTimeout(
         function() 
         {
-            location.href = "#scroll_item_1"; 
+            window.location.replace("#scroll_item_1"); 
 
             $( ".portfolio_project_one" ).slideDown( 1000 );
 
@@ -136,7 +136,7 @@ $(document).ready(function(){
         setTimeout(
         function() 
         {
-            location.href = "#scroll_item_1"; 
+            window.location.replace("#scroll_item_1"); 
 
             $( ".portfolio_project_two" ).slideDown( 1000 );
 
@@ -159,7 +159,7 @@ $(document).ready(function(){
         setTimeout(
         function() 
         {
-            location.href = "#scroll_item_2"; 
+            window.location.replace("#scroll_item_2"); 
 
             $( ".portfolio_project_three" ).slideDown( 1000 );
 
@@ -182,7 +182,7 @@ $(document).ready(function(){
         setTimeout(
         function() 
         {
-            location.href = "#scroll_item_2"; 
+            window.location.replace("#scroll_item_2"); 
 
             $( ".portfolio_project_four" ).slideDown( 1000 );
 
@@ -205,7 +205,7 @@ $(document).ready(function(){
         setTimeout(
         function() 
         {
-            location.href = "#scroll_item_3"; 
+            window.location.replace("#scroll_item_3"); 
 
             $( ".portfolio_project_five" ).slideDown( 1000 );
 
@@ -228,7 +228,7 @@ $(document).ready(function(){
         setTimeout(
         function() 
         {
-            location.href = "#scroll_item_3"; 
+            window.location.replace("#scroll_item_3"); 
 
             $( ".portfolio_project_six" ).slideDown( 1000 );
 
@@ -251,7 +251,7 @@ $(document).ready(function(){
         setTimeout(
         function() 
         {
-            location.href = "#scroll_item_4"; 
+            window.location.replace("#scroll_item_4"); 
 
             $( ".portfolio_project_seven" ).slideDown( 1000 );
 
@@ -274,7 +274,7 @@ $(document).ready(function(){
         setTimeout(
         function() 
         {
-            location.href = "#scroll_item_4"; 
+            window.location.replace("#scroll_item_4"); 
 
             $( ".portfolio_project_eight" ).slideDown( 1000 );
 
@@ -297,7 +297,7 @@ $(document).ready(function(){
         setTimeout(
         function() 
         {
-            location.href = "#scroll_item_5"; 
+            window.location.replace("#scroll_item_5"); 
 
             $( ".portfolio_project_nine" ).slideDown( 1000 );
 
@@ -320,7 +320,7 @@ $(document).ready(function(){
         setTimeout(
         function() 
         {
-            location.href = "#scroll_item_5"; 
+            window.location.replace("#scroll_item_5"); 
 
             $( ".portfolio_project_ten" ).slideDown( 1000 );
 
