@@ -87,9 +87,11 @@ $(document).ready(function(){
 //        $('.hamburger3').removeClass('menu_white');
 //        $('.hamburger3').addClass('menu_black');
         $('.desktop_navbar').fadeOut();
-
     }
-    
+    if(window.location == "https://samturoff.github.io/design/portfolio1.html"){
+        alert("Hello! I am an alert box!!");
+    }
+
   })
 $(function lTransition() {
     var controller = new ScrollMagic.Controller();    
@@ -327,8 +329,9 @@ $(function() {
 
 $(function() {
     $( ".portfolio_tab_one_hero" ).click(function () {
-        window.location = "www.example.com/index.php?id=" + this.id;
-     
+        window.location = "https://samturoff.github.io/design/portfolio1.html" + this.id;
+
+      
     });
 
     $( ".portfolio_tab_one" ).click(function () {
