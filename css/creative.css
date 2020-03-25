@@ -4212,11 +4212,16 @@ header {
   .portfolio_header_placement{
     position: relative;
     grid-column: 1 / 13;
-    margin: 0 auto;
-    overflow: hidden;
     padding-top: 50px;
     padding-bottom: 75px;
     width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .portfolio_header_height{
+    height: 90px;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   #reveal1 {
   -webkit-transition: -webkit-text-stroke-color 500ms ease, color 500ms ease;
@@ -4230,10 +4235,11 @@ header {
   -webkit-text-stroke-color: black;  
   }
   .portfolio_header{
+    overflow: hidden;
+    text-overflow: ellipsis;
     position: relative;  
-    white-space: nowrap;
     font-family: brandon-grotesque, sans-serif;
-    font-size: 80px !important;
+    font-size: 70px !important;
     font-weight: 700;
     color: black;
     text-align: center !important;
