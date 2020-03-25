@@ -1,6 +1,22 @@
 //Change nav color from scrolling
 'use strict'
 $(document).ready(function(){
+
+    setTimeout(
+        function() 
+        {
+            $('#homeHeading').addClass('homeHeading_transition');            
+        }, 200);                  
+    setTimeout(
+        function() 
+        {
+            $('#luceroTitle').addClass('luceroTitle_transition');
+        }, 700);  
+    setTimeout(
+        function() 
+        {
+            $('#graphicDesignerTitle').addClass('graphicDesignerTitle_transition');
+        }, 2000);
     $('.mobile_navbar').hide();
     $('.desktop_navbar').hide();
 

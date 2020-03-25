@@ -772,23 +772,114 @@ header {
   height: 100vh;
   width: 100%;
   min-height: auto;
+
+  text-align: center;
+  color: white;
+}
+
+.gradient_header{
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  min-height: auto;
+
+  background: linear-gradient(-45deg, #073138, #060639, #073138, #00002b);
+  background-size: 400% 400%;
+  animation: gradient 8s ease infinite;
+  z-index: -1;
+  text-align: center;
+
+}
+.gradient_bg{
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  min-height: auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
   background-image: url('../img/portfolio_pattern_1.jpg');
-  text-align: center;
-  color: white;
+  z-index: -1;
+  mix-blend-mode: color-dodge;
+
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 @media (min-width: 1281px) {
   header {
     min-height: 100%;
   }
+  .
+  .header-content{
+  }
+  #homeHeading{
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    margin-top: 95px;
+    opacity: 0;
+    -webkit-transition: all 700ms ease-out;
+    -moz-transition: all 700ms ease-out;
+    -ms-transition: all 700ms ease-out;
+    -o-transition: all 700ms ease-out;
+    transition: all 700ms ease-out;    
+  }
+  .homeHeading_transition{
+    margin-top: 0 !important;
+
+    height: 95px !important;
+    opacity: 100% !important;
+  }
+  #luceroTitle{
+    overflow: hidden;
+    white-space: nowrap;
+
+    margin-bottom: 80px;
+    height: 0;
+    opacity: 0;
+    -webkit-transition: all 1200ms ease-out;
+    -moz-transition: all 1200ms ease-out;
+    -ms-transition: all 1200ms ease-out;
+    -o-transition: all 1200ms ease-out;
+    transition: all 1200ms ease-out;    
+  }
+  .luceroTitle_transition{
+    margin-bottom: 0 !important;
+    padding-top: 5px;    
+    height: 80px !important;
+    opacity: 100% !important;
+  }  
+  #graphicDesignerTitle{
+    overflow: hidden;
+    white-space: nowrap;    
+    width: 0;
+    opacity: 0;    
+    -webkit-transition: all 1200ms ease-out;
+    -moz-transition: all 1200ms ease-out;
+    -ms-transition: all 1200ms ease-out;
+    -o-transition: all 1200ms ease-out;
+    transition: all 1200ms ease-out;     
+  }
+  .graphicDesignerTitle_transition{
+    opacity: 100% !important;    
+    width: 400px !important;
+  } 
   header .header-content .header-content-inner {
     max-width: 1000px;
     margin-left: 10%;
+    z-index: 1000;
   }
  
   header .header-content .header-content-inner p {
@@ -839,6 +930,7 @@ header {
   }
 
   #lineBreak{
+    position: absolute;
     border-radius: 25px;
     width: 530px;
     height: 6px;
