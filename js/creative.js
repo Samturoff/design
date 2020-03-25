@@ -577,7 +577,7 @@ $(function() {
 
         setTimeout(
         function() 
-        {
+        {  window.history.back();
             window.location = "https://samturoff.github.io/design/portfolio_mm.html";
         }, 1000);                  
     });
@@ -592,6 +592,7 @@ $(function() {
         setTimeout(
         function() 
         {
+            window.history.back();
             window.location = "https://samturoff.github.io/design/portfolio_rst.html";
         }, 1000);                  
     });
@@ -606,6 +607,7 @@ $(function() {
         setTimeout(
         function() 
         {
+            window.history.back();            
             window.location = "https://samturoff.github.io/design/portfolio_gg.html";
         }, 1000);                  
     });
@@ -620,6 +622,7 @@ $(function() {
         setTimeout(
         function() 
         {
+            window.history.back();
             window.location = "https://samturoff.github.io/design/portfolio_lnp.html";
         }, 1000);                  
     });
@@ -634,6 +637,7 @@ $(function() {
         setTimeout(
         function() 
         {
+            window.history.back();            
             window.location = "https://samturoff.github.io/design/portfolio_igorrr.html";
         }, 1000);                  
     });
@@ -648,6 +652,7 @@ $(function() {
         setTimeout(
         function() 
         {
+            window.history.back();            
             window.location = "https://samturoff.github.io/design/portfolio_ts.html";
         }, 1000);                  
     });
@@ -662,6 +667,7 @@ $(function() {
         setTimeout(
         function() 
         {
+            window.history.back();            
             window.location = "https://samturoff.github.io/design/portfolio_dn.html";
         }, 1000);                  
     });
@@ -676,6 +682,7 @@ $(function() {
         setTimeout(
         function() 
         {
+            window.history.back();
             window.location = "https://samturoff.github.io/design/portfolio_opg.html";
         }, 1000);                  
     });
@@ -690,6 +697,7 @@ $(function() {
         setTimeout(
         function() 
         {
+            window.history.back();
             window.location = "https://samturoff.github.io/design/portfolio_beb.html";
         }, 1000);                  
     });
@@ -704,6 +712,7 @@ $(function() {
         setTimeout(
         function() 
         {
+            window.history.back();
             window.location = "https://samturoff.github.io/design/portfolio_lc.html";
         }, 1000);                  
     });                                
