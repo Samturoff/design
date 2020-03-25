@@ -3744,6 +3744,37 @@ header {
     -o-transition: all 250ms ease;
     transition: all 250ms ease;  
   }
+  .portfolio_tab_one_link{
+    background-image: url('../img/portfolio/my_thumbnails/1.png');
+  }
+  .portfolio_tab_two_link{
+    background-image: url('../img/portfolio/my_thumbnails/2.png');
+  }
+  .portfolio_tab_three_link{
+    background-image: url('../img/portfolio/my_thumbnails/3.png');
+  }
+  .portfolio_tab_four_link{
+    background-image: url('../img/portfolio/my_thumbnails/4.png');
+  }
+  .portfolio_tab_five_link{
+    background-image: url('../img/portfolio/my_thumbnails/5.png');
+  }
+  .portfolio_tab_six_link{
+    background-image: url('../img/portfolio/my_thumbnails/6.png');
+  }
+  .portfolio_tab_seven_link{
+    background-image: url('../img/portfolio/my_thumbnails/7.png');
+  }
+  .portfolio_tab_eight_link{
+    background-image: url('../img/portfolio/my_thumbnails/8.png');
+  }
+  .portfolio_tab_nine_link{
+    background-image: url('../img/portfolio/my_thumbnails/9.png');
+  }
+  .portfolio_tab_ten_link{
+    background-image: url('../img/portfolio/my_thumbnails/10.png');
+  }
+
   .portfolio_tab_one{
     background-image: url('../img/portfolio/my_thumbnails/1.png');
   }
@@ -3992,6 +4023,37 @@ header {
     -o-transition: all 250ms ease;
     transition: all 250ms ease;  
   }
+  .portfolio_tab_one_link{
+    background-image: url('../img/portfolio/my_thumbnails/1.png');
+  }
+  .portfolio_tab_two_link{
+    background-image: url('../img/portfolio/my_thumbnails/2.png');
+  }
+  .portfolio_tab_three_link{
+    background-image: url('../img/portfolio/my_thumbnails/3.png');
+  }
+  .portfolio_tab_four_link{
+    background-image: url('../img/portfolio/my_thumbnails/4.png');
+  }
+  .portfolio_tab_five_link{
+    background-image: url('../img/portfolio/my_thumbnails/5.png');
+  }
+  .portfolio_tab_six_link{
+    background-image: url('../img/portfolio/my_thumbnails/6.png');
+  }
+  .portfolio_tab_seven_link{
+    background-image: url('../img/portfolio/my_thumbnails/7.png');
+  }
+  .portfolio_tab_eight_link{
+    background-image: url('../img/portfolio/my_thumbnails/8.png');
+  }
+  .portfolio_tab_nine_link{
+    background-image: url('../img/portfolio/my_thumbnails/9.png');
+  }
+  .portfolio_tab_ten_link{
+    background-image: url('../img/portfolio/my_thumbnails/10.png');
+  }
+
   .portfolio_tab_one{
     background-image: url('../img/portfolio/my_thumbnails/1.png');
   }
@@ -4246,10 +4308,48 @@ header {
     -o-transition: all 250ms ease;
     transition: all 250ms ease;  
   }
-  .portfolio_tab_one_hero{
+  .portfolio_tab_one_link{
     background-image: url('../img/portfolio/my_thumbnails/1.png');
     height: 125px;    
-  }  
+  }
+  .portfolio_tab_two_link{
+    grid-column: 1 / 13;    
+    background-image: url('../img/portfolio/my_thumbnails/2.png');
+  }
+  .portfolio_tab_three_link{
+    grid-column: 1 / 13;    
+    background-image: url('../img/portfolio/my_thumbnails/3.png');
+  }
+  .portfolio_tab_four_link{
+    grid-column: 1 / 13;    
+    background-image: url('../img/portfolio/my_thumbnails/4.png');
+  }
+  .portfolio_tab_five_link{
+    grid-column: 1 / 13;    
+    background-image: url('../img/portfolio/my_thumbnails/5.png');
+  }
+  .portfolio_tab_six_link{
+    grid-column: 1 / 13;    
+    background-image: url('../img/portfolio/my_thumbnails/6.png');
+  }
+  .portfolio_tab_seven_link{
+    grid-column: 1 / 13;    
+    background-image: url('../img/portfolio/my_thumbnails/7.png');
+  }
+  .portfolio_tab_eight_link{
+    grid-column: 1 / 13;    
+    background-image: url('../img/portfolio/my_thumbnails/8.png');
+  }
+  .portfolio_tab_nine_link{
+    grid-column: 1 / 13;    
+    background-image: url('../img/portfolio/my_thumbnails/9.png');
+  }
+  .portfolio_tab_ten_link{
+    grid-column: 1 / 13;    
+    background-image: url('../img/portfolio/my_thumbnails/10.png');
+  }
+
+
   .portfolio_tab_one{
     background-image: url('../img/portfolio/my_thumbnails/1.png');
     height: 125px;    
@@ -4560,6 +4660,53 @@ header {
     -o-transition: all 250ms ease;
     transition: all 250ms ease;  
   }
+
+  .portfolio_tab_one_link{
+    grid-column: 1 / 7;    
+    background-image: url('../img/portfolio/my_thumbnails/1.png');
+  }  
+  .portfolio_tab_two_link{
+    grid-column: 7 / 13;    
+    background-image: url('../img/portfolio/my_thumbnails/2.png');
+  }
+  .portfolio_tab_three_link{
+    grid-column: 1 / 7;    
+    background-image: url('../img/portfolio/my_thumbnails/3.png');
+  }
+  .portfolio_tab_four_link{
+    grid-column: 7 / 13;    
+    background-image: url('../img/portfolio/my_thumbnails/4.png');
+  }
+  .portfolio_tab_five_link{
+    grid-column: 1 / 7;    
+    background-image: url('../img/portfolio/my_thumbnails/5.png');
+  }
+  .portfolio_tab_six_link{
+    grid-column: 7 / 13;    
+    background-image: url('../img/portfolio/my_thumbnails/6.png');
+  }
+  .portfolio_tab_seven_link{
+    grid-column: 1 / 7;    
+    background-image: url('../img/portfolio/my_thumbnails/7.png');
+  }
+  .portfolio_tab_eight_link{
+    grid-column: 7 / 13;    
+    background-image: url('../img/portfolio/my_thumbnails/8.png');
+  }
+  .portfolio_tab_nine_link{
+    grid-column: 1 / 7;    
+    background-image: url('../img/portfolio/my_thumbnails/9.png');
+  }
+  .portfolio_tab_ten_link{
+    grid-column: 7 / 13;    
+    background-image: url('../img/portfolio/my_thumbnails/10.png');
+  }  
+
+
+  .portfolio_tab_one{
+    grid-column: 1 / 7;    
+    background-image: url('../img/portfolio/my_thumbnails/1.png');
+  }  
   .portfolio_tab_two{
     grid-column: 7 / 13;    
     background-image: url('../img/portfolio/my_thumbnails/2.png');

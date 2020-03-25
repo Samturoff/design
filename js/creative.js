@@ -90,33 +90,16 @@ $(document).ready(function(){
     }
   });
 
-    if(window.location == "file:///C:/Users/Sam/Documents/GitHub/username.github.io/project_two/design/portfolio1.html")
+// MUSHROOM MORPHOLOGY
+
+    if(window.location == "https://samturoff.github.io/design/portfolio_mm.html")
     {
         setTimeout(
         function() 
         {
             location.href = "#scroll_item_1"; 
 
-            $('.portfolio_block_transition6').addClass('portfolio_block_transitiont_2');
-            $('.portfolio_block_transition7').addClass('portfolio_block_transitiont_2');        
-            $('.portfolio_block_transition8').addClass('portfolio_block_transitiont_2');        
-            $('.portfolio_block_transition9').addClass('portfolio_block_transitiont_2');        
-            $('.portfolio_block_transition10').addClass('portfolio_block_transitiont_2');
-
             $( ".portfolio_project_one" ).slideDown( 1000 );
-            $( ".portfolio_project_two" ).slideUp( 1000 );
-            $( ".portfolio_project_three" ).slideUp( 1000 );                
-            $( ".portfolio_project_four" ).slideUp( 1000 );                
-            $( ".portfolio_project_five" ).slideUp( 1000 );                
-            $( ".portfolio_project_six" ).slideUp( 1000 );                
-            $( ".portfolio_project_seven" ).slideUp( 1000 );                
-            $( ".portfolio_project_eight" ).slideUp( 1000 );                
-            $( ".portfolio_project_nine" ).slideUp( 1000 );                
-            $( ".portfolio_project_ten" ).slideUp( 1000 );                
-            $( ".portfolio_project_eleven" ).slideUp( 1000 );                
-            $( ".portfolio_project_twelve" ).slideUp( 1000 );                
-            $( ".portfolio_project_thirteen" ).slideUp( 1000 );                
-            $( ".portfolio_project_fourteen" ).slideUp( 1000 );
 
             $('.portforlio_tab_cover').removeClass('portforlio_tab_cover_clicked');
             $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
@@ -129,9 +112,224 @@ $(document).ready(function(){
             $('.portfolio_tab_one').find('.portfolio_border').addClass('portfolio_border_clicked');
         }, 100);                  
     }
+
+// RED STAR TAVERN
+
+    if(window.location == "https://samturoff.github.io/design/portfolio_rst.html")
+    {
+        setTimeout(
+        function() 
+        {
+            location.href = "#scroll_item_1"; 
+
+            $( ".portfolio_project_two" ).slideDown( 1000 );
+
+            $('.portforlio_tab_cover').removeClass('portforlio_tab_cover_clicked');
+            $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
+            $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
+            $('.portfolio_border').removeClass('portfolio_border_clicked');     
+
+            $('.portfolio_tab_two').find('.portforlio_tab_cover').addClass('portforlio_tab_cover_clicked');
+            $('.portfolio_tab_two').find('.portfolio_tab_header').addClass('portfolio_tab_header_clicked');
+            $('.portfolio_tab_two').find('.portfolio_tab_info').addClass('portfolio_tab_info_clicked');
+            $('.portfolio_tab_two').find('.portfolio_border').addClass('portfolio_border_clicked');
+        }, 100);                  
+    }    
+
+// GROWING GARDENS
+
+    if(window.location == "https://samturoff.github.io/design/portfolio_gg.html")
+    {
+        setTimeout(
+        function() 
+        {
+            location.href = "#scroll_item_2"; 
+
+            $( ".portfolio_project_three" ).slideDown( 1000 );
+
+            $('.portforlio_tab_cover').removeClass('portforlio_tab_cover_clicked');
+            $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
+            $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
+            $('.portfolio_border').removeClass('portfolio_border_clicked');     
+
+            $('.portfolio_tab_three').find('.portforlio_tab_cover').addClass('portforlio_tab_cover_clicked');
+            $('.portfolio_tab_three').find('.portfolio_tab_header').addClass('portfolio_tab_header_clicked');
+            $('.portfolio_tab_three').find('.portfolio_tab_info').addClass('portfolio_tab_info_clicked');
+            $('.portfolio_tab_three').find('.portfolio_border').addClass('portfolio_border_clicked');
+        }, 100);                  
+    }
+
+// LAVISH AND POP
+
+    if(window.location == "https://samturoff.github.io/design/portfolio_lnp.html")
+    {
+        setTimeout(
+        function() 
+        {
+            location.href = "#scroll_item_2"; 
+
+            $( ".portfolio_project_four" ).slideDown( 1000 );
+
+            $('.portforlio_tab_cover').removeClass('portforlio_tab_cover_clicked');
+            $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
+            $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
+            $('.portfolio_border').removeClass('portfolio_border_clicked');     
+
+            $('.portfolio_tab_four').find('.portforlio_tab_cover').addClass('portforlio_tab_cover_clicked');
+            $('.portfolio_tab_four').find('.portfolio_tab_header').addClass('portfolio_tab_header_clicked');
+            $('.portfolio_tab_four').find('.portfolio_tab_info').addClass('portfolio_tab_info_clicked');
+            $('.portfolio_tab_four').find('.portfolio_border').addClass('portfolio_border_clicked');
+        }, 100);                  
+    }
+
+// IGORRR
+
+    if(window.location == "https://samturoff.github.io/design/portfolio_igorrr.html")
+    {
+        setTimeout(
+        function() 
+        {
+            location.href = "#scroll_item_3"; 
+
+            $( ".portfolio_project_five" ).slideDown( 1000 );
+
+            $('.portforlio_tab_cover').removeClass('portforlio_tab_cover_clicked');
+            $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
+            $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
+            $('.portfolio_border').removeClass('portfolio_border_clicked');     
+
+            $('.portfolio_tab_five').find('.portforlio_tab_cover').addClass('portforlio_tab_cover_clicked');
+            $('.portfolio_tab_five').find('.portfolio_tab_header').addClass('portfolio_tab_header_clicked');
+            $('.portfolio_tab_five').find('.portfolio_tab_info').addClass('portfolio_tab_info_clicked');
+            $('.portfolio_tab_five').find('.portfolio_border').addClass('portfolio_border_clicked');
+        }, 100);                  
+    }
+
+// THE SPLASH
+
+    if(window.location == "https://samturoff.github.io/design/portfolio_ts.html")
+    {
+        setTimeout(
+        function() 
+        {
+            location.href = "#scroll_item_3"; 
+
+            $( ".portfolio_project_six" ).slideDown( 1000 );
+
+            $('.portforlio_tab_cover').removeClass('portforlio_tab_cover_clicked');
+            $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
+            $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
+            $('.portfolio_border').removeClass('portfolio_border_clicked');     
+
+            $('.portfolio_tab_six').find('.portforlio_tab_cover').addClass('portforlio_tab_cover_clicked');
+            $('.portfolio_tab_six').find('.portfolio_tab_header').addClass('portfolio_tab_header_clicked');
+            $('.portfolio_tab_six').find('.portfolio_tab_info').addClass('portfolio_tab_info_clicked');
+            $('.portfolio_tab_six').find('.portfolio_border').addClass('portfolio_border_clicked');
+        }, 100);                  
+    }
+
+// DOGGY NOUVEAU
+
+    if(window.location == "https://samturoff.github.io/design/portfolio_dn.html")
+    {
+        setTimeout(
+        function() 
+        {
+            location.href = "#scroll_item_4"; 
+
+            $( ".portfolio_project_seven" ).slideDown( 1000 );
+
+            $('.portforlio_tab_cover').removeClass('portforlio_tab_cover_clicked');
+            $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
+            $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
+            $('.portfolio_border').removeClass('portfolio_border_clicked');     
+
+            $('.portfolio_tab_seven').find('.portforlio_tab_cover').addClass('portforlio_tab_cover_clicked');
+            $('.portfolio_tab_seven').find('.portfolio_tab_header').addClass('portfolio_tab_header_clicked');
+            $('.portfolio_tab_seven').find('.portfolio_tab_info').addClass('portfolio_tab_info_clicked');
+            $('.portfolio_tab_seven').find('.portfolio_border').addClass('portfolio_border_clicked');
+        }, 100);                  
+    }
+
+// OREGON PARKS GUIDE
+
+    if(window.location == "https://samturoff.github.io/design/portfolio_opg.html")
+    {
+        setTimeout(
+        function() 
+        {
+            location.href = "#scroll_item_4"; 
+
+            $( ".portfolio_project_eight" ).slideDown( 1000 );
+
+            $('.portforlio_tab_cover').removeClass('portforlio_tab_cover_clicked');
+            $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
+            $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
+            $('.portfolio_border').removeClass('portfolio_border_clicked');     
+
+            $('.portfolio_tab_eight').find('.portforlio_tab_cover').addClass('portforlio_tab_cover_clicked');
+            $('.portfolio_tab_eight').find('.portfolio_tab_header').addClass('portfolio_tab_header_clicked');
+            $('.portfolio_tab_eight').find('.portfolio_tab_info').addClass('portfolio_tab_info_clicked');
+            $('.portfolio_tab_eight').find('.portfolio_border').addClass('portfolio_border_clicked');
+        }, 100);                  
+    }
+
+// BLIND EYE BREWERY
+
+    if(window.location == "https://samturoff.github.io/design/portfolio_beb.html")
+    {
+        setTimeout(
+        function() 
+        {
+            location.href = "#scroll_item_5"; 
+
+            $( ".portfolio_project_nine" ).slideDown( 1000 );
+
+            $('.portforlio_tab_cover').removeClass('portforlio_tab_cover_clicked');
+            $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
+            $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
+            $('.portfolio_border').removeClass('portfolio_border_clicked');     
+
+            $('.portfolio_tab_nine').find('.portforlio_tab_cover').addClass('portforlio_tab_cover_clicked');
+            $('.portfolio_tab_nine').find('.portfolio_tab_header').addClass('portfolio_tab_header_clicked');
+            $('.portfolio_tab_nine').find('.portfolio_tab_info').addClass('portfolio_tab_info_clicked');
+            $('.portfolio_tab_nine').find('.portfolio_border').addClass('portfolio_border_clicked');
+        }, 100);                  
+    }
+
+// LEGENDARY CREATURES
+
+    if(window.location == "https://samturoff.github.io/design/portfolio_lc.html")
+    {
+        setTimeout(
+        function() 
+        {
+            location.href = "#scroll_item_5"; 
+
+            $( ".portfolio_project_ten" ).slideDown( 1000 );
+
+            $('.portforlio_tab_cover').removeClass('portforlio_tab_cover_clicked');
+            $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
+            $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
+            $('.portfolio_border').removeClass('portfolio_border_clicked');     
+
+            $('.portfolio_tab_ten').find('.portforlio_tab_cover').addClass('portforlio_tab_cover_clicked');
+            $('.portfolio_tab_ten').find('.portfolio_tab_header').addClass('portfolio_tab_header_clicked');
+            $('.portfolio_tab_ten').find('.portfolio_tab_info').addClass('portfolio_tab_info_clicked');
+            $('.portfolio_tab_ten').find('.portfolio_border').addClass('portfolio_border_clicked');
+        }, 100);                  
+    }    
+
+        setTimeout(
+        function() 
+        {    
+            $('.portfolio_block_transition6').addClass('portfolio_block_transitiont_2');
+            $('.portfolio_block_transition7').addClass('portfolio_block_transitiont_2');        
+            $('.portfolio_block_transition8').addClass('portfolio_block_transitiont_2');        
+            $('.portfolio_block_transition9').addClass('portfolio_block_transitiont_2');        
+            $('.portfolio_block_transition10').addClass('portfolio_block_transitiont_2');    
+        }, 500); 
 });
-
-
 
 
 
@@ -370,7 +568,7 @@ $(function() {
 });
 
 $(function() {
-    $( ".portfolio_tab_one_hero" ).click(function () {
+    $( ".portfolio_tab_one_link" ).click(function () {
         $('.portfolio_block_transition1').addClass('portfolio_block_transitiont');
         $('.portfolio_block_transition2').addClass('portfolio_block_transitiont');        
         $('.portfolio_block_transition3').addClass('portfolio_block_transitiont');        
@@ -380,9 +578,135 @@ $(function() {
         setTimeout(
         function() 
         {
-            window.location = "file:///C:/Users/Sam/Documents/GitHub/username.github.io/project_two/design/portfolio1.html";
-        }, 1200);                  
+            window.location = "https://samturoff.github.io/design/portfolio_mm.html";
+        }, 1000);                  
     });
+
+    $( ".portfolio_tab_two_link" ).click(function () {
+        $('.portfolio_block_transition1').addClass('portfolio_block_transitiont');
+        $('.portfolio_block_transition2').addClass('portfolio_block_transitiont');        
+        $('.portfolio_block_transition3').addClass('portfolio_block_transitiont');        
+        $('.portfolio_block_transition4').addClass('portfolio_block_transitiont');        
+        $('.portfolio_block_transition5').addClass('portfolio_block_transitiont');
+
+        setTimeout(
+        function() 
+        {
+            window.location = "https://samturoff.github.io/design/portfolio_rst.html";
+        }, 1000);                  
+    });
+
+    $( ".portfolio_tab_three_link" ).click(function () {
+        $('.portfolio_block_transition1').addClass('portfolio_block_transitiont');
+        $('.portfolio_block_transition2').addClass('portfolio_block_transitiont');        
+        $('.portfolio_block_transition3').addClass('portfolio_block_transitiont');        
+        $('.portfolio_block_transition4').addClass('portfolio_block_transitiont');        
+        $('.portfolio_block_transition5').addClass('portfolio_block_transitiont');
+
+        setTimeout(
+        function() 
+        {
+            window.location = "https://samturoff.github.io/design/portfolio_gg.html";
+        }, 1000);                  
+    });
+
+    $( ".portfolio_tab_four_link" ).click(function () {
+        $('.portfolio_block_transition1').addClass('portfolio_block_transitiont');
+        $('.portfolio_block_transition2').addClass('portfolio_block_transitiont');        
+        $('.portfolio_block_transition3').addClass('portfolio_block_transitiont');        
+        $('.portfolio_block_transition4').addClass('portfolio_block_transitiont');        
+        $('.portfolio_block_transition5').addClass('portfolio_block_transitiont');
+
+        setTimeout(
+        function() 
+        {
+            window.location = "https://samturoff.github.io/design/portfolio_lnp.html";
+        }, 1000);                  
+    });
+
+    $( ".portfolio_tab_five_link" ).click(function () {
+        $('.portfolio_block_transition1').addClass('portfolio_block_transitiont');
+        $('.portfolio_block_transition2').addClass('portfolio_block_transitiont');        
+        $('.portfolio_block_transition3').addClass('portfolio_block_transitiont');        
+        $('.portfolio_block_transition4').addClass('portfolio_block_transitiont');        
+        $('.portfolio_block_transition5').addClass('portfolio_block_transitiont');
+
+        setTimeout(
+        function() 
+        {
+            window.location = "https://samturoff.github.io/design/portfolio_igorrr.html";
+        }, 1000);                  
+    });
+
+    $( ".portfolio_tab_six_link" ).click(function () {
+        $('.portfolio_block_transition1').addClass('portfolio_block_transitiont');
+        $('.portfolio_block_transition2').addClass('portfolio_block_transitiont');        
+        $('.portfolio_block_transition3').addClass('portfolio_block_transitiont');        
+        $('.portfolio_block_transition4').addClass('portfolio_block_transitiont');        
+        $('.portfolio_block_transition5').addClass('portfolio_block_transitiont');
+
+        setTimeout(
+        function() 
+        {
+            window.location = "https://samturoff.github.io/design/portfolio_ts.html";
+        }, 1000);                  
+    });
+
+    $( ".portfolio_tab_seven_link" ).click(function () {
+        $('.portfolio_block_transition1').addClass('portfolio_block_transitiont');
+        $('.portfolio_block_transition2').addClass('portfolio_block_transitiont');        
+        $('.portfolio_block_transition3').addClass('portfolio_block_transitiont');        
+        $('.portfolio_block_transition4').addClass('portfolio_block_transitiont');        
+        $('.portfolio_block_transition5').addClass('portfolio_block_transitiont');
+
+        setTimeout(
+        function() 
+        {
+            window.location = "https://samturoff.github.io/design/portfolio_dn.html";
+        }, 1000);                  
+    });
+
+    $( ".portfolio_tab_eight_link" ).click(function () {
+        $('.portfolio_block_transition1').addClass('portfolio_block_transitiont');
+        $('.portfolio_block_transition2').addClass('portfolio_block_transitiont');        
+        $('.portfolio_block_transition3').addClass('portfolio_block_transitiont');        
+        $('.portfolio_block_transition4').addClass('portfolio_block_transitiont');        
+        $('.portfolio_block_transition5').addClass('portfolio_block_transitiont');
+
+        setTimeout(
+        function() 
+        {
+            window.location = "https://samturoff.github.io/design/portfolio_opg.html";
+        }, 1000);                  
+    });
+
+    $( ".portfolio_tab_nine_link" ).click(function () {
+        $('.portfolio_block_transition1').addClass('portfolio_block_transitiont');
+        $('.portfolio_block_transition2').addClass('portfolio_block_transitiont');        
+        $('.portfolio_block_transition3').addClass('portfolio_block_transitiont');        
+        $('.portfolio_block_transition4').addClass('portfolio_block_transitiont');        
+        $('.portfolio_block_transition5').addClass('portfolio_block_transitiont');
+
+        setTimeout(
+        function() 
+        {
+            window.location = "https://samturoff.github.io/design/portfolio_beb.html";
+        }, 1000);                  
+    });
+
+    $( ".portfolio_tab_ten_link" ).click(function () {
+        $('.portfolio_block_transition1').addClass('portfolio_block_transitiont');
+        $('.portfolio_block_transition2').addClass('portfolio_block_transitiont');        
+        $('.portfolio_block_transition3').addClass('portfolio_block_transitiont');        
+        $('.portfolio_block_transition4').addClass('portfolio_block_transitiont');        
+        $('.portfolio_block_transition5').addClass('portfolio_block_transitiont');
+
+        setTimeout(
+        function() 
+        {
+            window.location = "https://samturoff.github.io/design/portfolio_lc.html";
+        }, 1000);                  
+    });                                
 
     $( ".portfolio_tab_one" ).click(function () {
       if ( $( ".portfolio_project_one" ).is( ":hidden" ) ) {
