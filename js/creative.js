@@ -88,10 +88,45 @@ $(document).ready(function(){
 //        $('.hamburger3').addClass('menu_black');
         $('.desktop_navbar').fadeOut();
     }
-    if(window.location == "https://samturoff.github.io/design/portfolio1.html"){
-        alert("Hello! I am an alert box!!");
-    }
 
+    if(window.location == "https://samturoff.github.io/design/portfolio1.html")
+    {
+      if ( $( ".portfolio_project_one" ).is( ":hidden" ) ) {
+        $( ".portfolio_project_one" ).slideDown( 1000 );
+        $( ".portfolio_project_two" ).slideUp( 1000 );
+        $( ".portfolio_project_three" ).slideUp( 1000 );                
+        $( ".portfolio_project_four" ).slideUp( 1000 );                
+        $( ".portfolio_project_five" ).slideUp( 1000 );                
+        $( ".portfolio_project_six" ).slideUp( 1000 );                
+        $( ".portfolio_project_seven" ).slideUp( 1000 );                
+        $( ".portfolio_project_eight" ).slideUp( 1000 );                
+        $( ".portfolio_project_nine" ).slideUp( 1000 );                
+        $( ".portfolio_project_ten" ).slideUp( 1000 );                
+        $( ".portfolio_project_eleven" ).slideUp( 1000 );                
+        $( ".portfolio_project_twelve" ).slideUp( 1000 );                
+        $( ".portfolio_project_thirteen" ).slideUp( 1000 );                
+        $( ".portfolio_project_fourteen" ).slideUp( 1000 );
+
+        $('.portforlio_tab_cover').removeClass('portforlio_tab_cover_clicked');
+        $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
+        $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
+        $('.portfolio_border').removeClass('portfolio_border_clicked');     
+
+        $('.portfolio_tab_one').find('.portforlio_tab_cover').addClass('portforlio_tab_cover_clicked');
+        $('.portfolio_tab_one').find('.portfolio_tab_header').addClass('portfolio_tab_header_clicked');
+        $('.portfolio_tab_one').find('.portfolio_tab_info').addClass('portfolio_tab_info_clicked');
+        $('.portfolio_tab_one').find('.portfolio_border').addClass('portfolio_border_clicked');
+
+      } else {
+        $( ".portfolio_project_one" ).slideUp( 1000 );
+        $('.portforlio_tab_cover').removeClass('portforlio_tab_cover_clicked');
+        $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
+        $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
+        $('.portfolio_border').removeClass('portfolio_border_clicked');        
+      }
+    $('html, body').animate({
+        scrollTop: $('.portfolio').find('#scroll_item_1').offset().top -60
+    }, 1000);      }
   })
 $(function lTransition() {
     var controller = new ScrollMagic.Controller();    
@@ -329,9 +364,43 @@ $(function() {
 
 $(function() {
     $( ".portfolio_tab_one_hero" ).click(function () {
-        window.location = "https://samturoff.github.io/design/portfolio1.html" + this.id;
+        window.location = "portfolio1.html" + this.id;
+      if ( $( ".portfolio_project_one" ).is( ":hidden" ) ) {
+        $( ".portfolio_project_one" ).slideDown( 1000 );
+        $( ".portfolio_project_two" ).slideUp( 1000 );
+        $( ".portfolio_project_three" ).slideUp( 1000 );                
+        $( ".portfolio_project_four" ).slideUp( 1000 );                
+        $( ".portfolio_project_five" ).slideUp( 1000 );                
+        $( ".portfolio_project_six" ).slideUp( 1000 );                
+        $( ".portfolio_project_seven" ).slideUp( 1000 );                
+        $( ".portfolio_project_eight" ).slideUp( 1000 );                
+        $( ".portfolio_project_nine" ).slideUp( 1000 );                
+        $( ".portfolio_project_ten" ).slideUp( 1000 );                
+        $( ".portfolio_project_eleven" ).slideUp( 1000 );                
+        $( ".portfolio_project_twelve" ).slideUp( 1000 );                
+        $( ".portfolio_project_thirteen" ).slideUp( 1000 );                
+        $( ".portfolio_project_fourteen" ).slideUp( 1000 );
 
-      
+        $('.portforlio_tab_cover').removeClass('portforlio_tab_cover_clicked');
+        $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
+        $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
+        $('.portfolio_border').removeClass('portfolio_border_clicked');     
+
+        $('.portfolio_tab_one').find('.portforlio_tab_cover').addClass('portforlio_tab_cover_clicked');
+        $('.portfolio_tab_one').find('.portfolio_tab_header').addClass('portfolio_tab_header_clicked');
+        $('.portfolio_tab_one').find('.portfolio_tab_info').addClass('portfolio_tab_info_clicked');
+        $('.portfolio_tab_one').find('.portfolio_border').addClass('portfolio_border_clicked');
+
+      } else {
+        $( ".portfolio_project_one" ).slideUp( 1000 );
+        $('.portforlio_tab_cover').removeClass('portforlio_tab_cover_clicked');
+        $('.portfolio_tab_header').removeClass('portfolio_tab_header_clicked');
+        $('.portfolio_tab_info').removeClass('portfolio_tab_info_clicked');
+        $('.portfolio_border').removeClass('portfolio_border_clicked');        
+      }
+    $('html, body').animate({
+        scrollTop: $('.portfolio').find('#scroll_item_1').offset().top -60
+    }, 1000);       
     });
 
     $( ".portfolio_tab_one" ).click(function () {
