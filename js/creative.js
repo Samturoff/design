@@ -16,7 +16,7 @@ $(document).ready(function(){
         function() 
         {
             $('#graphicDesignerTitle').addClass('graphicDesignerTitle_transition');
-        }, 2000);
+        }, 1600);
     $('.mobile_navbar').hide();
     $('.desktop_navbar').hide();
 

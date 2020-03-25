@@ -821,7 +821,6 @@ header {
   header {
     min-height: 100%;
   }
-  .
   .header-content{
   }
   #homeHeading{
@@ -876,6 +875,7 @@ header {
     opacity: 100% !important;    
     width: 400px !important;
   } 
+
   header .header-content .header-content-inner {
     max-width: 1000px;
     margin-left: 10%;
@@ -947,6 +947,60 @@ header {
   header {
     min-height: 100%;
   }
+  .header-content{
+  }
+  #homeHeading{
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    margin-top: 95px;
+    opacity: 0;
+    -webkit-transition: all 700ms ease-out;
+    -moz-transition: all 700ms ease-out;
+    -ms-transition: all 700ms ease-out;
+    -o-transition: all 700ms ease-out;
+    transition: all 700ms ease-out;    
+  }
+  .homeHeading_transition{
+    margin-top: 0 !important;
+
+    height: 95px !important;
+    opacity: 100% !important;
+  }
+  #luceroTitle{
+    overflow: hidden;
+    white-space: nowrap;
+
+    margin-bottom: 80px;
+    height: 0;
+    opacity: 0;
+    -webkit-transition: all 1200ms ease-out;
+    -moz-transition: all 1200ms ease-out;
+    -ms-transition: all 1200ms ease-out;
+    -o-transition: all 1200ms ease-out;
+    transition: all 1200ms ease-out;    
+  }
+  .luceroTitle_transition{
+    margin-bottom: 0 !important;
+    padding-top: 5px;    
+    height: 80px !important;
+    opacity: 100% !important;
+  }  
+  #graphicDesignerTitle{
+    overflow: hidden;
+    white-space: nowrap;    
+    width: 0;
+    opacity: 0;    
+    -webkit-transition: all 1200ms ease-out;
+    -moz-transition: all 1200ms ease-out;
+    -ms-transition: all 1200ms ease-out;
+    -o-transition: all 1200ms ease-out;
+    transition: all 1200ms ease-out;     
+  }
+  .graphicDesignerTitle_transition{
+    opacity: 100% !important;    
+    width: 400px !important;
+  }   
   header .header-content .header-content-inner {
     max-width: 1000px;
     margin-left: 5%;
@@ -1014,6 +1068,60 @@ header {
   header {
     min-height: 100%;
   }
+  .header-content{
+  }
+  #homeHeading{
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    margin-top: 80px;
+    opacity: 0;
+    -webkit-transition: all 700ms ease-out;
+    -moz-transition: all 700ms ease-out;
+    -ms-transition: all 700ms ease-out;
+    -o-transition: all 700ms ease-out;
+    transition: all 700ms ease-out;    
+  }
+  .homeHeading_transition{
+    margin-top: 0 !important;
+
+    height: 80px !important;
+    opacity: 100% !important;
+  }
+  #luceroTitle{
+    overflow: hidden;
+    white-space: nowrap;
+
+    margin-bottom: 70px;
+    height: 0;
+    opacity: 0;
+    -webkit-transition: all 1200ms ease-out;
+    -moz-transition: all 1200ms ease-out;
+    -ms-transition: all 1200ms ease-out;
+    -o-transition: all 1200ms ease-out;
+    transition: all 1200ms ease-out;    
+  }
+  .luceroTitle_transition{
+    margin-bottom: 0 !important;
+    padding-top: 5px;    
+    height: 70px !important;
+    opacity: 100% !important;
+  }  
+  #graphicDesignerTitle{
+    overflow: hidden;
+    white-space: nowrap;    
+    width: 0;
+    opacity: 0;    
+    -webkit-transition: all 1200ms ease-out;
+    -moz-transition: all 1200ms ease-out;
+    -ms-transition: all 1200ms ease-out;
+    -o-transition: all 1200ms ease-out;
+    transition: all 1200ms ease-out;     
+  }
+  .graphicDesignerTitle_transition{
+    opacity: 100% !important;    
+    width: 500px !important;
+  }   
   header .header-content .header-content-inner {
     max-width: 1000px;
     margin-left: 5%;
@@ -1087,6 +1195,59 @@ header {
   header {
     min-height: 100%;
   }
+  .header-content{
+  }
+  #homeHeading{
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    margin-top: 60px;
+    opacity: 0;
+    -webkit-transition: all 700ms ease-out;
+    -moz-transition: all 700ms ease-out;
+    -ms-transition: all 700ms ease-out;
+    -o-transition: all 700ms ease-out;
+    transition: all 700ms ease-out;    
+  }
+  .homeHeading_transition{
+    margin-top: 0 !important;
+
+    height: 60px !important;
+    opacity: 100% !important;
+  }
+  #luceroTitle{
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 50px;
+    height: 0;
+    opacity: 0;
+    -webkit-transition: all 1200ms ease-out;
+    -moz-transition: all 1200ms ease-out;
+    -ms-transition: all 1200ms ease-out;
+    -o-transition: all 1200ms ease-out;
+    transition: all 1200ms ease-out;    
+  }
+  .luceroTitle_transition{
+    margin-bottom: 0 !important;
+    padding-top: 5px;    
+    height: 50px !important;
+    opacity: 100% !important;
+  }  
+  #graphicDesignerTitle{
+    overflow: hidden;
+    white-space: nowrap;    
+    width: 0;
+    opacity: 0;    
+    -webkit-transition: all 1200ms ease-out;
+    -moz-transition: all 1200ms ease-out;
+    -ms-transition: all 1200ms ease-out;
+    -o-transition: all 1200ms ease-out;
+    transition: all 1200ms ease-out;     
+  }
+  .graphicDesignerTitle_transition{
+    opacity: 100% !important;    
+    width: 300px !important;
+  }   
   header .header-content .header-content-inner {
     max-width: 1000px;
   }
@@ -1152,6 +1313,60 @@ header {
   header {
     min-height: 100%;
   }
+  .header-content{
+  }
+  #homeHeading{
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    margin-top: 45px;
+    opacity: 0;
+    -webkit-transition: all 700ms ease-out;
+    -moz-transition: all 700ms ease-out;
+    -ms-transition: all 700ms ease-out;
+    -o-transition: all 700ms ease-out;
+    transition: all 700ms ease-out;    
+  }
+  .homeHeading_transition{
+    margin-top: 0 !important;
+
+    height: 42px !important;
+    opacity: 100% !important;
+  }
+  #luceroTitle{
+    overflow: hidden;
+    white-space: nowrap;
+
+    margin-bottom: 37px;
+    height: 0;
+    opacity: 0;
+    -webkit-transition: all 1200ms ease-out;
+    -moz-transition: all 1200ms ease-out;
+    -ms-transition: all 1200ms ease-out;
+    -o-transition: all 1200ms ease-out;
+    transition: all 1200ms ease-out;    
+  }
+  .luceroTitle_transition{
+    margin-bottom: 0 !important;
+    padding-top: 5px;    
+    height: 37px !important;
+    opacity: 100% !important;
+  }  
+  #graphicDesignerTitle{
+    overflow: hidden;
+    white-space: nowrap;    
+    width: 0;
+    opacity: 0;    
+    -webkit-transition: all 1200ms ease-out;
+    -moz-transition: all 1200ms ease-out;
+    -ms-transition: all 1200ms ease-out;
+    -o-transition: all 1200ms ease-out;
+    transition: all 1200ms ease-out;     
+  }
+  .graphicDesignerTitle_transition{
+    opacity: 100% !important;    
+    width: 300px !important;
+  }   
   header .header-content .header-content-inner {
     max-width: 1000px;
   }
@@ -1212,8 +1427,62 @@ header {
   header {
     min-height: 100%;
   }
+  .header-content{
+  }
+  #homeHeading{
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    margin-top: 35px;
+    opacity: 0;
+    -webkit-transition: all 700ms ease-out;
+    -moz-transition: all 700ms ease-out;
+    -ms-transition: all 700ms ease-out;
+    -o-transition: all 700ms ease-out;
+    transition: all 700ms ease-out;    
+  }
+  .homeHeading_transition{
+    margin-top: 0 !important;
+
+    height: 35px !important;
+    opacity: 100% !important;
+  }
+  #luceroTitle{
+    overflow: hidden;
+    white-space: nowrap;
+
+    margin-bottom: 30px;
+    height: 0;
+    opacity: 0;
+    -webkit-transition: all 1200ms ease-out;
+    -moz-transition: all 1200ms ease-out;
+    -ms-transition: all 1200ms ease-out;
+    -o-transition: all 1200ms ease-out;
+    transition: all 1200ms ease-out;    
+  }
+  .luceroTitle_transition{
+    margin-bottom: 0 !important;
+    padding-top: 5px;    
+    height: 30px !important;
+    opacity: 100% !important;
+  }  
+  #graphicDesignerTitle{
+    overflow: hidden;
+    white-space: nowrap;    
+    width: 0;
+    opacity: 0;    
+    -webkit-transition: all 1200ms ease-out;
+    -moz-transition: all 1200ms ease-out;
+    -ms-transition: all 1200ms ease-out;
+    -o-transition: all 1200ms ease-out;
+    transition: all 1200ms ease-out;     
+  }
+  .graphicDesignerTitle_transition{
+    opacity: 100% !important;    
+    width: 200px !important;
+  }   
   header .header-content .header-content-inner {
-    max-width: 1000px;
+    max-width: 320px;
   }
   header .header-content .header-content-inner p {
     font-size: 18px;
