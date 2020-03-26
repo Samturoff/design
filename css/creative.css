@@ -1073,9 +1073,9 @@ header {
   #homeHeading{
     position: relative;
     overflow: hidden;
-    height: 80px;
+    height: 0;
     margin-top: 80px;
-    opacity: 100;
+    opacity: 0;
     -webkit-transition: all 700ms ease-out;
     -moz-transition: all 700ms ease-out;
     -ms-transition: all 700ms ease-out;
@@ -1200,9 +1200,9 @@ header {
   #homeHeading{
     position: relative;
     overflow: hidden;
-    height: 60px;
+    height: 0;
     margin-top: 60px;
-    opacity: 100;
+    opacity: 0;
     -webkit-transition: all 700ms ease-out;
     -moz-transition: all 700ms ease-out;
     -ms-transition: all 700ms ease-out;
@@ -1318,9 +1318,9 @@ header {
   #homeHeading{
     position: relative;
     overflow: hidden;
-    height: 42px;
+    height: 0;
     margin-top: 45px;
-    opacity: 100;
+    opacity: 0;
     -webkit-transition: all 700ms ease-out;
     -moz-transition: all 700ms ease-out;
     -ms-transition: all 700ms ease-out;
@@ -1432,9 +1432,9 @@ header {
   #homeHeading{
     position: relative;
     overflow: hidden;
-    height: 35px;
+    height: 0;
     margin-top: 35px;
-    opacity: 100;
+    opacity: 0;
     -webkit-transition: all 700ms ease-out;
     -moz-transition: all 700ms ease-out;
     -ms-transition: all 700ms ease-out;
@@ -1443,6 +1443,7 @@ header {
   }
   .homeHeading_transition{
     margin-top: 0 !important;
+
     height: 35px !important;
     opacity: 100% !important;
   }
@@ -1537,117 +1538,7 @@ header {
 }
 
 @media (max-width: 319px){
-  header {
-    min-height: 100%;
-  }
-  .header-content{
-  }
-  #homeHeading{
-    position: relative;
-    overflow: hidden;
-    height: 0;
-    margin-top: 35px;
-    opacity: 0;
-    -webkit-transition: all 700ms ease-out;
-    -moz-transition: all 700ms ease-out;
-    -ms-transition: all 700ms ease-out;
-    -o-transition: all 700ms ease-out;
-    transition: all 700ms ease-out;    
-  }
-  .homeHeading_transition{
-    margin-top: 0 !important;
 
-    height: 35px !important;
-    opacity: 100% !important;
-  }
-  #luceroTitle{
-    overflow: hidden;
-    white-space: nowrap;
-
-    margin-bottom: 30px;
-    height: 0;
-    opacity: 0;
-    -webkit-transition: all 1200ms ease-out;
-    -moz-transition: all 1200ms ease-out;
-    -ms-transition: all 1200ms ease-out;
-    -o-transition: all 1200ms ease-out;
-    transition: all 1200ms ease-out;    
-  }
-  .luceroTitle_transition{
-    margin-bottom: 0 !important;
-    padding-top: 5px;    
-    height: 30px !important;
-    opacity: 100% !important;
-  }  
-  #graphicDesignerTitle{
-    overflow: hidden;
-    white-space: nowrap;    
-    width: 0;
-    opacity: 0;    
-    -webkit-transition: all 1200ms ease-out;
-    -moz-transition: all 1200ms ease-out;
-    -ms-transition: all 1200ms ease-out;
-    -o-transition: all 1200ms ease-out;
-    transition: all 1200ms ease-out;     
-  }
-  .graphicDesignerTitle_transition{
-    opacity: 100% !important;    
-    width: 200px !important;
-  }   
-  header .header-content .header-content-inner {
-    max-width: 320px;
-  }
-  header .header-content .header-content-inner p {
-    font-size: 18px;
-    margin-left: auto;
-    margin-right: auto;
-    font-weight: 200;
-    color: ghostwhite;
-    font-size: 16px;
-    margin-bottom: 50px;
-    max-width: 60%;
-  }  
-  header .header-content {
-    position: relative;
-    text-align: left;
-    padding: 100px 35px 100px;
-    width: 100%;
-  }
-
-  header .header-content .header-content-inner h1 {
-    font-weight: 600;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 22px;
-  }
-
-  header .header-content {
-    position: absolute;
-    top: 45%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    padding: 0 50px;
-  }
-  #homeHeading{
-      line-height: 40px;
-  }
-  #luceroTitle {
-    font-weight: 200;
-  }
-
-  #graphicDesignerTitle {
-    font-size: 14px;  
-    font-weight: 600;
-    color: #D5D021;
-  }
-
-  #lineBreak{
-    border-radius: 25px;
-    width: 200px;
-    height: 3px;
-    background-color: white;
-  }
 }
 
 /*END OF LANDING SECTION*/
