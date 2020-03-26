@@ -1351,8 +1351,8 @@ header {
   #graphicDesignerTitle{
     overflow: hidden;
     white-space: nowrap;    
-    width: 0;
-    opacity: 0;    
+    width: 320px;
+    opacity: 100%;    
     -webkit-transition: all 1200ms ease-out;
     -moz-transition: all 1200ms ease-out;
     -ms-transition: all 1200ms ease-out;
