@@ -710,7 +710,7 @@ aside {
     color: #FFFB63;
 }
 .desktop, .menu-desktop, .menu-mobile {
-        display: none;
+  display: none;
 }
 /* END OF Mobile Menu */
 
@@ -802,7 +802,8 @@ header {
   background-position: center;
   background-image: url('../img/portfolio_pattern_1.jpg');
   z-index: -1;
-  mix-blend-mode: color-dodge;
+  opacity: .5;
+  mix-blend-mode: darken;
 
 }
 @keyframes gradient {
@@ -826,7 +827,7 @@ header {
     overflow: hidden;
     height: 0;
     margin-top: 95px;
-    opacity: 0;
+    opacity: 100% !important;
     -webkit-transition: all 700ms ease-out;
     -moz-transition: all 700ms ease-out;
     -ms-transition: all 700ms ease-out;
@@ -835,9 +836,8 @@ header {
   }
   .homeHeading_transition{
     margin-top: 0 !important;
-
     height: 95px !important;
-    opacity: 100% !important;
+
   }
   #luceroTitle{
     overflow: hidden;
@@ -845,7 +845,7 @@ header {
 
     margin-bottom: 80px;
     height: 0;
-    opacity: 0;
+    opacity: 100% !important;
     -webkit-transition: all 1200ms ease-out;
     -moz-transition: all 1200ms ease-out;
     -ms-transition: all 1200ms ease-out;
@@ -856,13 +856,12 @@ header {
     margin-bottom: 0 !important;
     padding-top: 5px;    
     height: 80px !important;
-    opacity: 100% !important;
   }  
   #graphicDesignerTitle{
     overflow: hidden;
     white-space: nowrap;    
     width: 0;
-    opacity: 0;    
+    opacity: 100% !important;
     -webkit-transition: all 1200ms ease-out;
     -moz-transition: all 1200ms ease-out;
     -ms-transition: all 1200ms ease-out;
@@ -870,7 +869,6 @@ header {
     transition: all 1200ms ease-out;     
   }
   .graphicDesignerTitle_transition{
-    opacity: 100% !important;    
     width: 400px !important;
   } 
 
@@ -912,10 +910,6 @@ header {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     padding: 0 50px;
-
-  }
-  #homeHeading{
-      line-height: 110px;
   }
   #luceroTitle {
     font-weight: 200;
@@ -950,7 +944,7 @@ header {
     overflow: hidden;
     height: 0;
     margin-top: 95px;
-    opacity: 0;
+    opacity: 100% !important;
     -webkit-transition: all 700ms ease-out;
     -moz-transition: all 700ms ease-out;
     -ms-transition: all 700ms ease-out;
@@ -959,9 +953,7 @@ header {
   }
   .homeHeading_transition{
     margin-top: 0 !important;
-
     height: 95px !important;
-    opacity: 100% !important;
   }
   #luceroTitle{
     overflow: hidden;
@@ -969,7 +961,7 @@ header {
 
     margin-bottom: 80px;
     height: 0;
-    opacity: 0;
+    opacity: 100% !important;
     -webkit-transition: all 1200ms ease-out;
     -moz-transition: all 1200ms ease-out;
     -ms-transition: all 1200ms ease-out;
@@ -980,13 +972,12 @@ header {
     margin-bottom: 0 !important;
     padding-top: 5px;    
     height: 80px !important;
-    opacity: 100% !important;
   }  
   #graphicDesignerTitle{
     overflow: hidden;
     white-space: nowrap;    
     width: 0;
-    opacity: 0;    
+    opacity: 100% !important;
     -webkit-transition: all 1200ms ease-out;
     -moz-transition: all 1200ms ease-out;
     -ms-transition: all 1200ms ease-out;
@@ -994,7 +985,6 @@ header {
     transition: all 1200ms ease-out;     
   }
   .graphicDesignerTitle_transition{
-    opacity: 100% !important;    
     width: 400px !important;
   }   
   header .header-content .header-content-inner {
