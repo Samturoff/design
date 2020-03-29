@@ -108,7 +108,7 @@ $(document).ready(function(){
 
 // MUSHROOM MORPHOLOGY
 
-    if(window.location == "https://samturoff.github.io/design/portfolio_mm.html")
+    if(window.location == "https://stographics.com/portfolio_mm.html")
     {
         setTimeout(
         function() 
@@ -131,7 +131,7 @@ $(document).ready(function(){
 
 // RED STAR TAVERN
 
-    if(window.location == "https://samturoff.github.io/design/portfolio_rst.html")
+    if(window.location == "https://stographics.com/portfolio_rst.html")
     {
         setTimeout(
         function() 
@@ -154,7 +154,7 @@ $(document).ready(function(){
 
 // GROWING GARDENS
 
-    if(window.location == "https://samturoff.github.io/design/portfolio_gg.html")
+    if(window.location == "https://stographics.com/portfolio_gg.html")
     {
         setTimeout(
         function() 
@@ -177,7 +177,7 @@ $(document).ready(function(){
 
 // LAVISH AND POP
 
-    if(window.location == "https://samturoff.github.io/design/portfolio_lnp.html")
+    if(window.location == "https://stographics.com/portfolio_lnp.html")
     {
         setTimeout(
         function() 
@@ -200,7 +200,7 @@ $(document).ready(function(){
 
 // IGORRR
 
-    if(window.location == "https://samturoff.github.io/design/portfolio_igorrr.html")
+    if(window.location == "https://stographics.com/portfolio_igorrr.html")
     {
         setTimeout(
         function() 
@@ -223,7 +223,7 @@ $(document).ready(function(){
 
 // THE SPLASH
 
-    if(window.location == "https://samturoff.github.io/design/portfolio_ts.html")
+    if(window.location == "https://stographics.com/portfolio_ts.html")
     {
         setTimeout(
         function() 
@@ -246,7 +246,7 @@ $(document).ready(function(){
 
 // DOGGY NOUVEAU
 
-    if(window.location == "https://samturoff.github.io/design/portfolio_dn.html")
+    if(window.location == "https://stographics.com/portfolio_dn.html")
     {
         setTimeout(
         function() 
@@ -269,7 +269,7 @@ $(document).ready(function(){
 
 // OREGON PARKS GUIDE
 
-    if(window.location == "https://samturoff.github.io/design/portfolio_opg.html")
+    if(window.location == "https://stographics.com/portfolio_opg.html")
     {
         setTimeout(
         function() 
@@ -292,7 +292,7 @@ $(document).ready(function(){
 
 // BLIND EYE BREWERY
 
-    if(window.location == "https://samturoff.github.io/design/portfolio_beb.html")
+    if(window.location == "https://stographics.com/portfolio_beb.html")
     {
         setTimeout(
         function() 
@@ -315,7 +315,7 @@ $(document).ready(function(){
 
 // LEGENDARY CREATURES
 
-    if(window.location == "https://samturoff.github.io/design/portfolio_lc.html")
+    if(window.location == "https://stographics.com/portfolio_lc.html")
     {
         setTimeout(
         function() 
